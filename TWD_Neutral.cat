@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="1" battleScribeVersion="2.00" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="2" battleScribeVersion="2.00" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1183,6 +1183,459 @@
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="54.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b21f-b428-4041-9f01" name="Andy" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+      <profiles>
+        <profile id="40b3-c11a-3d0d-98cb" name="Andy" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d0c3-6a0d-1d42-b5ef" name="Mean Streak" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Whenever Andy would be engaged by a Walker in the Kill Zone stage of the Event phase, he may nominate one friendly model also within the Walker&apos;s Kill Zone for the Walker to engage instead.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2274-f1b6-31a0-813e" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2f91-c6f1-fd22-7981" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d7c5-86cb-dc83-5daf" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="1e01-7247-03c2-2b90" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5e7d-9638-c372-bba2" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="302a-c610-2ec8-7b51" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bec-a96a-91b9-1c97" name="Carlos, Scavenger" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+      <profiles>
+        <profile id="91d2-cc24-b94f-9b91" name="Carlos, Scavenger" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="4"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b13-c80c-5bf5-62af" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2e4a-0162-57a6-1563" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="9a35-b15b-843f-e369" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4d9b-e411-a930-5bec" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="86d8-f47d-5547-ef6e" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="57c8-1fb9-d544-98ad" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0acf-a20e-f43f-1e43" name="Chris" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+      <profiles>
+        <profile id="d20a-9f4c-f32a-e678" name="Chris" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9600-4e62-5faa-c8be" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7c2a-d49c-5f76-8490" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="52ef-6964-31e9-30cd" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e78f-9e66-364e-b8c9" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="85c1-8384-a833-41ce" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="9851-386c-84fc-8cd4" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e09e-e157-0bff-48e1" name="Clementine" hidden="false" collective="false" categoryEntryId="0f77-93df-063a-d82e" type="model">
+      <profiles>
+        <profile id="bfd3-cf66-f658-0b65" name="Clementine" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Special"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0948-1277-6dd2-a27e" name="Adaptable" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Clementine does not have a set character type - she must choose one at the start of each game. In addition, she may choose one of her characteristics - Melee, Shoot, or Defense - and add 1 Red to it for the duration of the game.</description>
+        </rule>
+        <rule id="f0c5-5d28-d359-7d32" name="Father Figure" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Whilst Clementine is in Lee&apos;s Kill Zone, she will not Panic.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d8c3-e007-b60f-ca7c" name="New InfoLink" hidden="false" targetId="953c-b925-7554-c8ed" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba0-91b5-a20f-c0ec" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="47bf-08c7-d6fa-e1f5" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="79b2-1495-afa4-5246" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3355-0c9e-4f34-5436" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="a710-82f7-fb83-722a" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5473-660f-9a47-3e8f" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3afc-4319-aa12-6d91" name="Lee" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+      <profiles>
+        <profile id="f0a6-f35c-f34e-6591" name="Lee" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Blue"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Blue"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0b45-c4da-355d-c0a3" name="Fiercely Protective" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If one or more friendly Survivors within 8&quot; of Lee take damage in a turn, Lee ads 1 Red to his melee attack rolls for the rest of the turn. If the Survivor that takes damage is  Clementine, Lee adds 1 White instead.</description>
+        </rule>
+        <rule id="fa21-fd0a-5210-fb33" name="Leader Ability: Resourceful" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, one friendly Survivor within 8&quot; of Lee may reroll a single die of any type.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17c0-57f8-88d1-0234" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a097-ee6b-c047-14d7" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d31a-ead1-81e7-99ea" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="1e43-184f-bdf3-efe2" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b276-a8f6-dc94-3ab5" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="803e-a1b9-ec75-80d2" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="57.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cd2-f2aa-d3a2-46d4" name="Patricia" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+      <profiles>
+        <profile id="6654-edd4-84dc-3703" name="Patricia" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a83-6a24-c3cb-1da1" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5041-277b-984e-6c3c" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="996c-8c33-2e67-6b15" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="29e5-05a9-1016-4cc6" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d13e-06fb-14b5-6b2f" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="208c-59e0-ed0e-6c21" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="14.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

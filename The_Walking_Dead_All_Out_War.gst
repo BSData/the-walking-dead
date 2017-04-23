@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="1" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="2" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -131,13 +131,37 @@
             <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" id="9050-6d7a-b02a-4c2d" type="max"/>
           </constraints>
         </categoryEntry>
+        <categoryEntry id="0f77-93df-063a-d82e" name="Special" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
       </categoryEntries>
       <forceEntries/>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="859f-7fee-fc1e-8bf9" name="New Character" hidden="true" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="cafa-2046-a877-1fc4" name="New Character" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -174,6 +198,15 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </entryLink>
+        <entryLink id="c8e2-9df4-f156-6ab0" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ec-af3c-5145-4cfe" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -7332,12 +7365,6 @@ In Melee, Handguns with Multiple Shots may be fired several times as normal, but
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="b11f-23ef-d17c-e225" name="New Rule" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="3d05-e4cc-e7ab-5334" name="Leader Ability: Smash &apos;n&apos; Grab" hidden="false">
       <profiles/>
       <rules/>
@@ -7372,6 +7399,13 @@ In Melee, Handguns with Multiple Shots may be fired several times as normal, but
       <infoLinks/>
       <modifiers/>
       <description>An item with this keyword can be attached to an item of the type Ranged Weapon, and will no longer take up an item slot of its own. It can be attached when equipped or with a Swap Items Action, and removed again with a further Swap Items Action. Tuck it slightly under the attached card to show it is attached. </description>
+    </rule>
+    <rule id="953c-b925-7554-c8ed" name="Just a Kid..." hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a Survivor wishes to target this model with a ranged attack, it must first roll the Black die. On a Shield result, it may take the shot as normal. On a blank, it must choose a different target, or a different action.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
