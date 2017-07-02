@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="5" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="6" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5553,8 +5553,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon
-May reroll 1 die per melee attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon May reroll 1 die per melee attack roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5831,8 +5830,7 @@ May reroll 1 die per melee attack roll."/>
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Can only be equipped in an item slot removed following an Amputate Action.
-Discard this item to ignore 1 Blue die damage from a single attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Can only be equipped in an item slot removed following an Amputate Action. Discard this item to ignore 1 Blue die damage from a single attack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5856,6 +5854,499 @@ Discard this item to ignore 1 Blue die damage from a single attack."/>
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="66d6-a035-8b43-c989" name="Lucille (Negan only)" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6eb4-9f5c-bdbb-d770" name="Lucille (Negan only)" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="2 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon
+If the attack rolls any !, immediately add a white die to the roll."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ace5-6374-fefb-b854" name="Bludgeon" hidden="false" targetId="ff58-7f3d-d5c3-9341" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad1e-3c71-aee3-12f1" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de3a-59d4-0217-52dc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5f51-8850-4f64-a0d1" name="Felling Axe" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7205-0ec8-459a-9b04" name="Felling Axe" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="2 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bulky, Sharp"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4fb7-26cc-1173-84de" name="Bulky" hidden="false" targetId="3219-baca-3b15-aaa3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="eed0-50fb-9db0-b0db" name="Sharp" hidden="false" targetId="f31f-4ecc-3046-7326" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea6a-5c5e-28c8-626d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c706-daed-11cb-3b33" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="23.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0390-e48c-3dbe-82ed" name="Claw Hammer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3efb-3b03-16be-cbc1" name="Claw Hammer" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Dual Wield, Bludgeon"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d00f-f3c8-b184-4e8c" name="Bludgeon" hidden="false" targetId="ff58-7f3d-d5c3-9341" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0a86-17db-896a-54a8" name="Dual Wield" hidden="false" targetId="707f-5519-8cf1-6e46" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6ef-2461-c877-4f64" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c75-73d4-d497-3f2c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="65e2-7937-af58-2787" name="Cattle Prod" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ba6b-5e19-a6d0-2776" name="Cattle Prod" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Stun
+Adds one red die to melee attack roll only when fighting Survivors.
+Any ! rolled when using this weapon are ignored."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e871-8fd1-d29f-e4c9" name="Stun" hidden="false" targetId="88ba-a431-6ae0-5407" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e120-2204-9a06-609c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="374e-4791-2a75-0a4c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f6c4-02f9-c8d6-e062" name="Sickle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0d14-6a7d-27d7-bd15" name="Sickle" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Sharp"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4551-53ae-d696-e36f" name="Sharp" hidden="false" targetId="f31f-4ecc-3046-7326" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="403e-9ef4-04cf-0ce5" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c58b-a9b7-383d-b1d5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac4d-296a-d5e4-72ac" name="Pitchfork" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6d2e-41e1-ea3d-6ed7" name="Pitchfork" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="40fb-7454-2696-346c" name="Bulky" hidden="false" targetId="3219-baca-3b15-aaa3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5845-e8aa-8560-5d87" name="Sharp" hidden="false" targetId="f31f-4ecc-3046-7326" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d0-d291-2e88-7362" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93c3-24d0-4160-e377" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="32ad-137a-5384-6cb4" name="Cleaver" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7e3b-9b54-9574-30f4" name="Cleaver" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Amputate, Dual Wield, Sharp"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e58c-1ea1-867f-47a3" name="Amputate" hidden="false" targetId="3df4-1d91-f352-46f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8fa1-3981-cd90-42d3" name="Dual Wield" hidden="false" targetId="707f-5519-8cf1-6e46" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2f14-bb16-5551-d0dc" name="Sharp" hidden="false" targetId="f31f-4ecc-3046-7326" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd99-e7d9-eed7-872e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2443-2fee-cf7c-6bcb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5b9a-2d87-8071-cd80" name="Animal Catcher Pole" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="771f-6113-24f8-ef84" name="Animal Catcher Pole" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Use an Action to target a standing Walker in your Kill Zone.
+Roll a black die. On a Badge Symbol, you may reposition the Walker to another point within your Kill Zone, and it may not move again this turn.
+This may move a Walker across Traversable scenery."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0202-40a8-a353-fc89" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c803-8b12-c2e2-bca7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0531-4f29-3078-9418" name="Shikomizue" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f507-4c1a-6152-c921" name="Shikomizue" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="If the attack scores any !, immediatly add one bonus red die to the attack roll.
+If Ezekiel carries this item, all friendly Survivors in his Kill Zone may use his Nerve."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a496-1bce-65a8-e5e9" name="Dual Wield" hidden="false" targetId="707f-5519-8cf1-6e46" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c85b-9f6d-f120-4595" name="Sharp" hidden="false" targetId="f31f-4ecc-3046-7326" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f222-0873-2f18-eccc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3687-066c-4f0d-d0ff" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9226-f26f-6554-d2ad" name="Riot Baton" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1814-ae89-a9d2-91bf" name="Riot Baton" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon, Dual Wield
+When tree different &quot;Riot&quot; items are equipped, the Riot Baton adds one white die to melee attack roll instead."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="17b8-e532-19fb-f6e1" name="Bludgeon" hidden="false" targetId="ff58-7f3d-d5c3-9341" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="536d-6a73-3d9a-bca9" name="Dual Wield" hidden="false" targetId="707f-5519-8cf1-6e46" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0be-4a3c-a007-8813" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b423-6f89-7335-1332" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0911-5a1f-1a41-c370" name="Riot Shield" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="fa84-6544-5cc5-4999" name="Riot Shield" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red to melee defense rolls
+1 White when defending against Walkers"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="When equipped with a Riot Baton, this item gains the Dual Wield keyword."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a9-21ad-81bf-b391" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f4f-899f-99fa-3cbc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="03ea-a58c-49ce-33a6" name="Titanium Baseball Bat" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="bbdb-d37d-3655-008b" name="Titanium Baseball Bat" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon
+Bruisers may reroll one red die per melee attack."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="09bd-0d6c-e672-9146" name="Bludgeon" hidden="false" targetId="ff58-7f3d-d5c3-9341" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd9a-584b-2f81-64b8" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8f4-0bf9-5eb8-09b4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f0bb-6c8f-ea1f-ec46" name="Michonne`s Katana" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6c50-b323-971f-e85e" name="Michonne`s Katana" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Blue"/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Sharp
+If the attack rolls any !, add one red die to the attack roll."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4fde-1c27-1826-87ce" name="Sharp" hidden="false" targetId="f31f-4ecc-3046-7326" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d4-21f6-cd6a-b83b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5de1-45ba-5f98-2ee6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="22.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6200,9 +6691,9 @@ Discard this item to ignore 1 Blue die damage from a single attack."/>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3201-48a3-6c2d-d4f8" name="Smith &amp; Wesson 8mm" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3201-48a3-6c2d-d4f8" name="Smith &amp; Wesson 9mm" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="876f-1ffa-7275-52ad" name="Smith &amp; Wesson 8mm" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+            <profile id="876f-1ffa-7275-52ad" name="Smith &amp; Wesson 9mm" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6248,7 +6739,7 @@ Discard this item to ignore 1 Blue die damage from a single attack."/>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="17.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ea17-b39a-bfaf-c435" name="8mm Pistol" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ea17-b39a-bfaf-c435" name="9mm Pistol" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="1be3-b55c-667e-fa2a" name="9mm Pistol" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
               <profiles/>
@@ -6706,8 +7197,7 @@ Discard this item to ignore 1 Blue die damage from a single attack."/>
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, MAYHEM
-May reroll 1 die per ranged attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, MAYHEM May reroll 1 die per ranged attack."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="12&quot;"/>
               </characteristics>
             </profile>
@@ -6803,8 +7293,7 @@ May reroll 1 die per ranged attack."/>
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, 
-All ! are ignored. Each Walker beneath the template recieves a Burning Token."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use,  All ! are ignored. Each Walker beneath the template recieves a Burning Token."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
               </characteristics>
             </profile>
@@ -6852,8 +7341,7 @@ All ! are ignored. Each Walker beneath the template recieves a Burning Token."/>
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE
-This weaopn uses the Blast rules to hit, but causes no damage."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE This weaopn uses the Blast rules to hit, but causes no damage."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
               </characteristics>
             </profile>
@@ -6928,6 +7416,707 @@ This weaopn uses the Blast rules to hit, but causes no damage."/>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ef48-7fae-8e74-41c9" name="Browning Hi-Power" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e9a8-80b8-1756-d341" name="Browning Hi-Power" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, Reliable, MAYHEM
+May reroll one die per attack roll."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="10&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6440-b9eb-4749-083f" name="Handgun" hidden="false" targetId="880c-8e66-cdfb-9b29" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9cf2-1512-ba08-b0fc" name="Reliable" hidden="false" targetId="76e0-3f95-f279-3343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b946-cbd6-e7a5-3e5f" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb8-e58f-b639-2fe0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d331-7a0b-996b-5908" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="17.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="53b2-ca1d-9bc4-da86" name="Utas Uts-15" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2f1c-79de-d0e0-040f" name="Utas Uts-15" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Multiple Shots (2), Shotgun, MAYHEM"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="20&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1340-efae-96eb-7637" name="Multiple Shots (2)" hidden="false" targetId="1863-58cb-ff52-2130" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="31a2-62cd-4479-abce" name="Shotgun" hidden="false" targetId="bd63-ea4d-7556-4703" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5bd6-551f-f4e6-4a7c" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c545-41e7-49fa-eb92" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1735-e8cf-ec0c-de9d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="36.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d615-5f0e-20f7-9d96" name="Lasso" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7660-79ca-ff03-2f13" name="Lasso" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="If this attack causes any damage, do not damage the target. Instead lay it prone.
+This weapon ignores Ammo rolls."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="3&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ff-fc98-f30f-5b70" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e0d-915f-038a-fc14" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed59-1e3e-251f-1fe7" name="Browning Hunting Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8a27-d9ee-8f5f-1b21" name="Browning Hunting Rifle" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red
++1 Action: 1 White 1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Rifle, MAYHEM
+Spend one extra Action while attacking with this weapon to add a white and a red die to ranged attack roll instead."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="30&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ff7b-be06-984d-d4c7" name="Rifle" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="bb09-01a1-63fe-d756" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a8-daf4-e402-5908" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a775-2cfb-87b9-a1dc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ccc5-be7c-8c6b-1eb0" name="Antique Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8fce-7aae-c646-1b42" name="Antique Rifle" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Multiple Shots(2), Rifle, Unreliable, MAYHEM"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="30&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="24a2-f5ff-2dfe-8d78" name="Rifle" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c19a-b2f0-a899-6f85" name="Unreliable" hidden="false" targetId="48e8-333a-ffa0-1377" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="18f8-9117-979f-23d1" name="Multiple Shots (2)" hidden="false" targetId="1863-58cb-ff52-2130" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="84f7-b381-7c9e-a593" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c112-8bff-5da5-cbf8" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="919a-1af1-b029-2536" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="27.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0416-e893-9bff-9c3e" name="Tranquilizer Gun" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="86ab-c8a9-dc0c-e450" name="Tranquilizer Gun" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red (only against Surviver)"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Any ! rolled do not cause Headshots, but cause Ammo rolls as normal."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="30&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6807-c78b-6c97-4785" name="Rifle" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="cb31-4ec2-0474-cb81" name="Stun" hidden="false" targetId="88ba-a431-6ae0-5407" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e100-d180-c3df-c72a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbfb-7e1a-e3fd-c040" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a3ad-7c87-d1a5-eca6" name="Artic Warfare Sniper Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c25e-3847-e95f-21d9" name="Artic Warfare Sniper Rifle" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Blue"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Rifle, MAYHEM
+For each ! rolled, add one red die to the roll. The bonus dice cannot force ammo rolls."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="40&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="75cb-9234-2e18-77c1" name="Rifle" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="e2ac-799b-5558-3e14" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce1-36af-71b6-c5a1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c9f-c508-253a-5c01" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5365-158e-80b6-9110" name="Tear Gas Grenade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9748-9c88-883d-7b0b" name="Tear Gas Grenade" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE
+Roll to hit as normal, but do not apply damage.
+Any Survivor under the template`s final position must roll a black die.
+On a blank, they are laid prone."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d12a-5b33-748b-d08a" name="Blast" hidden="false" targetId="082b-e1bc-87e4-1f70" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="ead1-269f-fed2-dcb8" name="One Use" hidden="false" targetId="1ab8-7380-5439-63fa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e76b-aab4-2449-3b95" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="930b-12aa-fe3b-83e5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c590-ccf3-6133-b73d" name="Browning Safari Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6595-3535-5d94-a334" name="Browning Safari Rifle" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Blue"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Rifle, Stun, MAYHEM"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="36&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f035-7f52-3927-061a" name="Rifle" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="89b5-200f-222d-f3c7" name="Stun" hidden="false" targetId="88ba-a431-6ae0-5407" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d08a-2f05-828f-607b" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e907-2faa-94aa-a1a0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0ac-6704-7b90-b1c1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="38.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3a02-f0a7-fc54-f491" name=".357 IMI Desert Eagle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4e66-cc7f-9905-5297" name=".357 IMI Desert Eagle" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Blue"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Armour Piercing, Handgun, Reliable, MAYHEM"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="12&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e6a2-5599-b6d9-3f37" name="Armor Piercing" hidden="false" targetId="e7d8-f344-d052-509a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8c41-ad9f-44e0-b3ae" name="Handgun" hidden="false" targetId="880c-8e66-cdfb-9b29" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="13d9-0eed-fe44-83ea" name="Reliable" hidden="false" targetId="76e0-3f95-f279-3343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="045d-ac28-b80d-e5b9" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2737-2367-1ec5-7641" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed6d-55ff-85d3-6a6a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="67a7-e2ca-8eaf-6692" name="AK-47" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d3c5-ce03-66e6-4df9" name="AK-47" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Assault, Multiple Shots (3), Rifle, MAYHEM"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="30&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c40d-cf35-4885-c6da" name="Assault" hidden="false" targetId="1f83-66b0-88f9-7889" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="41d5-a6f7-8283-5a6e" name="Rifle" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c0f4-e8dd-9669-e5b8" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f446-29a9-4b9e-43c6" name="Multiple Shots (3)" hidden="false" targetId="7196-aa6e-9db7-ba59" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da6-c8f5-0e34-fbcf" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3411-1d23-1bd7-0643" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="29.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="faa2-ad24-8111-eb6c" name="CX4 Storm" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5294-bfbb-3cff-fd5e" name="CX4 Storm" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Assault, Handgun, Multiple Shots(3), MAYHEM"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="15&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="960d-bad4-1ada-22d5" name="Assault" hidden="false" targetId="1f83-66b0-88f9-7889" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="17f6-8487-dcda-9d54" name="Handgun" hidden="false" targetId="880c-8e66-cdfb-9b29" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3a23-e615-3d92-c254" name="Multiple Shots (3)" hidden="false" targetId="7196-aa6e-9db7-ba59" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7a34-a110-3e01-6463" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6bb-a3ab-33a5-7117" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="274b-516f-068f-bdd4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e980-35d6-5b1a-ab23" name="Sarsilmaz Over &amp; Under" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="972f-1195-1444-2fd0" name="Sarsilmaz Over &amp; Under" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 White"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Shotgun, MAYHEM"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="20&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="957b-1acf-3c73-df28" name="Shotgun" hidden="false" targetId="bd63-ea4d-7556-4703" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8c96-a272-55cc-4fef" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44c-f995-ffad-cde8" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d48e-9657-2ac3-3a9e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="26.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2105-5032-1117-8909" name="Flare Gun" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9d7c-07c0-60eb-3cc4" name="Flare Gun" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, MAYHEM
+Only damages targets under template`s center.
+In addition, any model that shoots at a targetunder the template this turn adds one red die to ranged attack roll."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="20&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="955c-2db3-5aa8-07b9" name="Blast" hidden="false" targetId="082b-e1bc-87e4-1f70" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="aefb-d27b-e5b1-e033" name="One Use" hidden="false" targetId="1ab8-7380-5439-63fa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7907-5bfc-4305-489a" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ab-96c8-b25d-e805" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="032e-b085-5891-f4c0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d50a-b8ec-1520-c0fa" name="Smoke Grenade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="229d-aef5-8268-5823" name="Smoke Grenade" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE
+Roll to hit as normal, but do not apply damage.
+Place a Smoke maerker on the target point."/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2203-cf71-45a0-1a2e" name="Blast" hidden="false" targetId="082b-e1bc-87e4-1f70" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8c19-0047-14b9-3422" name="One Use" hidden="false" targetId="1ab8-7380-5439-63fa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ec-8977-6f4b-8df3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a7d-235f-fcbf-2b47" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -6993,7 +8182,14 @@ This weaopn uses the Blast rules to hit, but causes no damage."/>
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="8863-cb71-56e4-b1f1" name="Attachment (Armor: Head)" hidden="false" targetId="84a7-2215-9863-71a0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a283-128e-d3ab-8444" type="max"/>
@@ -7102,13 +8298,19 @@ This weaopn uses the Blast rules to hit, but causes no damage."/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="When this Survivor is laid prone by an enemy STun or Bludegeon weapon in melee, roll 1 Black. On a Badge-Symbol, the model stays upright.
-When equipped with Football Pads, this model also gains 1 Red to melee defense rolls."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="When this Survivor is laid prone by an enemy STun or Bludegeon weapon in melee, roll 1 Black. On a Badge-Symbol, the model stays upright. When equipped with Football Pads, this model also gains 1 Red to melee defense rolls."/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="7223-8d03-9fad-34d5" name="Attachment (Armor: Head)" hidden="false" targetId="84a7-2215-9863-71a0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a53a-0354-0273-1ddc" type="max"/>
@@ -7167,7 +8369,14 @@ When equipped with Football Pads, this model also gains 1 Red to melee defense r
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="3c2a-9c36-eeb2-f0b9" name="Attachment (Armor: Head)" hidden="false" targetId="84a7-2215-9863-71a0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ac-c0a1-c856-ed54" type="max"/>
@@ -7297,8 +8506,7 @@ When equipped with Football Pads, this model also gains 1 Red to melee defense r
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body), One Use
-Roll a black die. On a badge symbol, the Survivor may ignore the Bitten! rule for a single attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body), One Use Roll a black die. On a badge symbol, the Survivor may ignore the Bitten! rule for a single attack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7338,10 +8546,7 @@ Roll a black die. On a badge symbol, the Survivor may ignore the Bitten! rule fo
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body)
-Can only be equipped by a Survivor who lost a leg following ab Amputate Action.
-The Survivor may Run up to 6&quot;.
-Discard this item to ignore 1 blue dice roll damage from a single attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body) Can only be equipped by a Survivor who lost a leg following ab Amputate Action. The Survivor may Run up to 6&quot;. Discard this item to ignore 1 blue dice roll damage from a single attack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7371,6 +8576,179 @@ Discard this item to ignore 1 blue dice roll damage from a single attack."/>
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8988-4c06-253f-4d12" name="Lucky Head (Carl Grimes only)" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8fae-655f-44b1-84b6" name="Lucky Head" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Each time Carl is reduced to 0 health points, roll a black die.
+Badge Symbol = Carl is not removed, and is instantly restored to 1 health point. On a blank he is dead as usual."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3c34-5b5d-b620-f61c" name="Attachment (Armor: Head)" hidden="false" targetId="84a7-2215-9863-71a0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d48-425c-b6b0-f94f" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b82-cf52-d621-f663" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6a40-f0fb-fb33-9a81" name="Police Vest" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c601-11a5-4564-77cc" name="Police Vest" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Reduce damage taken from all enemy attacks by one red die."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="733f-5b9c-167e-309e" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff3-d686-a272-5896" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8731-4aba-a956-148a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c64-0e4d-ea6b-9d6f" name="Riot Helmet" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4501-d665-d3b9-ab61" name="Riot Helmet" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Ignore one ! from an opponent`s melee attack roll per combat."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4fa1-fb1a-2518-291b" name="Attachment (Armor: Head)" hidden="false" targetId="84a7-2215-9863-71a0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="592d-995e-3fb0-35a3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1945-894a-f6ea-2b36" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bfc6-fdc3-79d2-d34e" name="Travelling Cloak" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0ce5-6ff7-3193-5172" name="Travelling Cloak" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Armor: Body)
+When this model is in Cover, it gains an additional red die to its Cover bonus."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="84cd-dbd4-8251-6fa2" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c7-4def-278b-23d7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cff8-39cd-7f2f-179c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e00c-917f-027c-de28" name="Bandoleer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ab88-dc8c-ca13-9101" name="Bandoleer" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body)
+As an Action reload any ranged weapon."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ee44-b3ce-0182-b10f" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b5b-8fa4-03ef-564d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="407d-3e15-06cc-815b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="14.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7731,8 +9109,7 @@ Discard this item to ignore 1 blue dice roll damage from a single attack."/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="This item grants any three other items the Attachment(Backpack) keyword.
-A Survivor may only carry one Backpack."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="This item grants any three other items the Attachment(Backpack) keyword. A Survivor may only carry one Backpack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7791,8 +9168,7 @@ A Survivor may only carry one Backpack."/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
-Ignore the effects of Panic on this Survivor for the remainder of the turn."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use Ignore the effects of Panic on this Survivor for the remainder of the turn."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7826,8 +9202,7 @@ Ignore the effects of Panic on this Survivor for the remainder of the turn."/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
-Add one ! to any of this Survivor`s attack rolls, or remove one ! from an attack roll made against this Survivor. A Survivor may not carry more than one Keepsake."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use Add one ! to any of this Survivor`s attack rolls, or remove one ! from an attack roll made against this Survivor. A Survivor may not carry more than one Keepsake."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7861,8 +9236,7 @@ Add one ! to any of this Survivor`s attack rolls, or remove one ! from an attack
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapion: Handgund or Rifle)
-Any MAYHEM caused by the atached weapon is reduced to NOISE instead."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapion: Handgund or Rifle) Any MAYHEM caused by the atached weapon is reduced to NOISE instead."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7902,8 +9276,7 @@ Any MAYHEM caused by the atached weapon is reduced to NOISE instead."/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapon: Handgun or Rifle)
-Discard this card when performing a Shoot Action. The shot gains the Armor Piercing and Stun keyword."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapon: Handgun or Rifle) Discard this card when performing a Shoot Action. The shot gains the Armor Piercing and Stun keyword."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7963,9 +9336,7 @@ Discard this card when performing a Shoot Action. The shot gains the Armor Pierc
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
-Use an Action to drop this item in contact with the Surviver - place a spare counter to mark its position.
-It causes MAYHEM at the start of each subsequent Action Phase until a Surviver has moved int contact with it and used an Action to destroy it."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use Use an Action to drop this item in contact with the Surviver - place a spare counter to mark its position. It causes MAYHEM at the start of each subsequent Action Phase until a Surviver has moved int contact with it and used an Action to destroy it."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7995,6 +9366,370 @@ It causes MAYHEM at the start of each subsequent Action Phase until a Surviver h
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="33c9-c0e3-b6c2-cacd" name="Veterinary Bag" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="afb9-5f46-53d6-12bb" name="Veterinary Bag" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate
+Must be equipped to use.
+As an Action, the Survivor may restore one red die health lost earlier in the game to itself or a friendly model in its Kill Zone."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6a5e-ff55-f826-4190" name="Amputate" hidden="false" targetId="3df4-1d91-f352-46f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f9-6b59-93ca-4da9" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bfea-92b8-17db-dabf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c751-d8f0-31aa-4825" name="Hershel`s Bag" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7d3c-82c7-003c-eb14" name="Hershel`s Bag" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate
+Must be equipped to use.
+As a Special Action, the Survivor may restore one red die health lost earlier in the game to itself or a friendly model in its Kill Zone.
+When Hershel Greene uses this item, he may reroll the die."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e3a8-d3e3-1866-1d4c" name="Amputate" hidden="false" targetId="3df4-1d91-f352-46f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d21d-4521-a238-11ec" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5184-a2bb-db26-d763" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="289e-8576-6b68-7ac1" name="Fresh Meat" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e7a1-9941-d3a3-0a7b" name="Fresh Meat" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Discard this card when any model with the Beast speacial rule is within the user`s Kill Zone.
+All Beast models restore 1 health point, and add one red die to their Melee attack die for the rest of the turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91db-682f-e3ee-06fc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6a4-e2be-5c91-bd14" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b0b-08a8-9d09-0f1d" name="Sniper Scope" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="99b4-0ca8-9c8f-05c0" name="Sniper Scope" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapon: Rifle)
+Increases the range of the attached weapon by 6&quot;, and grants it the Deadly Presicion keyword."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d873-6fb8-0669-a047" name="Attachment (Ranged Weapon: Rifle)" hidden="false" targetId="568a-8c99-b2b8-59fd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9512-bbf3-82c2-5fe0" name="Deadly Precision" hidden="false" targetId="6fa0-21c2-26d9-1c37" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f301-a179-5537-15ab" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7228-be14-0fe9-c62e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e200-9897-5107-ff88" name="Mike (Michonne only)" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b222-c64e-c39b-2070" name="Mike (Michonne only)" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Masked Sent
+Mike and Terry fill one hand slot together.
+May not be placed in the pack.
+The Mike model must stay within 1&quot; of Michonne.
+He is treated as a Walker by enemies.
+If attacked, he may only defend, and is removed when damaged.
+Discard Mike to ignore all damage from a single attack."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="deb3-064d-1a05-7cc3" name="Masked Scent" hidden="false" targetId="0c9a-82ad-6895-0c8a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eff-232f-475f-baa8" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a647-de06-604f-d1a1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aca7-5f89-db61-5b3f" name="Terry (Michonne only)" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9d04-9355-3195-3fec" name="Terry (Michonne only)" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Masked Sent
+Mike and Terry fill one hand slot together.
+May not be placed in the pack.
+The Terry model must stay within 1&quot; of Michonne.
+He is treated as a Walker by enemies.
+If attacked, he may only defend, and is removed when damaged.
+Discard Terry to ignore all damage from a single attack."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a91c-e7ef-8bb3-f6d4" name="Masked Scent" hidden="false" targetId="0c9a-82ad-6895-0c8a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35f-ae0c-2707-ed39" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b66-7669-2434-a72e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b26e-e66e-4eee-c8bf" name="Laser Sight" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9828-64f5-7bb2-5759" name="Laser Sight" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Handgun or Rifle)
+When performing a ranged attack, rolla black die.
+On a Badge Symbol, add one red die to the attack roll."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dedc-69f1-86c7-91fd" name="Attachment (Ranged Weapon: Handgun)" hidden="false" targetId="355c-877f-d901-0448" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d213-683e-8034-2c41" name="Attachment (Ranged Weapon: Rifle)" hidden="false" targetId="568a-8c99-b2b8-59fd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f948-950c-d8f6-a00a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ce-91da-e0de-cedd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f62e-b347-913b-92e2" name="Megaphone" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2488-4279-0f59-fefa" name="Megaphone" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="NOISE
+Must be equipped to use.
+Use the Megaphnoe as an Action to allow another Survivor within 10&quot; to gain an Action in that turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd6-8676-227a-c861" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aae-3b58-177a-65bb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e25e-c3f9-ee4f-772e" name="Cuban Cigar" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6c3e-f2d3-88bc-dcdd" name="Cuban Cigar" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
+Discard to reroll any one die from a ranged attack roll."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="58b4-ca1d-7f8f-1b5d" name="One Use" hidden="false" targetId="1ab8-7380-5439-63fa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de0-3710-446c-e056" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd1d-e60b-c786-b69b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f078-d217-6346-a5b9" name="Medical Bag" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="79d7-fb19-2311-f9b9" name="Medical Bag" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate
+Must be equipped to use.
+As a Special Action, the Survivor may restore a white die healt lost earlier in the game to itself or a friendly model in its Kill Zone."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="02d7-5f1f-713b-b995" name="Amputate" hidden="false" targetId="3df4-1d91-f352-46f3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e71-6f86-d463-ef98" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7814-8782-5ca0-6f79" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="24.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9155,6 +10890,22 @@ In Melee, Handguns with Multiple Shots may be fired several times as normal, but
       <infoLinks/>
       <modifiers/>
       <description>If a Survivor wishes to target this model with a ranged attack, it must first roll the Black die. On a Shield result, it may take the shot as normal. On a blank, it must choose a different target, or a different action.</description>
+    </rule>
+    <rule id="84a7-2215-9863-71a0" name="Attachment (Armor: Head)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>An item with this keyword can be attached to an item of the type Armor: Head, and will no longer take up an item slot of its own. It can be attached when equipped or with a Swap Items Action, and removed again with a further Swap Items Action. Tuck it slightly under the attached card to show it is attached. </description>
+    </rule>
+    <rule id="7196-aa6e-9db7-ba59" name="Multiple Shots (3)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The number in brackets is the maximum number of shots this weapon may fire as a single Action.
+The shots do not have to be allocated against the same target. Instead, shots after the first - whether or not it was successful - may target any model within the Kill Zone of the original target (as long as it is within range of the shooter).
+In Melee, Handguns with Multiple Shots may be fired several times as normal, but all targets must be in base contact with the shooter.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
