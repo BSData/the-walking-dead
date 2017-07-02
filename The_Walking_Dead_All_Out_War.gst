@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="3" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="4" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -248,7 +248,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3605-c240-d4f9-7a1b" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+        <entryLink id="3605-c240-d4f9-7a1b" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5783,13 +5783,13 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="35d9-9953-da3f-4421" name="New InfoLink" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+            <infoLink id="35d9-9953-da3f-4421" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="c594-7630-94f4-b816" name="New InfoLink" hidden="false" targetId="880c-8e66-cdfb-9b29" type="rule">
+            <infoLink id="c594-7630-94f4-b816" name="Handgun" hidden="false" targetId="880c-8e66-cdfb-9b29" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6095,13 +6095,13 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="66ab-b65b-ba8e-d84c" name="New InfoLink" hidden="false" targetId="76e0-3f95-f279-3343" type="rule">
+            <infoLink id="66ab-b65b-ba8e-d84c" name="Reliable" hidden="false" targetId="76e0-3f95-f279-3343" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="59a7-1c23-d412-bca1" name="New InfoLink" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
+            <infoLink id="59a7-1c23-d412-bca1" name="Rifle" hidden="false" targetId="3b53-4359-9e31-58f3" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6251,6 +6251,53 @@
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ea9c-de7f-d61a-a021" name="Grenade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f4a6-c008-93bb-7b6d" name="Grenade" hidden="false" profileTypeId="d475-dc3d-7c58-0271" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red"/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, Mayhem"/>
+                <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="af8f-6e67-ce2f-a119" name="Blast" hidden="false" targetId="082b-e1bc-87e4-1f70" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="71a5-65e2-b5cc-add9" name="One Use" hidden="false" targetId="1ab8-7380-5439-63fa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b98b-58ca-13a3-d90d" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6575-d215-27a8-813f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6690,7 +6737,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="c8b1-25d8-8770-e84e" name="New InfoLink" hidden="false" targetId="18fc-71bb-c1f4-fcb1" type="rule">
+            <infoLink id="c8b1-25d8-8770-e84e" name="Attachment (Ranged Weapon: Shotgun)" hidden="false" targetId="18fc-71bb-c1f4-fcb1" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6708,6 +6755,59 @@
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8386-b436-97e8-9af4" name="Radio" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6e2d-f722-248f-73fd" name="Radio" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="A Support character may use the Radio as an Action to allow another Survivor with a Radio to gain an Action that turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3304-affe-e244-264a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e607-cd3e-4bbc-bb68" name="Backpack" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f53d-16ab-59fc-391f" name="Backpack" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="This item grants any three other items the Attachment(Backpack) keyword.
+A Survivor may only carry one Backpack."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="954c-457c-44a9-09a4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
