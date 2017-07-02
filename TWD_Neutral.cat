@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="2" battleScribeVersion="2.00" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="15a7-8621-f005-00ba" name="Neutral" revision="2" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="c286-2a6e-d2ec-c6da" name="Brian Blake, Before Woodbury" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="c286-2a6e-d2ec-c6da" name="Brian Blake, Before Woodbury" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c286-2a6e-d2ec-c6da-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0b35-54e5-4b98-673d" name="Brian" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -82,7 +85,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="46b0-6787-7583-d067" name="Craig" hidden="false" collective="false" categoryEntryId="e123-2d67-1fcc-51f5" type="model">
+    <selectionEntry id="46b0-6787-7583-d067" name="Craig" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="46b0-6787-7583-d067-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e258-2804-9904-4bd1" name="Craig" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -150,7 +156,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b80-3b30-aa8e-c18f" name="Derek, Heartless Mercenary" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="7b80-3b30-aa8e-c18f" name="Derek, Heartless Mercenary" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="7b80-3b30-aa8e-c18f-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="cd38-ad0b-4e58-8431" name="Derek" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -233,7 +242,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="38.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="642b-1c40-4184-b0f7" name="Derek, Scavenger Leader" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="642b-1c40-4184-b0f7" name="Derek, Scavenger Leader" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="642b-1c40-4184-b0f7-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1cac-7e31-81b5-2014" name="Derek" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -316,7 +328,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e1c-3a8c-b067-83ea" name="Duane" hidden="false" collective="false" categoryEntryId="e123-2d67-1fcc-51f5" type="model">
+    <selectionEntry id="4e1c-3a8c-b067-83ea" name="Duane" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="4e1c-3a8c-b067-83ea-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ddc6-c758-99e7-2e9e" name="Duane" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -384,7 +399,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1734-0aab-6bcd-b34c" name="Liam" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="1734-0aab-6bcd-b34c" name="Liam" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1734-0aab-6bcd-b34c-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5ed7-5d05-7bb7-04a8" name="Liam" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -452,7 +470,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a078-d22d-252d-b592" name="Michonne, Wandering Nomad" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="a078-d22d-252d-b592" name="Michonne, Wandering Nomad" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="a078-d22d-252d-b592-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9d29-91f5-51d9-aa86" name="Michonne, Wandering Nomad" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -534,7 +555,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="46.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f71-a6cf-d519-a1b8" name="Morgan, Cynthiana Survivor" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="2f71-a6cf-d519-a1b8" name="Morgan, Cynthiana Survivor" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2f71-a6cf-d519-a1b8-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="42c5-e507-a371-39e3" name="Morgan" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -610,7 +634,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="722c-00d2-ce89-8f73" name="Patrick, Hardened Veteran" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="722c-00d2-ce89-8f73" name="Patrick, Hardened Veteran" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="722c-00d2-ce89-8f73-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5f82-a508-c9e8-46dc" name="Patrick" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -693,7 +720,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6892-0f37-51fa-ef29" name="Patrick, Scavenger" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="6892-0f37-51fa-ef29" name="Patrick, Scavenger" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6892-0f37-51fa-ef29-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d5e0-da72-ec5a-edd6" name="Patrick" hidden="true" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -769,7 +799,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0195-03fb-c241-ced7" name="Reggie" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="0195-03fb-c241-ced7" name="Reggie" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="0195-03fb-c241-ced7-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="aa38-d6dd-4dac-0cc2" name="Reggie" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -837,7 +870,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d1b-7037-50f8-a017" name="Sandra, Hardened Veteran" hidden="false" collective="false" categoryEntryId="e123-2d67-1fcc-51f5" type="model">
+    <selectionEntry id="5d1b-7037-50f8-a017" name="Sandra, Hardened Veteran" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="5d1b-7037-50f8-a017-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="a717-470e-a9c9-f4d3" name="Sandra" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -920,7 +956,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="47ee-823a-b1b2-2292" name="Sandra, Scavenger" hidden="false" collective="false" categoryEntryId="e123-2d67-1fcc-51f5" type="model">
+    <selectionEntry id="47ee-823a-b1b2-2292" name="Sandra, Scavenger" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="47ee-823a-b1b2-2292-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d9fb-bb88-ad0c-bd58" name="Sandra" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1003,7 +1042,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e960-f330-503a-4db4" name="Shane, Atlanta Camp Leader" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="e960-f330-503a-4db4" name="Shane, Atlanta Camp Leader" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e960-f330-503a-4db4-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7788-7271-f634-7055" name="Shane" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1028,7 +1070,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Lori is in the same group and is targetted by a ranged attack whilst within Shane&apos;s Kill Zone, Shane may take the attack on her behalf. Shane becomes the new target, even if he was not initially within range or line of sight.</description>
+          <description>If Lori is in the same group and is targetted by a ranged attack whilst within Shane's Kill Zone, Shane may take the attack on her behalf. Shane becomes the new target, even if he was not initially within range or line of sight.</description>
         </rule>
         <rule id="2922-01a8-c122-9fe8" name="Leader Ability: Survival of the Fittest" hidden="false">
           <profiles/>
@@ -1094,7 +1136,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="52.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c786-4988-948f-7d12" name="Shane, Jealous Cop" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="c786-4988-948f-7d12" name="Shane, Jealous Cop" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c786-4988-948f-7d12-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f40a-8dc5-a2b6-497b" name="Shane" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1119,7 +1164,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Whenever Shane would be engaged by a Walker in the Kill Zone stage of the Event phase, he may nominate one friendly model within the Walker&apos;s Kill Zone for the Walker to engage instead.</description>
+          <description>Whenever Shane would be engaged by a Walker in the Kill Zone stage of the Event phase, he may nominate one friendly model within the Walker's Kill Zone for the Walker to engage instead.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1185,7 +1230,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="54.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b21f-b428-4041-9f01" name="Andy" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="b21f-b428-4041-9f01" name="Andy" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="b21f-b428-4041-9f01-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="40b3-c11a-3d0d-98cb" name="Andy" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1210,7 +1258,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Whenever Andy would be engaged by a Walker in the Kill Zone stage of the Event phase, he may nominate one friendly model also within the Walker&apos;s Kill Zone for the Walker to engage instead.</description>
+          <description>Whenever Andy would be engaged by a Walker in the Kill Zone stage of the Event phase, he may nominate one friendly model also within the Walker's Kill Zone for the Walker to engage instead.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1261,7 +1309,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1bec-a96a-91b9-1c97" name="Carlos, Scavenger" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+    <selectionEntry id="1bec-a96a-91b9-1c97" name="Carlos, Scavenger" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1bec-a96a-91b9-1c97-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="91d2-cc24-b94f-9b91" name="Carlos, Scavenger" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1329,7 +1380,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0acf-a20e-f43f-1e43" name="Chris" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="0acf-a20e-f43f-1e43" name="Chris" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="0acf-a20e-f43f-1e43-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d20a-9f4c-f32a-e678" name="Chris" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1397,7 +1451,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e09e-e157-0bff-48e1" name="Clementine" hidden="false" collective="false" categoryEntryId="0f77-93df-063a-d82e" type="model">
+    <selectionEntry id="e09e-e157-0bff-48e1" name="Clementine" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e09e-e157-0bff-48e1-0f77-93df-063a-d82e" targetId="0f77-93df-063a-d82e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="bfd3-cf66-f658-0b65" name="Clementine" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1429,7 +1486,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Whilst Clementine is in Lee&apos;s Kill Zone, she will not Panic.</description>
+          <description>Whilst Clementine is in Lee's Kill Zone, she will not Panic.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1487,7 +1544,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3afc-4319-aa12-6d91" name="Lee" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="3afc-4319-aa12-6d91" name="Lee" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="3afc-4319-aa12-6d91-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f0a6-f35c-f34e-6591" name="Lee" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1512,14 +1572,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If one or more friendly Survivors within 8&quot; of Lee take damage in a turn, Lee ads 1 Red to his melee attack rolls for the rest of the turn. If the Survivor that takes damage is  Clementine, Lee adds 1 White instead.</description>
+          <description>If one or more friendly Survivors within 8" of Lee take damage in a turn, Lee ads 1 Red to his melee attack rolls for the rest of the turn. If the Survivor that takes damage is  Clementine, Lee adds 1 White instead.</description>
         </rule>
         <rule id="fa21-fd0a-5210-fb33" name="Leader Ability: Resourceful" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per turn, one friendly Survivor within 8&quot; of Lee may reroll a single die of any type.</description>
+          <description>Once per turn, one friendly Survivor within 8" of Lee may reroll a single die of any type.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1570,7 +1630,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="57.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9cd2-f2aa-d3a2-46d4" name="Patricia" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+    <selectionEntry id="9cd2-f2aa-d3a2-46d4" name="Patricia" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="9cd2-f2aa-d3a2-46d4-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6654-edd4-84dc-3703" name="Patricia" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>

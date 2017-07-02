@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="2" battleScribeVersion="2.00" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="1431-59aa-f711-e03d" name="Rick's Group" revision="2" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="380e-9ae5-b88b-af8b" name="Abraham" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="380e-9ae5-b88b-af8b" name="Abraham" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="380e-9ae5-b88b-af8b-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e258-2869-2ac0-0526" name="Abraham" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -22,7 +25,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="8"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="4"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -39,7 +42,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>All Tacticians in Abraham&apos;s group may reroll Panic rolls.</description>
+          <description>All Tacticians in Abraham's group may reroll Panic rolls.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -99,7 +102,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="66.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="052f-6c30-5a3b-9dc4" name="Allen" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="052f-6c30-5a3b-9dc4" name="Allen" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="052f-6c30-5a3b-9dc4-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="05da-e7a5-a4bc-30ee" name="Allen" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -114,7 +120,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -177,7 +183,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="61c9-29fa-5297-de02" name="Amy" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="61c9-29fa-5297-de02" name="Amy" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="61c9-29fa-5297-de02-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9879-6199-b223-e60e" name="Amy" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -192,7 +201,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value=""/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -247,7 +256,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50b6-d666-5684-601f" name="Andrea" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+    <selectionEntry id="50b6-d666-5684-601f" name="Andrea" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="50b6-d666-5684-601f-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="71f5-5efa-ac4f-ae12" name="Andrea" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -262,7 +274,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -279,7 +291,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Amy is within Andrea&apos;s Kill Zone, Amy treats her Nerve as one level higher than usual, and Andrea gains 1 Red die to her Defense.</description>
+          <description>If Amy is within Andrea's Kill Zone, Amy treats her Nerve as one level higher than usual, and Andrea gains 1 Red die to her Defense.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -332,7 +344,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2d6a-6c16-edfe-258f" name="Carl Grimes, Cynthiana Survivor" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="2d6a-6c16-edfe-258f" name="Carl Grimes, Cynthiana Survivor" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2d6a-6c16-edfe-258f-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e6e9-5647-2f67-352e" name="Carl Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -347,7 +362,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -436,7 +451,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ed5-5e2a-c2fe-b38d" name="Carol" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="4ed5-5e2a-c2fe-b38d" name="Carol" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="4ed5-5e2a-c2fe-b38d-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3364-9751-667d-a7f9" name="Carol" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -451,7 +469,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -513,7 +531,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c5c-3fcc-212b-8cf1" name="Dale" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+    <selectionEntry id="0c5c-3fcc-212b-8cf1" name="Dale" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="0c5c-3fcc-212b-8cf1-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9568-126e-8fe4-b569" name="Dale" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -528,7 +549,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -598,7 +619,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d74d-0e71-797d-67b7" name="Donna" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="d74d-0e71-797d-67b7" name="Donna" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="d74d-0e71-797d-67b7-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b768-e0aa-dea4-ab76" name="Donna" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -613,7 +637,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -668,7 +692,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df25-504b-6c3e-e248" name="Jim" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="df25-504b-6c3e-e248" name="Jim" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="df25-504b-6c3e-e248-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="a859-4d51-f722-52a5" name="Jim" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -683,7 +710,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -746,7 +773,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a16b-ae40-2319-4f2a" name="Lori Grimes" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="a16b-ae40-2319-4f2a" name="Lori Grimes" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="a16b-ae40-2319-4f2a-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6c57-035a-c7bd-f532" name="Lori Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -761,7 +791,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -824,7 +854,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf1f-b420-8b71-84aa" name="Rick Grimes, Atlanta Camp Leader" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="cf1f-b420-8b71-84aa" name="Rick Grimes, Atlanta Camp Leader" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="cf1f-b420-8b71-84aa-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3656-1eab-bf9b-19bf" name="Rick Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -839,7 +872,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -917,7 +950,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2fc6-99a6-7220-b3db" name="Sophia" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="2fc6-99a6-7220-b3db" name="Sophia" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2fc6-99a6-7220-b3db-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="17e2-ae08-fb57-4717" name="Sophia" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -932,7 +968,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="3"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -994,7 +1030,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d269-7bdd-55fb-fabf" name="Carl Grimes, Trainee Sharpshooter" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+    <selectionEntry id="d269-7bdd-55fb-fabf" name="Carl Grimes, Trainee Sharpshooter" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="d269-7bdd-55fb-fabf-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="19c1-bf59-d72c-d3a3" name="Carl Grimes" hidden="true" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1009,7 +1048,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Sharpshooter"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1105,7 +1144,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb68-d1fb-8ec0-37cd" name="Rick Grimes, Police Officer" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+    <selectionEntry id="eb68-d1fb-8ec0-37cd" name="Rick Grimes, Police Officer" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="eb68-d1fb-8ec0-37cd-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1fe6-b39f-df52-4d0a" name="Rick Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1120,7 +1162,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1130,7 +1172,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Friendly Marksmen within 6&quot; of this model may reroll any of their ranged attack dice when using Handguns.</description>
+          <description>Friendly Marksmen within 6" of this model may reroll any of their ranged attack dice when using Handguns.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1198,7 +1240,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0db-b3ad-d339-d624" name="Hershel Greene" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="c0db-b3ad-d339-d624" name="Hershel Greene" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c0db-b3ad-d339-d624-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e6d5-25f0-b600-f609" name="Hershel Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1213,7 +1258,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1223,7 +1268,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Hershel and all friendly Greene family members within 6&quot; may reroll Panic checks.</description>
+          <description>Hershel and all friendly Greene family members within 6" may reroll Panic checks.</description>
         </rule>
         <rule id="30b5-d278-723d-199b" name="Patch-Up" hidden="false">
           <profiles/>
@@ -1283,7 +1328,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6bf4-4816-6535-6ab8" name="Billy Greene" hidden="false" collective="false" categoryEntryId="48a7-24df-def3-914a" type="model">
+    <selectionEntry id="6bf4-4816-6535-6ab8" name="Billy Greene" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6bf4-4816-6535-6ab8-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="369b-8127-e16c-e410" name="Billy Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1298,7 +1346,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1360,7 +1408,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="34.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0eb3-9c1d-895f-5bfb" name="Otis" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="0eb3-9c1d-895f-5bfb" name="Otis" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="0eb3-9c1d-895f-5bfb-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="4a6b-bff7-1935-73cc" name="Otis" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1375,7 +1426,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1437,7 +1488,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="08e3-b14e-c8d0-fb92" name="Lori Grimes, Caring Mother" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="08e3-b14e-c8d0-fb92" name="Lori Grimes, Caring Mother" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="08e3-b14e-c8d0-fb92-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7d85-ef38-d70d-750f" name="Lori Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1452,7 +1506,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1530,7 +1584,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59f5-2062-01f2-00a6" name="Dale, Grizzled Leader" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="59f5-2062-01f2-00a6" name="Dale, Grizzled Leader" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="59f5-2062-01f2-00a6-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b84b-b723-6068-c118" name="Dale" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1545,7 +1602,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1616,7 +1673,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="374b-7e3a-479e-174e" name="Maggie Greene" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="374b-7e3a-479e-174e" name="Maggie Greene" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="374b-7e3a-479e-174e-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="cce2-312e-4e08-b0e8" name="Maggie Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1631,7 +1691,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1648,7 +1708,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Maggie starts her activation more than 10&quot; away from her group&apos;s Leader, roll the Black die. On a Shield result, she gains an extra Action.</description>
+          <description>If Maggie starts her activation more than 10" away from her group's Leader, roll the Black die. On a Shield result, she gains an extra Action.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1701,7 +1761,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b91-654b-e0a5-5fac" name="Arnold Greene" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="5b91-654b-e0a5-5fac" name="Arnold Greene" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="5b91-654b-e0a5-5fac-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5ce5-5482-b8bf-c8a7" name="Arnold Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1716,7 +1779,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1726,7 +1789,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If another member of the Greene family is targeted by a ranged attack whilst within Arnold&apos;s Kill Zone, Arnold may take the attack on their behalf. Arnold becomes the new target, even if he was not initially within range or line of sight.</description>
+          <description>If another member of the Greene family is targeted by a ranged attack whilst within Arnold's Kill Zone, Arnold may take the attack on their behalf. Arnold becomes the new target, even if he was not initially within range or line of sight.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1779,7 +1842,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="27.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eab8-7cb3-76bf-54f1" name="Julie" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="eab8-7cb3-76bf-54f1" name="Julie" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="eab8-7cb3-76bf-54f1-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="74fc-a317-4da4-cdbe" name="Julie" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1794,17 +1860,17 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="0f6b-4fb1-d68e-f2bf" name="Daddy&apos;s Girl" hidden="false">
+        <rule id="0f6b-4fb1-d68e-f2bf" name="Daddy's Girl" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When Julie is in Tyreese&apos;s Kill Zone, Julie treats her Nerve as one level higher than usual, and Tyreese gains 1 Red to his Defense.</description>
+          <description>When Julie is in Tyreese's Kill Zone, Julie treats her Nerve as one level higher than usual, and Tyreese gains 1 Red to his Defense.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1857,7 +1923,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e12-697f-101d-3f3f" name="Glenn, Supply Run Master" hidden="false" collective="false" categoryEntryId="e123-2d67-1fcc-51f5" type="model">
+    <selectionEntry id="0e12-697f-101d-3f3f" name="Glenn, Supply Run Master" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="0e12-697f-101d-3f3f-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="59b5-0ee8-84f6-df24" name="Glenn" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1872,7 +1941,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1950,7 +2019,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="42.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4801-66de-4ffe-cfe8" name="Glenn, Atlanta Scavenger" hidden="false" collective="false" categoryEntryId="e123-2d67-1fcc-51f5" type="model">
+    <selectionEntry id="4801-66de-4ffe-cfe8" name="Glenn, Atlanta Scavenger" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="4801-66de-4ffe-cfe8-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0331-76f9-cc65-d659" name="Glenn" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1965,7 +2037,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2050,7 +2122,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8b5-2884-2b90-d6e1" name="Lacey Greene" hidden="false" collective="false" categoryEntryId="fbb7-4f0b-b3a0-4027" type="model">
+    <selectionEntry id="b8b5-2884-2b90-d6e1" name="Lacey Greene" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="b8b5-2884-2b90-d6e1-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="4bbc-9429-9803-8c59" name="Lacey Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -2065,7 +2140,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2127,7 +2202,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6afc-ec11-0367-1066" name="Tyreese" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="6afc-ec11-0367-1066" name="Tyreese" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6afc-ec11-0367-1066-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6412-f2af-e966-6716" name="Tyreese" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -2142,7 +2220,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="7"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="4"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2152,7 +2230,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Tyreese&apos;s side is outnumbered in combat by two to one, or more, add 1 Red to his melee attack or defense pool.</description>
+          <description>If Tyreese's side is outnumbered in combat by two to one, or more, add 1 Red to his melee attack or defense pool.</description>
         </rule>
         <rule id="2fb1-e527-c765-5f1b" name="Leader Ability: Block and Tackle" hidden="false">
           <profiles/>

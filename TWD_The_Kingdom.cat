@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bc61-6532-3cb1-52d4" name="The Kingdom" revision="1" battleScribeVersion="2.00" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="bc61-6532-3cb1-52d4" name="The Kingdom" revision="1" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="2">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="47bc-4025-914a-36a6" name="Ezekiel" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="47bc-4025-914a-36a6" name="Ezekiel" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="47bc-4025-914a-36a6-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="43c2-f2a2-fdfb-c8b4" name="Ezekiel" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -97,7 +100,10 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="56.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e656-6fdf-fb0c-c5b7" name="Shiva" hidden="false" collective="false" categoryEntryId="1c6d-9084-4b8d-4340" type="model">
+    <selectionEntry id="e656-6fdf-fb0c-c5b7" name="Shiva" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e656-6fdf-fb0c-c5b7-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ccef-47da-8478-06cc" name="Shiva" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -122,21 +128,21 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Shiva may Run 10&quot; and may never Defend in combat. In addition, all of her melee attacks have the Sharp keyword.</description>
+          <description>Shiva may Run 10" and may never Defend in combat. In addition, all of her melee attacks have the Sharp keyword.</description>
         </rule>
         <rule id="5eb0-fc8f-67b9-51c9" name="Tiger!" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Enemy Survivors within Shiva&apos;s Kill Zone treat their Nerve as one level lower than usual.</description>
+          <description>Enemy Survivors within Shiva's Kill Zone treat their Nerve as one level lower than usual.</description>
         </rule>
         <rule id="3a25-619f-2605-45ec" name="Furious Assault" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per turn, if Shiva wins a melee, she may immediately move into base contact with a new, standing enemy within 6&quot;. Resolve this new combat immediately, even if one or more combatants has already fought.</description>
+          <description>Once per turn, if Shiva wins a melee, she may immediately move into base contact with a new, standing enemy within 6". Resolve this new combat immediately, even if one or more combatants has already fought.</description>
         </rule>
       </rules>
       <infoLinks/>

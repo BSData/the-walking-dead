@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6abf-73bd-b580-dc69" name="The Saviors" revision="1" battleScribeVersion="2.00" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="6abf-73bd-b580-dc69" name="The Saviors" revision="1" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="b96a-7ae6-4639-4885" name="Negan, Savior Leader" hidden="false" collective="false" categoryEntryId="b936-ac92-62ac-545e" type="model">
+    <selectionEntry id="b96a-7ae6-4639-4885" name="Negan, Savior Leader" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="b96a-7ae6-4639-4885-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7cfb-c51f-5f5b-e61e" name="Negan, Savior Leader" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
