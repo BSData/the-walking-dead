@@ -561,7 +561,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b669-d83c-5120-385e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="6892-0f37-51fa-ef29" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -581,7 +581,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="d3a4-c896-4150-c98b" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+        <entryLink id="d3a4-c896-4150-c98b" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -597,7 +597,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="988a-e2ab-cb91-f865" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+        <entryLink id="988a-e2ab-cb91-f865" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -651,7 +651,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ced-aa72-ade9-f0be" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="722c-00d2-ce89-8f73" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -830,7 +830,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aceb-5c2a-d943-8e02" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="47ee-823a-b1b2-2292" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -866,7 +866,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="684e-1028-df15-efc7" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+        <entryLink id="684e-1028-df15-efc7" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -927,7 +927,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58d5-4907-1367-51d6" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="5d1b-7037-50f8-a017" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1032,7 +1032,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="e960-f330-503a-4db4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b23-557b-aef1-739f" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="c786-4988-948f-7d12" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1137,7 +1137,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="c786-4988-948f-7d12" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2650-62f4-4f8c-d0c2" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="e960-f330-503a-4db4" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1771,7 +1771,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0689-1e4e-c18a-7ee5" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="24e9-ff11-2bfc-21c6" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1868,7 +1868,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd19-aef6-c90f-ce4a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70ee-bcc5-1353-915f" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1935,200 +1935,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries>
-    <selectionEntry id="2ced-aa72-ade9-f0be" name="Patrick, Hardened Veteran" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce75-5c36-4357-45bb" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="db95-2c7a-0ae2-39bc" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="29.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b669-d83c-5120-385e" name="Patrick, Scavenger" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aca-356c-9fad-9676" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="d560-e92a-d10b-23d7" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="58d5-4907-1367-51d6" name="Sandra, Hardened Veteran" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dcd-3f18-7cab-a557" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a1af-a04a-4340-abfd" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="32.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="aceb-5c2a-d943-8e02" name="Sandra, Scavenger" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6f9-b374-4c2b-e11e" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="bbd0-e99b-6e4a-2c6b" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2650-62f4-4f8c-d0c2" name="Shane, Atlanta Camp Leader" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2861-0e68-50ae-1cfe" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a04c-799c-d30a-fa78" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="52.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0b23-557b-aef1-739f" name="Shane, Jealous Cop" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5077-8b49-0b7b-b040" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a073-86c5-2f89-c423" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="54.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dd19-aef6-c90f-ce4a" name="Derek, Heartless Mercenary" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="dd19-aef6-c90f-ce4a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="067f-54ec-d42b-601c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="1710-488f-1489-76f2" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="38.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0689-1e4e-c18a-7ee5" name="Derek, Scavenger Leader" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="0689-1e4e-c18a-7ee5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e921-5c38-e25c-35ac" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="7a5e-7d83-a4a0-f8ce" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="35.0"/>
-      </costs>
-    </selectionEntry>
-  </sharedSelectionEntries>
+  <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
   <sharedRules/>
   <sharedProfiles/>

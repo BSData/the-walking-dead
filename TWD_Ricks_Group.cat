@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="1431-59aa-f711-e03d" name="Rick's Group" revision="2" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="4" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="380e-9ae5-b88b-af8b" name="Abraham" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="380e-9ae5-b88b-af8b-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="e258-2869-2ac0-0526" name="Abraham" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -25,7 +23,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="8"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="4"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -42,7 +40,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>All Tacticians in Abraham's group may reroll Panic rolls.</description>
+          <description>All Tacticians in Abraham&apos;s group may reroll Panic rolls.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -57,6 +55,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c26-35c8-ffa3-a661" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="380e-9ae5-b88b-af8b-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -66,6 +73,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1a5a-a2c8-0668-ec89" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -73,6 +81,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c5ac-27e2-b3e1-5877" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -80,6 +89,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d3fd-1da8-99bb-e0a0" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -87,6 +97,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6c76-4463-9b4e-a54b" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -96,6 +107,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b00-dc5b-fec3-cc3b" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -103,9 +115,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="052f-6c30-5a3b-9dc4" name="Allen" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="052f-6c30-5a3b-9dc4-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="05da-e7a5-a4bc-30ee" name="Allen" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -120,7 +129,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -138,6 +147,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca0-7cdc-bd85-cfd1" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="052f-6c30-5a3b-9dc4-1c6d-9084-4b8d-4340" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -147,6 +165,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="145d-e92c-1fc5-0511" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -154,6 +173,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="203c-a65e-018c-9244" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -161,6 +181,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="abe5-a31b-52de-0c34" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -168,6 +189,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1900-d5c2-edf1-3695" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -177,6 +199,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="447d-99ea-6cf0-0156" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -184,9 +207,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="61c9-29fa-5297-de02" name="Amy" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="61c9-29fa-5297-de02-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="9879-6199-b223-e60e" name="Amy" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -201,7 +221,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value=""/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -211,6 +231,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d02-dc25-64e8-92f7" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="61c9-29fa-5297-de02-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -220,6 +249,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d7c8-7069-2edf-8679" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -227,6 +257,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6986-97b9-efa1-9cc0" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -234,6 +265,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="032c-b73c-d875-836e" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -241,6 +273,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2f8e-6c3d-3988-7d43" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -250,6 +283,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c958-bc24-7d1d-463c" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -257,9 +291,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="50b6-d666-5684-601f" name="Andrea" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="50b6-d666-5684-601f-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="71f5-5efa-ac4f-ae12" name="Andrea" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -274,7 +305,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -291,7 +322,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Amy is within Andrea's Kill Zone, Amy treats her Nerve as one level higher than usual, and Andrea gains 1 Red die to her Defense.</description>
+          <description>If Amy is within Andrea&apos;s Kill Zone, Amy treats her Nerve as one level higher than usual, and Andrea gains 1 Red die to her Defense.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -299,6 +330,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d2-da01-3ba3-f0ea" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="50b6-d666-5684-601f-48a7-24df-def3-914a" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -308,6 +348,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="abb7-002d-28b2-2745" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -315,6 +356,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d761-a4ba-9d9e-7c49" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -322,6 +364,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="44fb-7f48-1d37-1678" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -329,6 +372,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="04a2-01a5-9660-4388" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -338,6 +382,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ff-de30-49c4-a703" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -345,9 +390,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2d6a-6c16-edfe-258f" name="Carl Grimes, Cynthiana Survivor" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="2d6a-6c16-edfe-258f-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="e6e9-5647-2f67-352e" name="Carl Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -362,7 +404,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -372,7 +414,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d269-7bdd-55fb-fabf" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="d269-7bdd-55fb-fabf" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -380,6 +422,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a60-dc8a-b582-1c20" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="2d6a-6c16-edfe-258f-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ee8c-065d-5d34-bc35" name="Lucky Hat" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -399,6 +450,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b36b-e367-a7a9-e38f" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -415,6 +467,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d4e3-245b-ded9-b3c6" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -422,13 +475,15 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
-        <entryLink id="1757-bb26-7c36-697e" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+        <entryLink id="1757-bb26-7c36-697e" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1594-c625-5908-334b" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -436,6 +491,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1a17-600b-72be-794f" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -445,6 +501,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73e8-fe78-76e0-431f" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -452,9 +509,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4ed5-5e2a-c2fe-b38d" name="Carol" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="4ed5-5e2a-c2fe-b38d-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="3364-9751-667d-a7f9" name="Carol" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -469,7 +523,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -486,6 +540,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5481-774a-e5be-68a5" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="4ed5-5e2a-c2fe-b38d-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -495,6 +558,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="24a5-7ad7-ef80-519a" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -502,6 +566,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1b12-20c7-045b-a115" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -509,6 +574,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7960-f492-ec41-3303" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -516,6 +582,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7600-e2a6-55a0-b670" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -525,6 +592,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c820-f4e5-3692-b219" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -532,9 +600,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0c5c-3fcc-212b-8cf1" name="Dale" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0c5c-3fcc-212b-8cf1-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="9568-126e-8fe4-b569" name="Dale" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -549,7 +614,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -566,7 +631,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="59f5-2062-01f2-00a6" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="59f5-2062-01f2-00a6" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -574,6 +639,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e53-d2c3-58af-8fb3" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="0c5c-3fcc-212b-8cf1-48a7-24df-def3-914a" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -583,6 +657,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b72a-21a6-c041-4226" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -590,6 +665,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f35c-b88c-2f36-a3d2" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -597,6 +673,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="79b2-8594-c65f-aa3e" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -604,6 +681,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f67b-8ea1-6d91-bb8c" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -613,6 +691,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0abe-0fb0-6080-e576" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -620,9 +699,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d74d-0e71-797d-67b7" name="Donna" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d74d-0e71-797d-67b7-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="b768-e0aa-dea4-ab76" name="Donna" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -637,7 +713,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -647,6 +723,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="778e-fd59-1e08-e168" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="d74d-0e71-797d-67b7-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -656,6 +741,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2b48-b0e2-a2c0-0300" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -663,6 +749,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="fe88-7072-623a-8709" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -670,6 +757,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b7cb-91db-d8fd-56ce" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -677,6 +765,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a2ee-a52e-43c0-7823" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -686,6 +775,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="460f-0cb8-a4b0-b54e" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -693,9 +783,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="df25-504b-6c3e-e248" name="Jim" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="df25-504b-6c3e-e248-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="a859-4d51-f722-52a5" name="Jim" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -710,7 +797,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -728,6 +815,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9b-32a3-4c15-110c" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="df25-504b-6c3e-e248-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -737,6 +833,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="bc8e-8352-ef8f-30aa" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -744,6 +841,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4134-10e5-2763-5cc5" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -751,6 +849,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3836-415c-7775-76b2" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -758,6 +857,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b328-ee66-bf5d-0784" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -767,6 +867,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc6d-70fb-f54a-abc7" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -774,9 +875,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a16b-ae40-2319-4f2a" name="Lori Grimes" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a16b-ae40-2319-4f2a-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="6c57-035a-c7bd-f532" name="Lori Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -791,7 +889,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -801,7 +899,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08e3-b14e-c8d0-fb92" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="08e3-b14e-c8d0-fb92" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -809,6 +907,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a74-9444-55d7-c6b0" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="a16b-ae40-2319-4f2a-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -818,6 +925,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d754-2c34-cc18-db98" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -825,6 +933,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="69e1-4a7b-a3bc-034a" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -832,6 +941,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="79ca-c3b0-506d-1c91" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -839,6 +949,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a08b-7109-ff86-dd38" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -848,6 +959,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d920-8e8d-d9c2-ef85" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -855,9 +967,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cf1f-b420-8b71-84aa" name="Rick Grimes, Atlanta Camp Leader" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="cf1f-b420-8b71-84aa-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="3656-1eab-bf9b-19bf" name="Rick Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -872,7 +981,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -897,7 +1006,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb68-d1fb-8ec0-37cd" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="eb68-d1fb-8ec0-37cd" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -905,6 +1014,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74a1-c1be-75f5-3367" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="cf1f-b420-8b71-84aa-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -914,6 +1032,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="eafb-c9c3-47cc-59f4" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -921,6 +1040,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e3d7-ce89-af96-6f2d" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -928,6 +1048,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b11d-3bc1-574a-1453" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -935,6 +1056,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2de6-b2b2-0a01-1ac8" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -944,6 +1066,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242a-dc75-721b-92c0" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -951,9 +1074,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2fc6-99a6-7220-b3db" name="Sophia" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="2fc6-99a6-7220-b3db-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="17e2-ae08-fb57-4717" name="Sophia" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -968,7 +1088,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="3"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -985,6 +1105,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9040-6c99-3ced-e54c" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="2fc6-99a6-7220-b3db-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -994,6 +1123,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3945-5380-5a56-fab0" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1001,6 +1131,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9b51-c2ac-3730-c6f8" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1008,6 +1139,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6a56-dd60-490b-7ff7" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -1015,6 +1147,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8e55-7f08-cd7f-84ad" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1024,6 +1157,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="253c-627d-0870-6fa5" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1031,9 +1165,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d269-7bdd-55fb-fabf" name="Carl Grimes, Trainee Sharpshooter" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d269-7bdd-55fb-fabf-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="19c1-bf59-d72c-d3a3" name="Carl Grimes" hidden="true" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1048,7 +1179,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Sharpshooter"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1065,7 +1196,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d6a-6c16-edfe-258f" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="2d6a-6c16-edfe-258f" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1073,6 +1204,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8701-cf69-b537-655b" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="d269-7bdd-55fb-fabf-48a7-24df-def3-914a" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b295-9e70-116a-de1c" name="Lucky Hat" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1092,6 +1232,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c472-78e8-b3bc-40a0" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1102,12 +1243,13 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1e5d-9e8e-7c49-a73a" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+        <entryLink id="1e5d-9e8e-7c49-a73a" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c5d3-5a55-966b-1ed8" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -1115,6 +1257,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0cfc-bd43-5514-c5a4" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -1122,6 +1265,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="16d1-56f5-60b8-b5cc" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1129,6 +1273,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e3b7-f8d8-82d9-a988" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1138,6 +1283,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47d1-fe10-654e-3eb2" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1145,9 +1291,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eb68-d1fb-8ec0-37cd" name="Rick Grimes, Police Officer" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="eb68-d1fb-8ec0-37cd-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="1fe6-b39f-df52-4d0a" name="Rick Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1162,7 +1305,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1172,7 +1315,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Friendly Marksmen within 6" of this model may reroll any of their ranged attack dice when using Handguns.</description>
+          <description>Friendly Marksmen within 6&quot; of this model may reroll any of their ranged attack dice when using Handguns.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1187,7 +1330,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf1f-b420-8b71-84aa" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cf1f-b420-8b71-84aa" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1195,6 +1338,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b73-987f-3527-96d5" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="eb68-d1fb-8ec0-37cd-48a7-24df-def3-914a" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1204,6 +1356,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c891-326b-be8e-5ee7" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1211,6 +1364,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c0ae-183a-18ee-dfcd" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1218,6 +1372,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7c09-f70f-b39b-d481" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -1225,6 +1380,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b628-2f4b-a767-742c" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1234,6 +1390,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03b7-c58f-c02a-6060" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1241,9 +1398,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c0db-b3ad-d339-d624" name="Hershel Greene" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c0db-b3ad-d339-d624-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="e6d5-25f0-b600-f609" name="Hershel Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1258,7 +1412,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1268,7 +1422,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Hershel and all friendly Greene family members within 6" may reroll Panic checks.</description>
+          <description>Hershel and all friendly Greene family members within 6&quot; may reroll Panic checks.</description>
         </rule>
         <rule id="30b5-d278-723d-199b" name="Patch-Up" hidden="false">
           <profiles/>
@@ -1283,6 +1437,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6094-4a94-144c-7c7a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="c0db-b3ad-d339-d624-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1292,6 +1455,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="de00-0a6a-c4d3-68f4" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1299,6 +1463,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0a8e-70b4-b24e-8449" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -1306,6 +1471,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8d47-bb82-42de-3500" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1313,6 +1479,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="832a-4903-22df-618f" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1322,6 +1489,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c514-846a-18ca-a558" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1329,9 +1497,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6bf4-4816-6535-6ab8" name="Billy Greene" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="6bf4-4816-6535-6ab8-48a7-24df-def3-914a" targetId="48a7-24df-def3-914a" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="369b-8127-e16c-e410" name="Billy Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1346,7 +1511,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1363,6 +1528,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e4-32cc-6e1a-3fc7" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="6bf4-4816-6535-6ab8-48a7-24df-def3-914a" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1372,6 +1546,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b6bc-2f44-86d4-9d33" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1379,6 +1554,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="14d7-830f-b7fb-5fa6" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -1386,6 +1562,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4be3-8118-2b94-b62d" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1393,6 +1570,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f98a-425c-120a-0838" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1402,6 +1580,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ab8-32bb-9e61-02d8" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1409,9 +1588,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0eb3-9c1d-895f-5bfb" name="Otis" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0eb3-9c1d-895f-5bfb-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="4a6b-bff7-1935-73cc" name="Otis" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1426,7 +1602,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1443,6 +1619,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a34-ae64-b64f-f6a2" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="0eb3-9c1d-895f-5bfb-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1452,6 +1637,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="151e-6a8d-5c64-cd03" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1459,6 +1645,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1bb0-aca1-6696-6636" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -1466,6 +1653,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4cf6-8523-cca4-8b0f" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1473,6 +1661,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5a37-88ef-5bec-999e" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1482,6 +1671,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b138-792d-906e-7170" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1489,9 +1679,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="08e3-b14e-c8d0-fb92" name="Lori Grimes, Caring Mother" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="08e3-b14e-c8d0-fb92-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="7d85-ef38-d70d-750f" name="Lori Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1506,7 +1693,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1531,7 +1718,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a16b-ae40-2319-4f2a" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="a16b-ae40-2319-4f2a" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1539,6 +1726,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a513-14ee-f113-069a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="08e3-b14e-c8d0-fb92-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1548,6 +1744,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9626-a76c-5d2e-deda" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1555,6 +1752,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2173-ad99-2738-bb1d" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1562,6 +1760,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="80a2-ef39-50e2-4140" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -1569,6 +1768,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2ce2-5eb5-65c9-d1e0" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1578,6 +1778,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d01e-0a10-de78-8b9b" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1585,9 +1786,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="59f5-2062-01f2-00a6" name="Dale, Grizzled Leader" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="59f5-2062-01f2-00a6-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="b84b-b723-6068-c118" name="Dale" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1602,7 +1800,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1620,7 +1818,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c5c-3fcc-212b-8cf1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="0c5c-3fcc-212b-8cf1" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1628,6 +1826,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d70-4905-def1-9066" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="59f5-2062-01f2-00a6-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1637,6 +1844,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7ea3-2c18-7c84-c301" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1644,6 +1852,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="bd73-b6a8-c6ab-9f09" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1651,6 +1860,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f402-f046-5805-830e" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -1658,6 +1868,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="592a-13fb-f341-2f85" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1667,6 +1878,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52fd-02cc-3b8a-c9cc" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1674,9 +1886,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="374b-7e3a-479e-174e" name="Maggie Greene" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="374b-7e3a-479e-174e-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="cce2-312e-4e08-b0e8" name="Maggie Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1691,7 +1900,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1708,7 +1917,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Maggie starts her activation more than 10" away from her group's Leader, roll the Black die. On a Shield result, she gains an extra Action.</description>
+          <description>If Maggie starts her activation more than 10&quot; away from her group&apos;s Leader, roll the Black die. On a Shield result, she gains an extra Action.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1716,6 +1925,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6616-1c2a-354f-7075" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="374b-7e3a-479e-174e-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1725,6 +1943,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="aeb3-5f57-0843-c2ce" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1732,6 +1951,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6b9f-c288-32d2-71fb" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -1739,6 +1959,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5e7d-29f9-ee26-60c4" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1746,6 +1967,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7244-2b9c-9d4c-76ee" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1755,6 +1977,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b45-bdcd-1ff7-49bf" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1762,9 +1985,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5b91-654b-e0a5-5fac" name="Arnold Greene" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="5b91-654b-e0a5-5fac-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="5ce5-5482-b8bf-c8a7" name="Arnold Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1779,7 +1999,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1789,7 +2009,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If another member of the Greene family is targeted by a ranged attack whilst within Arnold's Kill Zone, Arnold may take the attack on their behalf. Arnold becomes the new target, even if he was not initially within range or line of sight.</description>
+          <description>If another member of the Greene family is targeted by a ranged attack whilst within Arnold&apos;s Kill Zone, Arnold may take the attack on their behalf. Arnold becomes the new target, even if he was not initially within range or line of sight.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1797,6 +2017,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f373-692f-1892-cd7c" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="5b91-654b-e0a5-5fac-1c6d-9084-4b8d-4340" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1806,6 +2035,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2e79-cbf7-b149-f0db" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1813,6 +2043,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0583-4084-54f3-5ea0" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -1820,6 +2051,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2651-af63-7aad-eb7c" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1827,6 +2059,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1c2a-d902-a53d-7505" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1836,6 +2069,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4959-83ee-6157-8a73" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1843,9 +2077,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eab8-7cb3-76bf-54f1" name="Julie" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="eab8-7cb3-76bf-54f1-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="74fc-a317-4da4-cdbe" name="Julie" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1860,17 +2091,17 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="0f6b-4fb1-d68e-f2bf" name="Daddy's Girl" hidden="false">
+        <rule id="0f6b-4fb1-d68e-f2bf" name="Daddy&apos;s Girl" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When Julie is in Tyreese's Kill Zone, Julie treats her Nerve as one level higher than usual, and Tyreese gains 1 Red to his Defense.</description>
+          <description>When Julie is in Tyreese&apos;s Kill Zone, Julie treats her Nerve as one level higher than usual, and Tyreese gains 1 Red to his Defense.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1878,6 +2109,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae92-9bc3-27c7-116f" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="eab8-7cb3-76bf-54f1-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1887,6 +2127,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8191-9dab-ab68-9115" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1894,6 +2135,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="70f1-cbe1-d6de-fb78" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -1901,6 +2143,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="99e4-1ff0-277e-9d86" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1908,6 +2151,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="42eb-5fec-3171-1a37" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -1917,6 +2161,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="715a-d3c3-f147-48a2" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1924,9 +2169,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0e12-697f-101d-3f3f" name="Glenn, Supply Run Master" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0e12-697f-101d-3f3f-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="59b5-0ee8-84f6-df24" name="Glenn" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1941,7 +2183,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1966,7 +2208,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4801-66de-4ffe-cfe8" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4801-66de-4ffe-cfe8" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1974,6 +2216,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3439-951a-7fd6-2cd8" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="0e12-697f-101d-3f3f-e123-2d67-1fcc-51f5" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1983,6 +2234,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5215-79e1-9b04-d0e8" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -1990,6 +2242,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6d01-3913-3247-37c1" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -1997,6 +2250,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d113-1668-b622-36a9" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -2004,6 +2258,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="aeca-6d0a-ae0b-824e" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -2013,6 +2268,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894d-8875-2bbe-d146" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2020,9 +2276,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4801-66de-4ffe-cfe8" name="Glenn, Atlanta Scavenger" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="4801-66de-4ffe-cfe8-e123-2d67-1fcc-51f5" targetId="e123-2d67-1fcc-51f5" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="0331-76f9-cc65-d659" name="Glenn" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -2037,7 +2290,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2069,7 +2322,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e12-697f-101d-3f3f" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="0e12-697f-101d-3f3f" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -2077,6 +2330,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4983-f7a8-9d80-12ea" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="4801-66de-4ffe-cfe8-e123-2d67-1fcc-51f5" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2086,6 +2348,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e080-f8a8-f8ce-ed3c" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -2093,6 +2356,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="d658-83cf-e9bd-8909" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -2100,6 +2364,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5911-0757-a5f3-2035" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -2107,6 +2372,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c5c4-20bd-e03e-cf92" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -2116,6 +2382,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24c5-4614-5bfa-3e17" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2123,9 +2390,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b8b5-2884-2b90-d6e1" name="Lacey Greene" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b8b5-2884-2b90-d6e1-fbb7-4f0b-b3a0-4027" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="4bbc-9429-9803-8c59" name="Lacey Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -2140,7 +2404,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2157,6 +2421,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6533-2c78-adb1-7731" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="b8b5-2884-2b90-d6e1-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2166,6 +2439,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7fc5-1e8a-7e83-865f" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -2173,6 +2447,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9940-4317-0eeb-95ec" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -2180,6 +2455,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3c08-d943-7088-70b1" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -2187,6 +2463,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="06f5-70e6-23bc-3340" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -2196,6 +2473,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c687-52b8-5767-f42f" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2203,9 +2481,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6afc-ec11-0367-1066" name="Tyreese" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="6afc-ec11-0367-1066-1c6d-9084-4b8d-4340" targetId="1c6d-9084-4b8d-4340" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="6412-f2af-e966-6716" name="Tyreese" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -2220,7 +2495,7 @@
             <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="7"/>
             <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="4"/>
             <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick's Group"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2230,7 +2505,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Tyreese's side is outnumbered in combat by two to one, or more, add 1 Red to his melee attack or defense pool.</description>
+          <description>If Tyreese&apos;s side is outnumbered in combat by two to one, or more, add 1 Red to his melee attack or defense pool.</description>
         </rule>
         <rule id="2fb1-e527-c765-5f1b" name="Leader Ability: Block and Tackle" hidden="false">
           <profiles/>
@@ -2245,6 +2520,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fab-8b2d-c5b5-99be" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="6afc-ec11-0367-1066-1c6d-9084-4b8d-4340" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2254,6 +2538,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="26e5-613a-6c9f-b32b" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -2261,6 +2546,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="4400-dcb7-6fae-32cc" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
@@ -2268,6 +2554,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0b28-ee35-5fec-1044" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -2275,6 +2562,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="e937-d111-7495-096b" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -2284,6 +2572,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b89-efb0-a10b-c3b6" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
