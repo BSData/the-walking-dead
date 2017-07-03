@@ -477,7 +477,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d4e3-245b-ded9-b3c6" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+        <entryLink id="d4e3-245b-ded9-b3c6" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -509,6 +509,14 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73e8-fe78-76e0-431f" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="119f-88c7-7015-6622" name="Only for" hidden="false" targetId="7083-0641-3d6f-3ed5" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>

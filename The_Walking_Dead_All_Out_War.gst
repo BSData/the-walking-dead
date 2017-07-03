@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="6" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="7" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4973,7 +4973,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af20-8340-5a7a-de5e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a0f-6102-f206-dfa1" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a0f-6102-f206-dfa1" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5014,7 +5014,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51aa-ff2b-3c53-14a8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdab-f219-13a5-c62d" type="max"/>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdab-f219-13a5-c62d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5049,7 +5049,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9b-1acd-1c3e-dc8a" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89b7-852e-0057-5a05" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89b7-852e-0057-5a05" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5083,8 +5083,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb52-e996-a357-83e8" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de48-44ca-c665-c630" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb52-e996-a357-83e8" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de48-44ca-c665-c630" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5159,7 +5159,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77bd-6b48-51e9-b97b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d099-3b9c-e798-6b57" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d099-3b9c-e798-6b57" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5199,8 +5199,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="546e-c09d-e0d7-d45d" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c426-308c-2135-c2c0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="546e-c09d-e0d7-d45d" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c426-308c-2135-c2c0" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5247,7 +5247,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5585-cd1e-a5b1-1e38" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17ff-8b2a-586b-09c2" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17ff-8b2a-586b-09c2" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5300,7 +5300,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc5d-0075-498e-da43" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c55-05a2-6285-bd04" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c55-05a2-6285-bd04" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5341,7 +5341,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="171e-dc93-26b1-c8fa" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45e5-4160-ee94-52b7" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45e5-4160-ee94-52b7" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5381,8 +5381,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="471c-98a9-f5a4-fe47" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c00e-7bdc-a3c3-ac98" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="471c-98a9-f5a4-fe47" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c00e-7bdc-a3c3-ac98" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5423,7 +5423,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8911-14f6-e2c1-d2c9" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af21-1247-e30e-8616" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af21-1247-e30e-8616" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5458,7 +5458,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507e-f76b-df2c-8e39" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b1e8-7115-1a7b-8111" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b1e8-7115-1a7b-8111" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5499,7 +5499,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8705-6abe-bb60-39c4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bfa-fa7e-bbe6-db14" type="max"/>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bfa-fa7e-bbe6-db14" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5533,8 +5533,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4546-6ae3-151e-75c5" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5617-6783-0e75-9973" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4546-6ae3-151e-75c5" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5617-6783-0e75-9973" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5569,7 +5569,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f2-5f30-fac2-395f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="528b-a838-7fda-d33e" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="528b-a838-7fda-d33e" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5596,8 +5596,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e26c-f37c-0cf2-cfc6" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f75b-dcd8-a5c5-9034" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e26c-f37c-0cf2-cfc6" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f75b-dcd8-a5c5-9034" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5631,8 +5631,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e89-711f-14b6-a9b7" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a96c-59df-c605-a740" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e89-711f-14b6-a9b7" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a96c-59df-c605-a740" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5659,8 +5659,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1f7-dc43-e4b5-96b7" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e980-afae-0b76-0f36" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1f7-dc43-e4b5-96b7" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e980-afae-0b76-0f36" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5701,7 +5701,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13e2-84fd-1ebe-89ca" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa31-3d35-972c-e435" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa31-3d35-972c-e435" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5735,8 +5735,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba35-0c38-b4ce-f76f" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d1-19a9-93c8-05a3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba35-0c38-b4ce-f76f" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d1-19a9-93c8-05a3" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5783,7 +5783,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed50-0d0b-cae9-488b" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e418-4ba7-5e6c-debd" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e418-4ba7-5e6c-debd" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5810,8 +5810,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5645-db4c-97cc-e7e6" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470a-a6bf-be8d-4b2d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5645-db4c-97cc-e7e6" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470a-a6bf-be8d-4b2d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5845,8 +5845,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b8-7807-b727-d059" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c08c-7d69-19c0-f7fe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b8-7807-b727-d059" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c08c-7d69-19c0-f7fe" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5854,41 +5854,6 @@
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="13.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="66d6-a035-8b43-c989" name="Lucille (Negan only)" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="6eb4-9f5c-bdbb-d770" name="Lucille (Negan only)" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="2 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon If the attack rolls any !, immediately add a white die to the roll."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="ace5-6374-fefb-b854" name="Bludgeon" hidden="false" targetId="ff58-7f3d-d5c3-9341" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad1e-3c71-aee3-12f1" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de3a-59d4-0217-52dc" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5f51-8850-4f64-a0d1" name="Felling Axe" hidden="false" collective="false" type="upgrade">
@@ -5922,7 +5887,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea6a-5c5e-28c8-626d" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c706-daed-11cb-3b33" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c706-daed-11cb-3b33" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5963,7 +5928,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6ef-2461-c877-4f64" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c75-73d4-d497-3f2c" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c75-73d4-d497-3f2c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5998,7 +5963,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e120-2204-9a06-609c" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="374e-4791-2a75-0a4c" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="374e-4791-2a75-0a4c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6033,7 +5998,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="403e-9ef4-04cf-0ce5" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c58b-a9b7-383d-b1d5" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c58b-a9b7-383d-b1d5" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6074,7 +6039,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d0-d291-2e88-7362" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93c3-24d0-4160-e377" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93c3-24d0-4160-e377" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6121,7 +6086,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd99-e7d9-eed7-872e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2443-2fee-cf7c-6bcb" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2443-2fee-cf7c-6bcb" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6149,7 +6114,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0202-40a8-a353-fc89" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c803-8b12-c2e2-bca7" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c803-8b12-c2e2-bca7" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6231,7 +6196,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0be-4a3c-a007-8813" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b423-6f89-7335-1332" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b423-6f89-7335-1332" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6259,7 +6224,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a9-21ad-81bf-b391" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f4f-899f-99fa-3cbc" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f4f-899f-99fa-3cbc" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6294,7 +6259,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd9a-584b-2f81-64b8" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8f4-0bf9-5eb8-09b4" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8f4-0bf9-5eb8-09b4" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6388,8 +6353,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8e-0821-31a4-3409" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="07d5-8380-4deb-37bb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8e-0821-31a4-3409" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="07d5-8380-4deb-37bb" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6491,7 +6456,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2729-6f95-fdd1-7d11" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d4d-d760-5715-6c3a" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d4d-d760-5715-6c3a" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6539,7 +6504,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f231-aa4a-4a12-8471" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc56-93c1-b7fc-0b1b" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc56-93c1-b7fc-0b1b" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6587,7 +6552,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cef-bde1-8b18-46f0" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c76f-896b-bf98-c620" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c76f-896b-bf98-c620" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6629,7 +6594,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9370-112f-d610-920b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7c3-34de-7b3b-2f2f" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7c3-34de-7b3b-2f2f" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6671,7 +6636,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b60-7371-0299-5128" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e445-db77-2f76-0573" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e445-db77-2f76-0573" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6719,7 +6684,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e4f-de9b-886e-ea2d" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48e0-fa5a-bdc1-3131" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48e0-fa5a-bdc1-3131" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6766,8 +6731,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d2-8132-c31c-2852" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5837-739f-d005-ea7b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d2-8132-c31c-2852" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5837-739f-d005-ea7b" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6815,7 +6780,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0fe-92d8-9f11-5a06" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3eb-5643-2363-db05" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3eb-5643-2363-db05" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6863,7 +6828,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2963-ab32-1db8-ea21" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cfd-eeda-f707-d220" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cfd-eeda-f707-d220" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6899,7 +6864,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cee-8f8e-ae55-48e7" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c76-91c3-c0d8-58b6" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c76-91c3-c0d8-58b6" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6941,7 +6906,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de2-ee0e-7679-052e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c86d-e35a-20e2-39bb" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c86d-e35a-20e2-39bb" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6983,7 +6948,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="824b-fe82-3722-4acb" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2252-ecea-81e8-75ed" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2252-ecea-81e8-75ed" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7025,7 +6990,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ae-d7e5-5413-cf2e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45cf-4b56-1f7c-494e" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45cf-4b56-1f7c-494e" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7073,7 +7038,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="059d-5094-c5e9-8051" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f767-9685-60ee-c419" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f767-9685-60ee-c419" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7121,6 +7086,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6575-d215-27a8-813f" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d0-004b-66cd-f18f" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7168,7 +7134,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284e-0606-946d-b953" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f64-7aed-b319-7507" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f64-7aed-b319-7507" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7209,8 +7175,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="059e-a999-701f-2582" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825f-dd76-08ed-bd18" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="059e-a999-701f-2582" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825f-dd76-08ed-bd18" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7263,7 +7229,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6e4-7e3b-0b4a-15b3" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6e4-7e3b-0b4a-15b3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c3f-1294-02ec-e180" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -7312,7 +7278,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96f6-cfae-f39a-5115" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ded-5006-4daa-fc2a" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ded-5006-4daa-fc2a" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7354,7 +7320,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2705-ed91-1d60-09e1" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e0e-362a-5437-dedc" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e0e-362a-5437-dedc" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7395,8 +7361,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecee-21ab-9dc2-17e9" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2afe-9ac6-15fd-c31c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecee-21ab-9dc2-17e9" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2afe-9ac6-15fd-c31c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7444,7 +7410,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb8-e58f-b639-2fe0" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d331-7a0b-996b-5908" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d331-7a0b-996b-5908" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7492,7 +7458,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c545-41e7-49fa-eb92" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1735-e8cf-ec0c-de9d" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1735-e8cf-ec0c-de9d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7521,7 +7487,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ff-fc98-f30f-5b70" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e0d-915f-038a-fc14" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e0d-915f-038a-fc14" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7563,7 +7529,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a8-daf4-e402-5908" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a775-2cfb-87b9-a1dc" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a775-2cfb-87b9-a1dc" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7617,7 +7583,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c112-8bff-5da5-cbf8" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="919a-1af1-b029-2536" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="919a-1af1-b029-2536" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7659,7 +7625,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e100-d180-c3df-c72a" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbfb-7e1a-e3fd-c040" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbfb-7e1a-e3fd-c040" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7701,7 +7667,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce1-36af-71b6-c5a1" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c9f-c508-253a-5c01" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c9f-c508-253a-5c01" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7743,7 +7709,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e76b-aab4-2449-3b95" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="930b-12aa-fe3b-83e5" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="930b-12aa-fe3b-83e5" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7791,7 +7757,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e907-2faa-94aa-a1a0" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0ac-6704-7b90-b1c1" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0ac-6704-7b90-b1c1" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7845,7 +7811,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2737-2367-1ec5-7641" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed6d-55ff-85d3-6a6a" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed6d-55ff-85d3-6a6a" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7899,7 +7865,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da6-c8f5-0e34-fbcf" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3411-1d23-1bd7-0643" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3411-1d23-1bd7-0643" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7953,7 +7919,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6bb-a3ab-33a5-7117" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="274b-516f-068f-bdd4" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="274b-516f-068f-bdd4" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -7995,7 +7961,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44c-f995-ffad-cde8" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d48e-9657-2ac3-3a9e" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d48e-9657-2ac3-3a9e" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8042,8 +8008,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ab-96c8-b25d-e805" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="032e-b085-5891-f4c0" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ab-96c8-b25d-e805" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="032e-b085-5891-f4c0" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8084,8 +8050,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ec-8977-6f4b-8df3" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a7d-235f-fcbf-2b47" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ec-8977-6f4b-8df3" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a7d-235f-fcbf-2b47" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8136,8 +8102,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8612-84d3-1797-b720" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3474-8d61-3161-02c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8612-84d3-1797-b720" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3474-8d61-3161-02c1" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8170,8 +8136,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a283-128e-d3ab-8444" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1af9-4fd9-4004-9455" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a283-128e-d3ab-8444" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1af9-4fd9-4004-9455" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8198,7 +8164,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4605-adf7-f0ba-2ff1" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e91b-cef0-2117-bcc5" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e91b-cef0-2117-bcc5" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8224,8 +8190,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3502-d0c7-8542-1a14" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d5ee-2fd2-60ea-d7c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3502-d0c7-8542-1a14" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d5ee-2fd2-60ea-d7c2" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8258,7 +8224,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7375-c9d8-990a-bd5c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7375-c9d8-990a-bd5c" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0384-c005-723e-a2e0" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8291,7 +8258,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a53a-0354-0273-1ddc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a53a-0354-0273-1ddc" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ecd-1124-b1d1-7615" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8324,7 +8292,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c8-8fde-d604-b7e1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c8-8fde-d604-b7e1" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ef-4a98-2e01-d268" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8357,8 +8326,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ac-c0a1-c856-ed54" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ce-0764-4913-b65c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ac-c0a1-c856-ed54" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ce-0764-4913-b65c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8391,8 +8360,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88aa-e1ac-5fcf-ff46" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c357-e129-8516-6c9e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88aa-e1ac-5fcf-ff46" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c357-e129-8516-6c9e" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8425,8 +8394,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="573c-aef3-8aeb-1d7e" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2515-26a8-a900-4395" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="573c-aef3-8aeb-1d7e" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2515-26a8-a900-4395" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8465,8 +8434,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba9d-b9f8-79f8-4e8c" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df98-74ff-84fd-936a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba9d-b9f8-79f8-4e8c" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df98-74ff-84fd-936a" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8505,8 +8474,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e9-f796-b1dd-8bed" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="168c-dcff-7719-9f12" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e9-f796-b1dd-8bed" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="168c-dcff-7719-9f12" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8545,8 +8514,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7bd-5a9c-fd0e-df48" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b7c-8c4a-8676-a840" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7bd-5a9c-fd0e-df48" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b7c-8c4a-8676-a840" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8554,40 +8523,6 @@
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8988-4c06-253f-4d12" name="Lucky Head (Carl Grimes only)" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="8fae-655f-44b1-84b6" name="Lucky Head" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Each time Carl is reduced to 0 health points, roll a black die. Badge Symbol = Carl is not removed, and is instantly restored to 1 health point. On a blank he is dead as usual."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="3c34-5b5d-b620-f61c" name="Attachment (Armor: Head)" hidden="false" targetId="84a7-2215-9863-71a0" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d48-425c-b6b0-f94f" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b82-cf52-d621-f663" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a40-f0fb-fb33-9a81" name="Police Vest" hidden="false" collective="false" type="upgrade">
@@ -8613,8 +8548,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff3-d686-a272-5896" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8731-4aba-a956-148a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff3-d686-a272-5896" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8731-4aba-a956-148a" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8648,7 +8583,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="592d-995e-3fb0-35a3" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1945-894a-f6ea-2b36" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1945-894a-f6ea-2b36" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8682,7 +8617,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c7-4def-278b-23d7" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cff8-39cd-7f2f-179c" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cff8-39cd-7f2f-179c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8716,7 +8651,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b5b-8fa4-03ef-564d" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="407d-3e15-06cc-815b" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="407d-3e15-06cc-815b" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8762,7 +8697,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e7-8de7-48ec-cdce" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="998f-c527-0562-945e" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="998f-c527-0562-945e" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8788,8 +8723,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ff6-fc1b-85eb-7080" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c63-1ac9-a0f6-c53c" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ff6-fc1b-85eb-7080" type="max"/>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c63-1ac9-a0f6-c53c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8815,8 +8750,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8984-8dc1-2e4c-f077" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6ee-6a1c-ed4d-81af" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8984-8dc1-2e4c-f077" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6ee-6a1c-ed4d-81af" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8842,8 +8777,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dc8-eee1-5db5-5e06" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f82-ca81-4e4b-ca08" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dc8-eee1-5db5-5e06" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f82-ca81-4e4b-ca08" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8877,7 +8812,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c28-d0ae-c42e-d24e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b8d-70ce-00ef-c8fb" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b8d-70ce-00ef-c8fb" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -8910,7 +8845,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df95-b3ec-8f40-25da" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df95-b3ec-8f40-25da" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f63f-c6e2-38be-33ed" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -8935,7 +8870,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="676e-7dff-cb57-346e" name="New InfoLink" hidden="false" targetId="9c2e-e9ce-888c-282c" type="rule">
+            <infoLink id="676e-7dff-cb57-346e" name="Attachment (Ranged Weapon)" hidden="false" targetId="9c2e-e9ce-888c-282c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8944,8 +8879,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa16-6214-b94b-a78d" type="max"/>
-            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9838-34f3-0328-e315" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa16-6214-b94b-a78d" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9838-34f3-0328-e315" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9006,7 +8941,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6808-54d9-9644-7825" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2203-3c08-61a0-3869" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2203-3c08-61a0-3869" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9040,7 +8975,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b4e-f874-ebad-70bf" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6159-6a3c-2288-05b0" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6159-6a3c-2288-05b0" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9066,7 +9001,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3304-affe-e244-264a" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3304-affe-e244-264a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd78-1f0f-e9da-f978" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9093,6 +9029,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="954c-457c-44a9-09a4" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7425-7eff-02ca-9449" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9125,7 +9062,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-930f-ab4d-117d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-930f-ab4d-117d" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a7d-44c3-a261-51d7" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9159,7 +9097,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd0-1d6f-d0e4-0d33" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33bf-9955-2416-eda9" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33bf-9955-2416-eda9" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9177,7 +9115,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use Add one ! to any of this Survivor`s attack rolls, or remove one ! from an attack roll made against this Survivor. A Survivor may not carry more than one Keepsake."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use  Add one ! to any of this Survivor`s attack rolls, or remove one ! from an attack roll made against this Survivor. A Survivor may not carry more than one Keepsake."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9193,7 +9131,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f68-e0ea-7cd0-8cbe" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640d-8e01-42ed-e8e2" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640d-8e01-42ed-e8e2" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9232,8 +9170,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab69-2d3c-f65c-ae7a" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf59-7a63-6a61-dd84" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab69-2d3c-f65c-ae7a" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf59-7a63-6a61-dd84" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9285,7 +9223,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba4-2edd-e126-bbcf" type="max"/>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f1-00ae-5cb9-9f74" type="max"/>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f1-00ae-5cb9-9f74" type="max"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="8839-1a2b-421d-2163" name="New CategoryLink" hidden="false" targetId="48a7-24df-def3-914a" primary="false">
@@ -9333,7 +9271,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a11d-6fbf-6693-c617" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d5-8c4e-332c-4795" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d5-8c4e-332c-4795" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9366,8 +9304,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f9-6b59-93ca-4da9" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bfea-92b8-17db-dabf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f9-6b59-93ca-4da9" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bfea-92b8-17db-dabf" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9400,8 +9338,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d21d-4521-a238-11ec" type="max"/>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5184-a2bb-db26-d763" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d21d-4521-a238-11ec" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5184-a2bb-db26-d763" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9428,7 +9366,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91db-682f-e3ee-06fc" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6a4-e2be-5c91-bd14" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6a4-e2be-5c91-bd14" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9468,75 +9406,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f301-a179-5537-15ab" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7228-be14-0fe9-c62e" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e200-9897-5107-ff88" name="Mike (Michonne only)" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="b222-c64e-c39b-2070" name="Mike (Michonne only)" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Masked Sent Mike and Terry fill one hand slot together. May not be placed in the pack. The Mike model must stay within 1&quot; of Michonne. He is treated as a Walker by enemies. If attacked, he may only defend, and is removed when damaged. Discard Mike to ignore all damage from a single attack."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="deb3-064d-1a05-7cc3" name="Masked Scent" hidden="false" targetId="0c9a-82ad-6895-0c8a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eff-232f-475f-baa8" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a647-de06-604f-d1a1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="aca7-5f89-db61-5b3f" name="Terry (Michonne only)" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="9d04-9355-3195-3fec" name="Terry (Michonne only)" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Masked Sent Mike and Terry fill one hand slot together. May not be placed in the pack. The Terry model must stay within 1&quot; of Michonne. He is treated as a Walker by enemies. If attacked, he may only defend, and is removed when damaged. Discard Terry to ignore all damage from a single attack."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a91c-e7ef-8bb3-f6d4" name="Masked Scent" hidden="false" targetId="0c9a-82ad-6895-0c8a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35f-ae0c-2707-ed39" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b66-7669-2434-a72e" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7228-be14-0fe9-c62e" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9576,7 +9446,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f948-950c-d8f6-a00a" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ce-91da-e0de-cedd" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ce-91da-e0de-cedd" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9602,8 +9472,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd6-8676-227a-c861" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aae-3b58-177a-65bb" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd6-8676-227a-c861" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aae-3b58-177a-65bb" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9636,8 +9506,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de0-3710-446c-e056" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd1d-e60b-c786-b69b" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de0-3710-446c-e056" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd1d-e60b-c786-b69b" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9671,7 +9541,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e71-6f86-d463-ef98" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7814-8782-5ca0-6f79" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7814-8782-5ca0-6f79" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>

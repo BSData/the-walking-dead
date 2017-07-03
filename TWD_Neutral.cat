@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="6" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="7" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -391,7 +391,74 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="8d84-ff8c-e416-2b2d" name="Mike" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="bdb8-5a0f-2338-2de9" name="Mike" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Masked Sent Mike and Terry fill one hand slot together. May not be placed in the pack. The Mike model must stay within 1&quot; of Michonne. He is treated as a Walker by enemies. If attacked, he may only defend, and is removed when damaged. Discard Mike to ignore all damage from a single attack."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="240c-e621-ed51-b108" name="Masked Scent" hidden="false" targetId="0c9a-82ad-6895-0c8a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a0-5cea-94db-48a1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d0b0-7e29-59b5-ac29" name="Terry" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f3b2-af59-de38-4b75" name="Terry" hidden="false" profileTypeId="e17d-78e1-43dc-90b2" profileTypeName="Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Masked Sent Mike and Terry fill one hand slot together. May not be placed in the pack. The Terry model must stay within 1&quot; of Michonne. He is treated as a Walker by enemies. If attacked, he may only defend, and is removed when damaged. Discard Terry to ignore all damage from a single attack."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="70b4-4b7f-c70b-4f12" name="Masked Scent" hidden="false" targetId="0c9a-82ad-6895-0c8a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c172-13eb-9a82-67b2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="4175-b164-ce10-78c8" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
@@ -426,7 +493,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="623c-097b-0bdd-c463" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+        <entryLink id="623c-097b-0bdd-c463" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
