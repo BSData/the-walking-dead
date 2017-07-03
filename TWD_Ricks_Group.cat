@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="5" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="6" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3282,7 +3282,7 @@ Distribute that many extra Actions amongst the Survivors in the group yet to act
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cf1f-b420-8b71-84aa" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cf1f-b420-8b71-84aa" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
