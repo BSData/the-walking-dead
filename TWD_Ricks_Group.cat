@@ -290,7 +290,7 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50b6-d666-5684-601f" name="Andrea" hidden="false" collective="false" type="model">
+    <selectionEntry id="50b6-d666-5684-601f" name="Andrea, Skilled Sharpshooter" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="71f5-5efa-ac4f-ae12" name="Andrea" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -326,7 +326,15 @@
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="10b5-1004-8937-0d5e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d2-da01-3ba3-f0ea" type="max"/>
       </constraints>
@@ -358,7 +366,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d761-a4ba-9d9e-7c49" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+        <entryLink id="d761-a4ba-9d9e-7c49" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -366,7 +374,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="44fb-7f48-1d37-1678" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+        <entryLink id="44fb-7f48-1d37-1678" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -374,13 +382,13 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="04a2-01a5-9660-4388" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+        <entryLink id="9ba7-90f1-5c45-0d73" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ff-de30-49c4-a703" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d4d-dd39-d98d-1217" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -599,7 +607,7 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c5c-3fcc-212b-8cf1" name="Dale" hidden="false" collective="false" type="model">
+    <selectionEntry id="0c5c-3fcc-212b-8cf1" name="Dale, Atlanta Lookout" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9568-126e-8fe4-b569" name="Dale" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1010,6 +1018,13 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8996-741b-c2e9-731d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74a1-c1be-75f5-3367" type="max"/>
@@ -1042,7 +1057,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e3d7-ce89-af96-6f2d" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+        <entryLink id="e3d7-ce89-af96-6f2d" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1334,6 +1349,13 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8996-741b-c2e9-731d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b73-987f-3527-96d5" type="max"/>
@@ -1358,7 +1380,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c891-326b-be8e-5ee7" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+        <entryLink id="c891-326b-be8e-5ee7" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1366,7 +1388,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c0ae-183a-18ee-dfcd" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+        <entryLink id="c0ae-183a-18ee-dfcd" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2577,6 +2599,418 @@
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10b5-1004-8937-0d5e" name="Andrea, Prison Sniper" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="0c8c-6242-e2d6-10b7" name="Andrea, Prison Sniper" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Blue"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick`s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d451-e89c-0a85-8339" name="Expert Shot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When Andrea performs a ranged attack, she may force the target to discard a Cover dice of their choise.</description>
+        </rule>
+        <rule id="c4b9-94ba-d39a-e22e" name="Leader Ability: Called Shot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Andrea may spend one extra Action on a ranged attack to enable herself and all Marksmen in her group to add a red die to their ranged attack rolls this turn.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="50b6-d666-5684-601f" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6cb-36d8-4edd-06bb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2ea4-9984-4d00-b060" name="New CategoryLink" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="866f-18de-2bc0-98cf" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e354-9bb9-dcc4-8811" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="934e-f854-25cd-43d2" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d9cc-0f4c-0c77-3466" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="143f-6973-3971-cdba" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8dd5-7c61-9d68-8f7e" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8996-741b-c2e9-731d" name="Rick Grimes, Prison Advisor" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7883-8f00-176a-a605" name="Rick Grimes, Prison Advisor" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White 1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Blue"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White 1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="7"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick`s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="96b6-46f1-7bdc-d380" name="Defensive Formation!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Rick and any friendly models within his Kill Zone at the start of the Melee phase add one white die to their melee defense rolls.</description>
+        </rule>
+        <rule id="d837-85b0-3a0f-1ed2" name="Leader Ability: We Are The Walking Dead!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Rick and all Bruisers in his group add a red die to Defense while wounded. If they are also Bitten, they add one red die to melee attack rolls too. All Survivors with the Prison Advisor subtitle may use leader abilities even if Rick is the leader.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cf1f-b420-8b71-84aa" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="eb68-d1fb-8ec0-37cd" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06cc-891d-5be6-51ea" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bc07-4072-5907-d7cf" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1a66-7c3d-49aa-b87b" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae3-a4fd-9231-80c4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2435-1fa2-3b64-6459" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="124f-89de-fdf0-a6db" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8226-1786-737b-99af" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="903c-d43e-fc37-3ec7" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="192c-7e86-6058-ea77" name="Morgan, Distraught Father" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bbef-6138-fc23-453c" name="Morgan, Distraught Father" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="2 White"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White 1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick`s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4453-669a-530d-99c7" name="Unstable" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the star of each of Morgan`s activations, before Panic Checks, roll a blue die. This is how many Actions Morgan may take this turn.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ae-886e-4076-fc04" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1cd9-f112-178b-f231" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="db73-daaf-62b6-34ba" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1e-a8bc-2a2d-6e4e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="535c-fa09-329d-8bc1" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="462a-3cd0-bdff-9f79" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fa0c-a875-8350-1f5c" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8bd8-d6de-b61f-58a2" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b74a-f0e7-13cc-b41e" name="Billy &amp; Ben" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3692-90ef-a696-e1a1" name="Billy &amp; Ben" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="-"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="-"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="-"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick`s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="74cb-1674-3d3d-556f" name="Just a Kid..." hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a Survivor wishes to target Billy &amp; Ben with a ranged attack, it must first roll a black die. On a badge it may take the shot as normal. On a blank, it has second thoughts and must choose a different target, or a different Action.</description>
+        </rule>
+        <rule id="3f08-3cfe-48a0-cb70" name="Think of the Children..." hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When Billy &amp; Ben are in the Kill Zone of a friendly Allen, Donna, Dale or Andrea model, that model may re-roll one die per melee attack or defense roll.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65c-29dd-6256-35be" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7b14-b144-cbf0-7c70" name="New CategoryLink" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="53dc-3737-280f-f0c1" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90bf-fbd8-2cd0-1344" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="74e0-cbdb-dc0b-a90c" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="39af-f125-1e6b-5f0b" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8f95-9182-6df6-e6ac" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8bd9-7659-73eb-0b4e" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
