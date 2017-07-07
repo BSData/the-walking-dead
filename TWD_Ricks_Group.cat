@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="6" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="7" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -44,7 +44,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="0a4a-f092-5b5f-0911" name="New InfoLink" hidden="false" targetId="dce9-8b6d-6b8e-4e7b" type="rule">
+        <infoLink id="0a4a-f092-5b5f-0911" name="Adrenaline Junkie" hidden="false" targetId="dce9-8b6d-6b8e-4e7b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -511,14 +511,6 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="119f-88c7-7015-6622" name="Only for" hidden="false" targetId="7083-0641-3d6f-3ed5" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
@@ -545,7 +537,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="1b2a-fa1e-5cb5-7898" name="New InfoLink" hidden="false" targetId="98c9-e639-8754-e7b8" type="rule">
+        <infoLink id="1b2a-fa1e-5cb5-7898" name="Unstable" hidden="false" targetId="98c9-e639-8754-e7b8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -636,7 +628,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="1ed1-f1e9-4d9c-2d5d" name="New InfoLink" hidden="false" targetId="3ac8-f071-5671-2f1c" type="rule">
+        <infoLink id="1ed1-f1e9-4d9c-2d5d" name="Level-Headed" hidden="false" targetId="3ac8-f071-5671-2f1c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1011,7 +1003,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="09ea-f484-ae5f-f901" name="New InfoLink" hidden="false" targetId="b49f-a111-72a5-29c1" type="rule">
+        <infoLink id="09ea-f484-ae5f-f901" name="Leader Ability: Stay Calm!" hidden="false" targetId="b49f-a111-72a5-29c1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1037,6 +1029,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="f664-9416-647c-c103" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="c859-4198-407e-cb50" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1124,7 +1123,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="6150-d2c3-855d-aaec" name="New InfoLink" hidden="false" targetId="953c-b925-7554-c8ed" type="rule">
+        <infoLink id="6150-d2c3-855d-aaec" name="Just a Kid..." hidden="false" targetId="953c-b925-7554-c8ed" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1215,7 +1214,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="30ed-6a59-1032-b33c" name="New InfoLink" hidden="false" targetId="b3bf-c741-448c-ed11" type="rule">
+        <infoLink id="30ed-6a59-1032-b33c" name="Vulnerable" hidden="false" targetId="b3bf-c741-448c-ed11" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1349,7 +1348,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5cff-2776-ccb0-2ad7" name="New InfoLink" hidden="false" targetId="f034-06db-99e9-9261" type="rule">
+        <infoLink id="5cff-2776-ccb0-2ad7" name="Inspiring Leadership" hidden="false" targetId="f034-06db-99e9-9261" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1375,6 +1374,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="f664-9416-647c-c103" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="c859-4198-407e-cb50" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1561,7 +1567,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="ece6-1707-8a52-e02b" name="New InfoLink" hidden="false" targetId="fbe3-c2b0-258b-c46f" type="rule">
+        <infoLink id="ece6-1707-8a52-e02b" name="Expert Shot" hidden="false" targetId="fbe3-c2b0-258b-c46f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1652,7 +1658,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d820-c49b-81ba-dffd" name="New InfoLink" hidden="false" targetId="5c49-5d13-3eae-72c9" type="rule">
+        <infoLink id="d820-c49b-81ba-dffd" name="Hunter" hidden="false" targetId="5c49-5d13-3eae-72c9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2241,7 +2247,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7db0-8157-5d1b-7b25" name="New InfoLink" hidden="false" targetId="af9e-232c-dd56-70cc" type="rule">
+        <infoLink id="7db0-8157-5d1b-7b25" name="Nimble" hidden="false" targetId="af9e-232c-dd56-70cc" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2454,7 +2460,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="69ee-42a1-10ba-f42d" name="New InfoLink" hidden="false" targetId="7dc9-d3a8-2be1-4741" type="rule">
+        <infoLink id="69ee-42a1-10ba-f42d" name="Distract" hidden="false" targetId="7dc9-d3a8-2be1-4741" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2655,7 +2661,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Andrea may spend one extra Action on a ranged attack to enable herself and all Marksmen in her group to add a red die to their ranged attack rolls this turn.</description>
+          <description>Andrea may spend one extra Action on a ranged attack to enable herself and all Marksmen in her group to add 1 red die to their ranged attack rolls this turn.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2755,14 +2761,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Rick and any friendly models within his Kill Zone at the start of the Melee phase add one white die to their melee defense rolls.</description>
+          <description>Rick and any friendly models within his Kill Zone at the start of the Melee phase add 1 white die to their melee defense rolls.</description>
         </rule>
         <rule id="d837-85b0-3a0f-1ed2" name="Leader Ability: We Are The Walking Dead!" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Rick and all Bruisers in his group add a red die to Defense while wounded. If they are also Bitten, they add one red die to melee attack rolls too. All Survivors with the Prison Advisor subtitle may use leader abilities even if Rick is the leader.</description>
+          <description>Rick and all Bruisers in his group add 1 red die to Defense while wounded. If they are also Bitten, they add one red die to melee attack rolls too. All Survivors with the Prison Advisor subtitle may use leader abilities even if Rick is the leader.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2785,6 +2791,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="f664-9416-647c-c103" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="c859-4198-407e-cb50" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -2968,7 +2981,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If a Survivor wishes to target Billy &amp; Ben with a ranged attack, it must first roll a black die. On a badge it may take the shot as normal. On a blank, it has second thoughts and must choose a different target, or a different Action.</description>
+          <description>If a Survivor wishes to target Billy &amp; Ben with a ranged attack, it must first roll a black die. On a shield it may take the shot as normal. On a blank, it has second thoughts and must choose a different target, or a different Action.</description>
         </rule>
         <rule id="3f08-3cfe-48a0-cb70" name="Think of the Children..." hidden="false">
           <profiles/>
@@ -3067,7 +3080,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>As an Action, Alice may restore one red die health lost earlier in the game, to herself or a friendly model in her Kill Zone. Alice may use Bandages on any other model within her Kill Zone.
+          <description>As an Action, Alice may restore 1 red die health lost earlier in the game, to herself or a friendly model in her Kill Zone. Alice may use Bandages on any other model within her Kill Zone.
 When Alice uses any item of equipment that restores lost wounds, she restores 1 extra wound.</description>
         </rule>
       </rules>
@@ -3160,7 +3173,7 @@ When Alice uses any item of equipment that restores lost wounds, she restores 1 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>As an Action, Stevens may restore one white die health lost earlier in the game, to himself or a friendly model in his Kill Zone. Stevens may use Bandages on any other model within his Kill Zone.
+          <description>As an Action, Stevens may restore 1 white die health lost earlier in the game, to himself or a friendly model in his Kill Zone. Stevens may use Bandages on any other model within his Kill Zone.
 When Stevens uses any item that restores lost wounds, he restores 1 extra wound.</description>
         </rule>
       </rules>
@@ -3276,13 +3289,6 @@ Distribute that many extra Actions amongst the Survivors in the group yet to act
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8996-741b-c2e9-731d" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="eb68-d1fb-8ec0-37cd" type="equalTo"/>
           </conditions>
           <conditionGroups/>
@@ -3291,6 +3297,20 @@ Distribute that many extra Actions amongst the Survivors in the group yet to act
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cf1f-b420-8b71-84aa" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8996-741b-c2e9-731d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="c859-4198-407e-cb50" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -3355,6 +3375,144 @@ Distribute that many extra Actions amongst the Survivors in the group yet to act
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="56.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c859-4198-407e-cb50" name="Rick Grimes, Protector of Alexandria" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="db57-8183-8a6d-1bff" name="Rick Grimes, Protector of Alexandria" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="2 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Blue"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White 1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick`s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="709b-dc88-0736-4dd4" name="Cautious" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Rick gains an extra Action while the Threat is All Quit or Low.
+When the Threat Level is High, roll a black die when Rick is activated. On a shield, he acts normally. On a blank, he loses one Action.</description>
+        </rule>
+        <rule id="8975-af81-e3b5-c1ed" name="Blood is Thicker than Water" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While Carl Grimes is within his Kill Zone, both Rick and Carl add one white die to their melee defense rolls.</description>
+        </rule>
+        <rule id="5b66-ebfa-eb50-faa4" name="Leader Ability: Protector" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>As an Action, Rick may add a red die to the Defense of all friendly models (not including himself) in his Kill Zone for the rest of the turn.
+Rick may not attack (ranged or melee) enemy models in any turn he uses this ability.
+He may defend in melee if required.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="eb68-d1fb-8ec0-37cd" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cf1f-b420-8b71-84aa" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8996-741b-c2e9-731d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="f664-9416-647c-c103" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2722-6a3f-ce6d-622e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="db5c-75e2-1fe5-9ef5" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4024-b14f-0ea2-cb80" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6568-44b6-5eb7-dd8e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bbe7-e981-d7c5-da9e" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="797c-35c1-28a1-c4c0" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0584-cca5-6ad4-1e4a" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4c9e-dab6-afd1-41bb" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="54.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="7" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="8" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4992,7 +4992,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon, Bulky. When making a Smash! roll with this weappon, add 1 White die instead of 1 Red."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon, Bulky
+When making a Smash! roll with this weappon, add 1 White die instead of 1 Red."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5033,7 +5034,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value=""/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon. When making a Smash! roll with this weappon, add 1 White die instead of 1 Red."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon
+When making a Smash! roll with this weappon, add 1 White die instead of 1 Red."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5103,7 +5105,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Amputate, Dual Wield, Sharp. If the attack rolls any !, add 1 Red die to the attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Amputate, Dual Wield, Sharp
+If the attack rolls any !, add 1 Red die to the attack roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5266,7 +5269,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Blue 1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Amputate, Bulky, Sharp, MAYHEM. After any attack roll that includes one or more blanks, roll the Black die. On a blank, discard this card."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Amputate, Bulky, Sharp, MAYHEM
+After any attack roll that includes one or more blanks, roll the Black die. On a blank, discard this card."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5553,7 +5557,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon May reroll 1 die per melee attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon
+May reroll 1 die per melee attack roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5947,7 +5952,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Stun Adds one red die to melee attack roll only when fighting Survivors. Any ! rolled when using this weapon are ignored."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Stun
+Adds 1 Red die to melee attack roll only when fighting Survivors. Any ! rolled when using this weapon are ignored."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6105,7 +6111,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Use an Action to target a standing Walker in your Kill Zone. Roll a black die. On a Badge Symbol, you may reposition the Walker to another point within your Kill Zone, and it may not move again this turn. This may move a Walker across Traversable scenery."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Use an Action to target a standing Walker in your Kill Zone. Roll a Black die. On a shiel, you may reposition the Walker to another point within your Kill Zone, and it may not move again this turn. This may move a Walker across Traversable scenery."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6133,7 +6139,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="If the attack scores any !, immediatly add one bonus red die to the attack roll. If Ezekiel carries this item, all friendly Survivors in his Kill Zone may use his Nerve."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="If the attack scores any !, immediatly add one bonus Red die to the attack roll. If Ezekiel carries this item, all friendly Survivors in his Kill Zone may use his Nerve."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6174,7 +6180,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon, Dual Wield When tree different &quot;Riot&quot; items are equipped, the Riot Baton adds one white die to melee attack roll instead."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon, Dual Wield
+When tree different &quot;Riot&quot; items are equipped, the Riot Baton adds 1 White die to melee attack roll instead."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6243,7 +6250,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon Bruisers may reroll one red die per melee attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Bludgeon
+Bruisers may reroll 1 Red die per melee attack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6278,7 +6286,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="1 Blue"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Sharp If the attack rolls any !, add one red die to the attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="Sharp
+If the attack rolls any !, add 1 Red die to the attack roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6655,7 +6664,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, Reliable, MAYHEM. If the attack rolls any !, add 1 White to the attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, Reliable, MAYHEM
+If the attack rolls any !, add 1 White to the attack roll."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="12&quot;"/>
               </characteristics>
             </profile>
@@ -6883,7 +6893,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value=" Rifle, Reliable. This weapon requires 2 Actions instead of 1 to reload with an Ammo Reload."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value=" Rifle, Reliable
+This weapon requires 2 Actions instead of 1 to reload with an Ammo Reload."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="20&quot;"/>
               </characteristics>
             </profile>
@@ -6938,7 +6949,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="a776-4519-337f-78bc" name="New InfoLink" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
+            <infoLink id="a776-4519-337f-78bc" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7153,7 +7164,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, MAYHEM May reroll 1 die per ranged attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, MAYHEM
+May reroll 1 die per ranged attack."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="12&quot;"/>
               </characteristics>
             </profile>
@@ -7249,7 +7261,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use,  All ! are ignored. Each Walker beneath the template recieves a Burning Token."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use
+All ! are ignored. Each Walker beneath the template recieves a Burning Token."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
               </characteristics>
             </profile>
@@ -7297,7 +7310,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE This weaopn uses the Blast rules to hit, but causes no damage."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE
+This weaopn uses the Blast rules to hit, but causes no damage."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
               </characteristics>
             </profile>
@@ -7381,7 +7395,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, Reliable, MAYHEM May reroll one die per attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Handgun, Reliable, MAYHEM
+May reroll 1 die per attack roll."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="10&quot;"/>
               </characteristics>
             </profile>
@@ -7506,7 +7521,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="2 Red +1 Action: 1 White 1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Rifle, MAYHEM Spend one extra Action while attacking with this weapon to add a white and a red die to ranged attack roll instead."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Rifle, MAYHEM
+Spend one extra Action while attacking with this weapon to add a White and a Red die to ranged attack roll instead."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="30&quot;"/>
               </characteristics>
             </profile>
@@ -7644,7 +7660,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Blue"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Rifle, MAYHEM For each ! rolled, add one red die to the roll. The bonus dice cannot force ammo rolls."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Rifle, MAYHEM
+For each ! rolled, add 1 Red die to the roll. The bonus dice cannot force ammo rolls."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="40&quot;"/>
               </characteristics>
             </profile>
@@ -7686,7 +7703,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE Roll to hit as normal, but do not apply damage. Any Survivor under the template`s final position must roll a black die. On a blank, they are laid prone."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE
+Roll to hit as normal, but do not apply damage. Any Survivor under the template`s final position must roll a Black die. On a blank, they are laid prone."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
               </characteristics>
             </profile>
@@ -7980,7 +7998,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, MAYHEM Only damages targets under template`s center. In addition, any model that shoots at a targetunder the template this turn adds one red die to ranged attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, MAYHEM
+Only damages targets under template`s center. In addition, any model that shoots at a targetunder the template this turn adds 1 Red die to ranged attack roll."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="20&quot;"/>
               </characteristics>
             </profile>
@@ -8028,7 +8047,8 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Shoot" characteristicTypeId="54fa-2064-3537-e530" value="1 Red"/>
-                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE Roll to hit as normal, but do not apply damage. Place a Smoke maerker on the target point."/>
+                <characteristic name="Special Rules" characteristicTypeId="fd83-b520-2ee9-67db" value="Blast, One Use, NOISE
+Roll to hit as normal, but do not apply damage. Place a Smoke maerker on the target point."/>
                 <characteristic name="Range" characteristicTypeId="8905-772a-854d-0335" value="6&quot;"/>
               </characteristics>
             </profile>
@@ -8087,7 +8107,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="7258-2b04-42e2-a935" name="New InfoLink" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule">
+            <infoLink id="7258-2b04-42e2-a935" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8209,7 +8229,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Reduce damage taken from melee attacks by 1 Red."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Reduce damage taken from melee attacks by 1 Red die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8243,7 +8263,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="When this Survivor is laid prone by an enemy STun or Bludegeon weapon in melee, roll 1 Black. On a Badge-Symbol, the model stays upright. When equipped with Football Pads, this model also gains 1 Red to melee defense rolls."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="When this Survivor is laid prone by an enemy Stun or Bludegeon weapon in melee, roll a Black. On a shieldl, the model stays upright. When equipped with Football Pads, this model also gains 1 Red to melee defense rolls."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8453,7 +8473,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body), One Use Roll a black die. On a badge symbol, the Survivor may ignore the Bitten! rule for a single attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body), One Use
+Roll a Black die. On a shieldl, the Survivor may ignore the Bitten! rule for a single attack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8493,7 +8514,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body) Can only be equipped by a Survivor who lost a leg following ab Amputate Action. The Survivor may Run up to 6&quot;. Discard this item to ignore 1 blue dice roll damage from a single attack."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Armor: Body)
+Can only be equipped by a Survivor who lost a leg following ab Amputate Action. The Survivor may Run up to 6&quot;. Discard this item to ignore 1 Blue die roll damage from a single attack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8533,7 +8555,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Reduce damage taken from all enemy attacks by one red die."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Reduce damage taken from all enemy attacks by 1 Red die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8601,7 +8623,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Armor: Body) When this model is in Cover, it gains an additional red die to its Cover bonus."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Armor: Body) When this model is in Cover, it gains an additional Red die to its Cover bonus."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8681,7 +8703,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use. Reroll all the dice from a single attack or defense roll, or a panic check. A Survivor may not carry more than one Lucky Charm."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
+Reroll all the dice from a single attack or defense roll, or a panic check. A Survivor may not carry more than one Lucky Charm."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8796,7 +8819,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Handgun). Roll the Black die each time the attached weapon os fired. On a Shield result, any MAYHEM caused by this weapon is reduced to NOISE instead."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Handgun)
+Roll the Black die each time the attached weapon os fired. On a Shield result, any MAYHEM caused by this weapon is reduced to NOISE instead."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8830,7 +8854,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Handgun). Discard this card during your activation to reload the attached weapon without spending an action."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Handgun)
+Discard this card during your activation to reload the attached weapon without spending an action."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8864,7 +8889,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon). Discard this card as an action to  reload the attached weapon."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon)
+Discard this card as an action to  reload the attached weapon."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8925,7 +8951,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Rifle). Increases the range of the attached weapon by 6&quot;."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Rifle)
+Increases the range of the attached weapon by 6&quot;."/>
               </characteristics>
             </profile>
           </profiles>
@@ -8959,7 +8986,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Shotgun). Discard this card when shooting a Walker using the attached weapon. If the Walker is not removed, it receives a Burning token, even if prone."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Shotgun)
+Discard this card when shooting a Walker using the attached weapon. If the Walker is not removed, it receives a Burning token, even if prone."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9020,7 +9048,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="This item grants any three other items the Attachment(Backpack) keyword. A Survivor may only carry one Backpack."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="This item grants any three other items the Attachment (Backpack) keyword. A Survivor may only carry one Backpack."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9081,7 +9109,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use Ignore the effects of Panic on this Survivor for the remainder of the turn."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
+Ignore the effects of Panic on this Survivor for the remainder of the turn."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9115,7 +9144,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use  Add one ! to any of this Survivor`s attack rolls, or remove one ! from an attack roll made against this Survivor. A Survivor may not carry more than one Keepsake."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
+Add one ! to any of this Survivor`s attack rolls, or remove one ! from an attack roll made against this Survivor. A Survivor may not carry more than one Keepsake."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9149,7 +9179,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapion: Handgund or Rifle) Any MAYHEM caused by the atached weapon is reduced to NOISE instead."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapion: Handgund or Rifle)
+Any MAYHEM caused by the atached weapon is reduced to NOISE instead."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9189,7 +9220,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapon: Handgun or Rifle) Discard this card when performing a Shoot Action. The shot gains the Armor Piercing and Stun keyword."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapon: Handgun or Rifle)
+Discard this card when performing a Shoot Action. The shot gains the Armor Piercing and Stun keyword."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9249,7 +9281,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use Use an Action to drop this item in contact with the Surviver - place a spare counter to mark its position. It causes MAYHEM at the start of each subsequent Action Phase until a Surviver has moved int contact with it and used an Action to destroy it."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
+Use an Action to drop this item in contact with the Surviver - place a spare counter to mark its position. It causes MAYHEM at the start of each subsequent Action Phase until a Surviver has moved int contact with it and used an Action to destroy it."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9289,7 +9322,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate Must be equipped to use. As an Action, the Survivor may restore one red die health lost earlier in the game to itself or a friendly model in its Kill Zone."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate
+Must be equipped to use. As an Action, the Survivor may restore 1 Red die health lost earlier in the game to itself or a friendly model in its Kill Zone."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9323,7 +9357,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate Must be equipped to use. As a Special Action, the Survivor may restore one red die health lost earlier in the game to itself or a friendly model in its Kill Zone. When Hershel Greene uses this item, he may reroll the die."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate
+Must be equipped to use. As a Special Action, the Survivor may restore 1 Red die health lost earlier in the game to itself or a friendly model in its Kill Zone. When Hershel Greene uses this item, he may reroll the die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9357,7 +9392,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Discard this card when any model with the Beast speacial rule is within the user`s Kill Zone. All Beast models restore 1 health point, and add one red die to their Melee attack die for the rest of the turn."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Discard this card when any model with the Beast speacial rule is within the user`s Kill Zone. All Beast models restore 1 health point, and add 1 Red die to their Melee attack die for the rest of the turn."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9384,7 +9419,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapon: Rifle) Increases the range of the attached weapon by 6&quot;, and grants it the Deadly Presicion keyword."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Atachment (Ranged Weapon: Rifle)
+Increases the range of the attached weapon by 6&quot;, and grants it the Deadly Presicion keyword."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9424,7 +9460,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Handgun or Rifle) When performing a ranged attack, rolla black die. On a Badge Symbol, add one red die to the attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Attachment (Ranged Weapon: Handgun or Rifle)
+When performing a ranged attack, rolla black die. On a shiell, add 1 Red die to the attack roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9464,7 +9501,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="NOISE Must be equipped to use. Use the Megaphnoe as an Action to allow another Survivor within 10&quot; to gain an Action in that turn."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="NOISE
+Must be equipped to use. Use the Megaphnoe as an Action to allow another Survivor within 10&quot; to gain an Action in that turn."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9491,7 +9529,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use Discard to reroll any one die from a ranged attack roll."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="One Use
+Discard to reroll any one die from a ranged attack roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9525,7 +9564,8 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate Must be equipped to use. As a Special Action, the Survivor may restore a white die healt lost earlier in the game to itself or a friendly model in its Kill Zone."/>
+                <characteristic name="Special Rules" characteristicTypeId="0c0a-f2f6-ed9f-b2f3" value="Amputate
+Must be equipped to use. As a Special Action, the Survivor may restore a White die health lost earlier in the game to itself or a friendly model in its Kill Zone."/>
               </characteristics>
             </profile>
           </profiles>

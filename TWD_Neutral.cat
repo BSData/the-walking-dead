@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="7" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="8" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -29,7 +29,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="1111-b44e-6455-f9e0" name="New InfoLink" hidden="false" targetId="85b3-ebe0-c85a-cd76" type="rule">
+        <infoLink id="1111-b44e-6455-f9e0" name="Tenacious" hidden="false" targetId="85b3-ebe0-c85a-cd76" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -371,7 +371,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a7bd-3a69-1086-d04d" name="New InfoLink" hidden="false" targetId="a0ca-bd5d-6305-5206" type="rule">
+        <infoLink id="a7bd-3a69-1086-d04d" name="Disarm" hidden="false" targetId="a0ca-bd5d-6305-5206" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -617,7 +617,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="96f9-7568-4e41-3078" name="New InfoLink" hidden="false" targetId="9844-cbe0-bbc6-6e3f" type="rule">
+        <infoLink id="96f9-7568-4e41-3078" name="The Muscle" hidden="false" targetId="9844-cbe0-bbc6-6e3f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -886,7 +886,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="95be-b7cc-8af0-0a2f" name="New InfoLink" hidden="false" targetId="cb43-1de2-f478-d1ee" type="rule">
+        <infoLink id="95be-b7cc-8af0-0a2f" name="Quick" hidden="false" targetId="cb43-1de2-f478-d1ee" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1193,7 +1193,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="453c-3a0e-2bfe-b26f" name="New InfoLink" hidden="false" targetId="cc4a-fb6d-c918-a131" type="rule">
+        <infoLink id="453c-3a0e-2bfe-b26f" name="Leader Ability: Gung-Ho" hidden="false" targetId="cc4a-fb6d-c918-a131" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1559,7 +1559,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d8c3-e007-b60f-ca7c" name="New InfoLink" hidden="false" targetId="953c-b925-7554-c8ed" type="rule">
+        <infoLink id="d8c3-e007-b60f-ca7c" name="Just a Kid..." hidden="false" targetId="953c-b925-7554-c8ed" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2025,7 +2025,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the start of a combat, Andrew may roll a black die. On a Badge, he moves out of base contact and at least 1&quot; away from all current enemies, by the shortest route possible (moving through models if necessary).</description>
+          <description>At the start of a combat, Andrew may roll a black die. On a shield, he moves out of base contact and at least 1&quot; away from all current enemies, by the shortest route possible (moving through models if necessary).</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2230,7 +2230,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Each turn, Dexter may roll one white die.
+          <description>Each turn, Dexter may roll 1 White die.
 He may distribute that many bonus Actions freely between Andrew, Axel, and Thomas, if they are in his group and have not yet activated (max 1 each ).</description>
         </rule>
       </rules>
@@ -2330,7 +2330,7 @@ He may distribute that many bonus Actions freely between Andrew, Axel, and Thoma
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the start of each of Carol`s activations, before Panic is rolled, roll a blue die.
+          <description>At the start of each of Carol`s activations, before Panic is rolled, roll 1 Blue die.
 This is how many Actions Carol may take this turn.</description>
         </rule>
         <rule id="42c0-6806-1cd7-6d10" name="Vulnerable" hidden="false">
@@ -2714,6 +2714,121 @@ On a blank she creates NOISE.</description>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="69.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07ec-0238-3c42-d5ee" name="Carl Grimes, Defiant Son" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b259-8473-153a-d32c" name="Carl Grimes, Defiant Son" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White 1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="07a1-0089-bcc6-b466" name="Blind Spot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Carl ignores one ! that he rolls in every Shoot Action.</description>
+        </rule>
+        <rule id="afa3-bf90-0c9f-60b4" name="Rebellious" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Carl starts his activation more than 10&quot; away from his Group`s Leader, roll a Black die. On a shield, he gains an extra Action.</description>
+        </rule>
+        <rule id="99d8-9af5-a483-b371" name="Reckless" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the start of his activation, if the closest enemy is a Survivor, Carl must Shoot it if possible. If not, and it is within 8&quot;, he must move into contact with it, Running if necessary.
+He may spend any remaining Actions as normal.
+Carl may not Hold his Nerve, be may re-roll the Panic die.</description>
+        </rule>
+        <rule id="3d86-c989-a69e-d6c0" name="Vengeful" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Carl adds 1 Red die to all attack rolls against Saviors.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e895-d4e1-56db-501a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a2ad-4f9d-4565-aa5f" name="New CategoryLink" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ed19-9bc9-b094-a80b" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d4-6fc6-9bdd-186a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="589a-fe76-3f88-5c2e" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6ff0-3286-7854-a45d" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bda7-78da-164f-ad20" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dc9c-ca8e-4e1b-e016" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
