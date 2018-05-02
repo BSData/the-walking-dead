@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="7" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="9" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -516,7 +516,7 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ed5-5e2a-c2fe-b38d" name="Carol" hidden="false" collective="false" type="model">
+    <selectionEntry id="4ed5-5e2a-c2fe-b38d" name="Carol, Recent Widow" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3364-9751-667d-a7f9" name="Carol" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -882,7 +882,7 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a16b-ae40-2319-4f2a" name="Lori Grimes" hidden="false" collective="false" type="model">
+    <selectionEntry id="a16b-ae40-2319-4f2a" name="Lori Grimes, Cynthiana Survivor" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6c57-035a-c7bd-f532" name="Lori Grimes" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -1447,7 +1447,7 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0db-b3ad-d339-d624" name="Hershel Greene" hidden="false" collective="false" type="model">
+    <selectionEntry id="c0db-b3ad-d339-d624" name="Hershel Greene, Greene Family Patriarch" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e6d5-25f0-b600-f609" name="Hershel Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -1935,7 +1935,7 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="374b-7e3a-479e-174e" name="Maggie Greene" hidden="false" collective="false" type="model">
+    <selectionEntry id="374b-7e3a-479e-174e" name="Maggie Greene, Rebellious Daughter" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="cce2-312e-4e08-b0e8" name="Maggie Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -2530,7 +2530,7 @@
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6afc-ec11-0367-1066" name="Tyreese" hidden="false" collective="false" type="model">
+    <selectionEntry id="6afc-ec11-0367-1066" name="Tyreese, Pro Football Player" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6412-f2af-e966-6716" name="Tyreese" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
           <profiles/>
@@ -3513,6 +3513,728 @@ He may defend in melee if required.</description>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="54.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93af-1816-7cd7-b069" name="Dale, Prison Advisor" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ae55-28c8-4e66-9e47" name="Dale" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White 1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d799-f1b2-7baf-3880" name="Leader Ability: Mind Games" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game, Dale may steal the Initiative from his opponent. If both groups contain a Leader with this ability, the Initative may be stolen back again!
+
+All survivors with the Prison Advisor subtitle may use their leader abilities even if Dale is the leader.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="0c5c-3fcc-212b-8cf1" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb87-7e75-28c7-d9d0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a325-7330-4a31-b492" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fdf2-b82a-1d9f-f5c0" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e7dc-565d-3497-f339" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c819-4577-c1cd-596b" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8811-b1d2-61ab-8543" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d0d6-7ebc-3464-3714" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa40-b724-47fa-24f3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b67d-b8d5-6904-1c6c" name="Glenn, Prison Guard" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9071-2cef-1634-f731" name="Glenn" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="2 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a85b-17ad-92d1-a26c" name="Slippery" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the start of a combat in which Glenn is engaged, before any dice are rolled, he may roll one Black die for each enemy in base contact. On a Shield, the model is moved 1&quot; away from Glenn, exactly as if it had been pushed back.</description>
+        </rule>
+        <rule id="19a5-39d6-b36f-7f0d" name="Tread Lightly" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each time Glenn Runs, roll the Black die. On a Shield result, he does not cause NOISE.</description>
+        </rule>
+        <rule id="f450-b3de-b55a-f908" name="True Love" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Maggie Greene is in the same group and is removed as a casualty, Glenn receives a bonus Red die to his ranged and melee attack pools against and Survivor(s) responsible.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="0e12-697f-101d-3f3f" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbb-e5c9-272b-0632" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7ac1-e5ad-e152-556e" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9d58-4f20-8c50-2f35" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="664e-156a-df2a-404a" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="14b8-f160-2d80-60d7" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5d24-27fd-9fee-adeb" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a97b-83c0-0c77-bb9d" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40bc-e5cc-15bc-9421" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69df-dc78-f64b-033b" name="Hershel Greene, Prison Advisor" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9448-4801-91f8-8906" name="Hershel Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fde6-133f-8303-a198" name="Leader Ability: Careful Planning" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game, after an event card is drawn but before it is resolved, you may discard it and draw another.
+
+Other Survivors with the Prison Advisor subtitle may use their leader abilities even if Hershel is the leader.</description>
+        </rule>
+        <rule id="fa44-4199-3d00-416a" name="Patch-Up" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Hershel may use Bandages on any other model within his Kill Zone. When Hershel uses any item that restores lost wounds, he restores 1 extra health point.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7263-c0ac-a85e-758c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0ca9-c7b4-1bcc-ccd6" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2fb4-6dde-f28a-102d" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ea9-08bc-c2aa-e427" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="477f-71f0-95d4-b5d4" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6299-22fd-e55f-e47d" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1949-cc20-5097-3748" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f7e-0be1-6929-361c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3ea-bafc-0f3d-6a16" name="Maggie Greene, Prison Defender" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3dc4-80cf-767e-6ae2" name="Maggie Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="2 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="af04-974d-f579-a568" name="Steadying Influence" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When making a Hold Your Nerve Action, Maggie does not roll one Black die. Instead, she immediately reduces the Threate Level by one White die.</description>
+        </rule>
+        <rule id="1624-559c-97a2-b5ad" name="Faithful Unto Death" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>As long as Glenn is in the group and still alive, Maggie and Glenn will never Panic.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bcd-3ff0-6a7e-612b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5109-8b90-f931-f047" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f806-7fc7-c59d-d8c9" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d7bb-f4a9-7e77-0109" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="40c0-c53d-5b4a-62ac" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="37a4-2ce6-eef9-ebfb" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="380a-c769-51ed-59f7" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3108-1c5e-9e67-f203" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="383d-1a33-ee48-b240" name="Michonne, Vengeful Hunter" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="02c0-c6b9-e16d-d9c9" name="Michonne" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Blue"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Blue"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick`s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="22d1-5331-e9de-c85b" name="Stab!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Michonne may reroll any or all of her melee attack dice when using a weapon with the Sharp keyword.</description>
+        </rule>
+        <rule id="7cb5-925d-abc8-12ad" name="Live by the Sword" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If MIchonne&apos;s side is outnumbered in melee by two to one or more, add one Blue die to her melee attack pool.</description>
+        </rule>
+        <rule id="d96d-fd19-28a7-dbcd" name="Grim Vendetta" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When performing any attack roll against Brian Blake, Michonne adds one White die to the roll.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a454-14eb-5e76-c5a0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ad3-50d7-b606-89d5" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1532-326b-6095-5ff3" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c33-6a59-7142-7538" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="450e-4b5e-1233-15f0" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7eed-566b-b513-fdaa" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="de90-f55f-ec43-8e85" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1542-f86e-22f0-8a29" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="54.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69d1-cb36-9df0-1b10" name="Susie &amp; Rachel Greene" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7605-4dbc-a941-426d" name="Susie &amp; Rachel Greene" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="-"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="1"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2568-55d9-ca92-22ac" name="Think of the Children..." hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When Susie &amp; Rachel are in the Kill Zone of any friendly Greene family model, that model may re-roll one die per melee attack or defense roll.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b996-cbd1-930d-6ef8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="db40-4549-c208-c45e" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="32ff-f1fa-3ad2-b721" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="27e7-08b9-3698-9dfe" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f771-3e90-2bd1-89d3" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="45aa-3e7f-20d2-b6c6" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a8d9-2b3f-1dbe-f153" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aead-5fb8-b36e-a2b4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec57-0b19-0834-5155" name="Tyreese, Prison Advisor" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="60be-2a43-1a3d-58bb" name="Tyreese" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="2 White"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="-"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Blue"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="7"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="4"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Rick&apos;s Group"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6909-7b6f-f295-6d9c" name="Athletic" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Tyreese may Run 10&quot; instead of 8&quot;.	</description>
+        </rule>
+        <rule id="bc6d-a9c4-1185-ff5b" name="Leader Ability: Spokesman" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the start of the game, take one White die for each Prison Advisor in the group. As an Action, Tyreese may add one of these dice to a friendly model&apos;s subsequent roll of any type.
+
+All survivors with the Prison Advisor subtitle may use their leader abilities even if Tyreese is the leader.</description>
+        </rule>
+        <rule id="2dd8-354d-193d-eb29" name="Bring It!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Tyreese&apos;s side is outnumbered in combat by two to one or more, add one White die to his melee attack or defense pool.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa92-e2ac-6b53-aae6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fe06-11b9-9e95-9a20" name="New CategoryLink" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="addc-2efc-a051-7c1b" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4c8d-72b2-3513-e270" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="15ca-1fd7-2f02-ac01" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e5cb-5c35-a2ad-ac23" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="004a-b8f9-b321-502b" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e9e-4f73-0c94-9b83" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="62.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
