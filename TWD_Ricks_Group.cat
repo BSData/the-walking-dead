@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="9" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="10" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1135,7 +1135,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9040-6c99-3ced-e54c" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="2fc6-99a6-7220-b3db-fbb7-4f0b-b3a0-4027" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+        <categoryLink id="4013-b3a6-30f1-1f13" name="New CategoryLink" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
