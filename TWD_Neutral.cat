@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="9" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="10" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -368,6 +368,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <description>Once per turn, if Michonne wins a melee she may move into base contact with another standing enemy within her Kill Zone. Resolve this new melee immediately, even if one or more combatants has already fought.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2927,6 +2928,110 @@ Carl may not Hold his Nerve, be may re-roll the Panic die.</description>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="92f5-2dc4-4ffe-5fc4" name="Michonne, Beaten But Not Broken" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4fa7-169e-c26e-86f3" name="Michonne, Wandering Nomad" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Blue"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b9f5-d1f6-d08c-99e9" name="Arena Fighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When in melee with a single enemy Survivor, Michonne may re-roll any of her melee dice.</description>
+        </rule>
+        <rule id="96e0-e541-799d-2e03" name="Follow-Up Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if Michonne wins a melee she may move into base contact with another standing enemy within her Kill Zone. Resolve this new melee immediately, even if one or more combatants has already fought.</description>
+        </rule>
+        <rule id="5b69-2a63-6db2-e5ed" name="Leader Ability: Single-Minded" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the start of each game, choose one enemy Survivor or one supply counter as Michonne&apos;s target. Michonne must always move towards her target if possible and if she reaches it must attack it in melee / Search it. While that survivor is alive / counter is not in Michonne&apos;s group&apos;s possession, Michonne&apos;s group will never Panic and can re-roll blanks in melee.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67da-ad02-48c2-11ae" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b3d5-92d6-6573-5dff" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="80a2-dbd8-904f-5e00" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9b2b-c5cc-1633-9005" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="da5c-5578-7d6d-a368" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b7b3-bb66-b6a4-6145" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bb6a-dccd-2961-3336" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="58.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

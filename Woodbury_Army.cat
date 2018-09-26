@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1a2b-4bbb-e9e4-e427" name="Woodbury Army" revision="10" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1a2b-4bbb-e9e4-e427" name="Woodbury Army" revision="11" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1649,6 +1649,129 @@ Any model in Brian`s group may add one of these dice to any attack roll.</descri
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7153-39db-7b83-6a6b" name="Brian Blake, Trophy Collector" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="db94-8ffa-1aad-f49f" name="Brian Blake, Mutilated and Merciless" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Character">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Blue"/>
+            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
+            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Blue"/>
+            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
+            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="7"/>
+            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
+            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
+            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Woodbury Army"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="228e-27ab-e59b-02b3" name="Trophy Collector" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Brian removes a Survivor from play in Melee without a !, he receives 1 Searched Supply Counter.</description>
+        </rule>
+        <rule id="eb10-927a-273e-d54d" name="That&apos;s Entertainment" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>As an Action, Brian my push any Survivor in his Kill Zone up to 2&quot; as long as this moves them towards an enemy model.</description>
+        </rule>
+        <rule id="2494-c5ab-4b52-aee7" name="Leader Ability: Do As I Say" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per activation, Brian may Make NOISE and choose a Friendly Woodbury Army Survivor within 10&quot;. 
+
+That Survivor immediately activates, interrupting Brian&apos;s activation. This is not an Action.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="a96f-0bf3-9d7b-b084" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01fa-dc81-90db-02bf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4564-bcc7-87df-958f" name="New CategoryLink" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7f54-7839-0b65-0f73" name="Bruiser" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bd2c-d7fb-9c2e-c6cb" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452a-6a7f-5d20-6452" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f6a0-c540-ee5a-6383" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6efc-1983-be85-574e" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5367-2a76-2233-55da" name="Ranged Weapons" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e281-3882-119d-7791" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="72.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
