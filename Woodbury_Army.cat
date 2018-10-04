@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1a2b-4bbb-e9e4-e427" name="Woodbury Army" revision="11" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1a2b-4bbb-e9e4-e427" name="Woodbury Army" revision="12" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -95,6 +95,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="3172-10da-93b6-11a6" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1020-3a55-7398-ba58" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -201,6 +209,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="6b81-dfd3-60a2-fc4d" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="38.0"/>
@@ -287,6 +303,14 @@ When Alice uses any item of equipment that restores lost wounds, she restores 1 
           <categoryLinks/>
         </entryLink>
         <entryLink id="33a0-2a1f-6c5c-23c9" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fefb-5ed7-5a5f-977f" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -387,6 +411,14 @@ When Stevens uses any item that restores lost wounds, he restores 1 extra wound.
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="66c3-3501-2931-2942" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
@@ -464,6 +496,14 @@ When Stevens uses any item that restores lost wounds, he restores 1 extra wound.
           <categoryLinks/>
         </entryLink>
         <entryLink id="acd4-cbc6-82c2-69a5" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1513-4639-6b51-96e3" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -563,6 +603,14 @@ When Stevens uses any item that restores lost wounds, he restores 1 extra wound.
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="48bc-47ce-8658-3c9e" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="38.0"/>
@@ -648,6 +696,14 @@ When Stevens uses any item that restores lost wounds, he restores 1 extra wound.
           <categoryLinks/>
         </entryLink>
         <entryLink id="6e48-3f76-6f8c-796d" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="258c-cd22-0aca-036c" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -757,6 +813,14 @@ When Bob uses any item that restores lost wounds, he restores 1 extra wound.</de
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="aea3-2446-9e87-69ff" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="23.0"/>
@@ -856,6 +920,14 @@ When Bob uses any item that restores lost wounds, he restores 1 extra wound.</de
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="8015-7dd8-8d55-4d90" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="45.0"/>
@@ -948,6 +1020,14 @@ When Bob uses any item that restores lost wounds, he restores 1 extra wound.</de
           <categoryLinks/>
         </entryLink>
         <entryLink id="76aa-a563-fd50-783d" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="59ae-f5e1-4207-1ddb" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1063,6 +1143,14 @@ On a shield, reduce the number of wounds inflicted against him by 1.</descriptio
           <categoryLinks/>
         </entryLink>
         <entryLink id="2c14-c7e3-b941-9175" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6a18-cc94-27fe-0487" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1187,6 +1275,14 @@ Any model in Brian`s group may add one of these dice to any attack roll.</descri
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="fd4f-4766-53f3-abdd" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="62.0"/>
@@ -1279,6 +1375,14 @@ Any model in Brian`s group may add one of these dice to any attack roll.</descri
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="5d08-cb1b-c238-d7fb" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="38.0"/>
@@ -1356,6 +1460,14 @@ Any model in Brian`s group may add one of these dice to any attack roll.</descri
           <categoryLinks/>
         </entryLink>
         <entryLink id="9a07-2f32-a7b2-f80f" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f3af-ca14-955f-dec5" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1462,6 +1574,14 @@ Any model in Brian`s group may add one of these dice to any attack roll.</descri
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e228-addd-4cbc-1a8b" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="22.0"/>
@@ -1554,6 +1674,14 @@ Any model in Brian`s group may add one of these dice to any attack roll.</descri
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f4f5-326c-29b5-7be9" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="38.0"/>
@@ -1639,6 +1767,14 @@ Any model in Brian`s group may add one of these dice to any attack roll.</descri
           <categoryLinks/>
         </entryLink>
         <entryLink id="a53d-d05f-b304-82ec" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cd36-4a23-81da-6f10" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1762,6 +1898,14 @@ That Survivor immediately activates, interrupting Brian&apos;s activation. This 
           <categoryLinks/>
         </entryLink>
         <entryLink id="e281-3882-119d-7791" name="Special Item" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e102-49f2-ea48-4147" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>

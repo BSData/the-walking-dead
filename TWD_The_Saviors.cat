@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="6abf-73bd-b580-dc69" name="The Saviors" revision="1" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6abf-73bd-b580-dc69" name="The Saviors" revision="2" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="b96a-7ae6-4639-4885" name="Negan, Savior Leader" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b96a-7ae6-4639-4885-b936-ac92-62ac-545e" targetId="b936-ac92-62ac-545e" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="7cfb-c51f-5f5b-e61e" name="Negan, Savior Leader" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
           <profiles/>
@@ -50,6 +48,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adf-b1e2-5e05-df29" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="b96a-7ae6-4639-4885-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3e81-112e-4c75-dfce" name="Lucille" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -70,6 +77,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c506-570b-261f-c6d5" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -86,6 +94,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="77ae-4e35-67b1-11d5" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
           <profiles/>
@@ -93,6 +102,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1110-55ef-1955-beaa" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
           <profiles/>
@@ -100,6 +110,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="bf68-1ce2-2b76-1bf8" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
           <profiles/>
@@ -107,6 +118,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="9a08-a4d5-626d-2dad" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <profiles/>
@@ -114,6 +126,15 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9626-bbd7-db4f-72de" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
