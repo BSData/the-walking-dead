@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="10" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="12" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5018,8 +5018,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51aa-ff2b-3c53-14a8" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdab-f219-13a5-c62d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51aa-ff2b-3c53-14a8" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdab-f219-13a5-c62d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5088,7 +5088,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb52-e996-a357-83e8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb52-e996-a357-83e8" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de48-44ca-c665-c630" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -5503,8 +5503,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8705-6abe-bb60-39c4" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bfa-fa7e-bbe6-db14" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8705-6abe-bb60-39c4" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bfa-fa7e-bbe6-db14" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -5787,7 +5787,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed50-0d0b-cae9-488b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed50-0d0b-cae9-488b" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e418-4ba7-5e6c-debd" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -7382,7 +7382,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6575-d215-27a8-813f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6575-d215-27a8-813f" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d0-004b-66cd-f18f" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -7574,7 +7574,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96f6-cfae-f39a-5115" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96f6-cfae-f39a-5115" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ded-5006-4daa-fc2a" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -7616,7 +7616,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2705-ed91-1d60-09e1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2705-ed91-1d60-09e1" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e0e-362a-5437-dedc" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -8005,7 +8005,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e76b-aab4-2449-3b95" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e76b-aab4-2449-3b95" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="930b-12aa-fe3b-83e5" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -8305,7 +8305,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ab-96c8-b25d-e805" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ab-96c8-b25d-e805" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="032e-b085-5891-f4c0" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -8347,7 +8347,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ec-8977-6f4b-8df3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ec-8977-6f4b-8df3" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a7d-235f-fcbf-2b47" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -9317,7 +9317,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c00a-16b4-038c-e74d" name="Running Shoes" hidden="false" collective="false" type="upgrade">
@@ -9484,8 +9484,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ff6-fc1b-85eb-7080" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c63-1ac9-a0f6-c53c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ff6-fc1b-85eb-7080" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c63-1ac9-a0f6-c53c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9511,7 +9511,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8984-8dc1-2e4c-f077" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8984-8dc1-2e4c-f077" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6ee-6a1c-ed4d-81af" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -9539,7 +9539,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dc8-eee1-5db5-5e06" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f82-ca81-4e4b-ca08" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f82-ca81-4e4b-ca08" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -9640,7 +9640,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa16-6214-b94b-a78d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa16-6214-b94b-a78d" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9838-34f3-0328-e315" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -9823,7 +9823,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-930f-ab4d-117d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-930f-ab4d-117d" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a7d-44c3-a261-51d7" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -9857,7 +9857,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd0-1d6f-d0e4-0d33" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd0-1d6f-d0e4-0d33" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33bf-9955-2416-eda9" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -9983,7 +9983,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba4-2edd-e126-bbcf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba4-2edd-e126-bbcf" type="max"/>
             <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f1-00ae-5cb9-9f74" type="max"/>
           </constraints>
           <categoryLinks>
@@ -10031,7 +10031,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a11d-6fbf-6693-c617" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a11d-6fbf-6693-c617" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d5-8c4e-332c-4795" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -10233,7 +10233,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd6-8676-227a-c861" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd6-8676-227a-c861" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aae-3b58-177a-65bb" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -10267,7 +10267,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de0-3710-446c-e056" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de0-3710-446c-e056" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd1d-e60b-c786-b69b" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -10403,7 +10403,7 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8205-a40a-e622-c70b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8205-a40a-e622-c70b" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e730-6e96-148c-1d7f" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -11385,6 +11385,598 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cdeb-33c8-9eea-2fe2" name="Adaptable" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3d1c-8a3b-6c47-0ac2" name="Adaptable" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="At the start of each activation, this Survivor may choose a character type (Bruiser, Marksman, Runner, or Tactician). The Survivor counts as this type as well as Support for the rest of the turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fbb7-4f0b-b3a0-4027" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1eb6-f78c-f05c-31e9" name="Athletic" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f8d1-93e2-7b86-d00e" name="Athletic" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model may run 10&quot; instead of 8&quot;."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="516d-df74-611d-a788" name="Bushcraft" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7229-f69b-462d-76b8" name="Bushcraft" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="If this Survivor survives a game when playing a Map Campaign, you may roll one black. On a Shield you may claim one Forest Zone on the map in the next post-game sequence."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b57f-1ad4-693d-864b" name="Distract" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="687d-4af6-a1fb-a87b" name="Distract" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="When performing the Make NOISE Action, this model may choose any point within 6&quot; of itself (but not another model) from which to create the NOISE."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7da9-7330-9415-85f8" name="Expert Shot" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2e29-410d-9728-2cf0" name="Expert Shot" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="When this model performs a ranged attack, it may force the target to discard a Cover die of their choice."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b14f-dbf3-3359-9589" name="Fight On The Move" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="56a2-04d7-68e9-5cbe" name="Fight On The Move" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model may perform a Melee attack against a single enemy as an Action in the Action Phase.  This follows all normal Melee rules but does not advance the Threat Level unless NOISE or MAYHEM is caused."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2fb9-731c-bcff-bf8e" name="Grudge" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="abe9-8e68-c19a-d4f6" name="Grudge" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="If this Survivor&apos;s group loses a campaign game, but survives, they will hold a grudge against the opposing group. This Survivor may re-roll one die per turn when playing a game against the same opponent later in the campaign."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dc04-f066-5df3-d974" name="Healer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c6ed-d3e7-f227-cb0a" name="Healer" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="As an Action, this Survivor may restore one white health lost earlier in the game to itself or a friendly model in its Kill Zone."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fbb7-4f0b-b3a0-4027" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="24.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3c02-d2eb-d0cf-9555" name="Hunter" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="cda2-093e-cd93-2255" name="Hunter" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This Survivor does not halve its movement when moving through Area Terrain."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f70-f752-7514-1251" name="Inspiring Leadership" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a8df-d7c0-2ab5-ec2f" name="Inspiring Leadership" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="At the start of its activation, this Survivor may sacrifice one of its Actions and give it to a friendly model within its Kill Zone that is yet to activate."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fbb7-4f0b-b3a0-4027" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e826-a2e9-f8a2-d393" name="Level-Headed" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7b3a-be47-7f7f-4be4" name="Level-Headed" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model, and all friendly models within its Kill Zone, may reroll the Panic Die. You must accept the second result, even if it is worse than the first."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b936-ac92-62ac-545e" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f72f-7a5d-a25a-1a83" name="Mechanic" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4189-9895-5a77-d029" name="Mechanic" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model may make two separate Repair rolls as a single action."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="15f7-4ce2-7238-fccd" name="Nimble" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4cb4-a2ec-b828-33d6" name="Nimble" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="At the start of a Melee this model may roll one black. On a Shield, the model moves out of base contact and at least 1&quot; away from all current enemies, by the shortest route possible (moving through models if necessary)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e123-2d67-1fcc-51f5" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4ded-16ef-d853-3333" name="Pick Them Off" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b3f6-2d2b-53bf-1ff8" name="Pick Them Off" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model adds one red to its attack rolls against enemy Survivors who have no friendly models within 8&quot;."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4455-21fa-b97a-8a59" name="Pickpocket" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f5d5-96f2-1b0f-f997" name="Pickpocket" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model may attempt to steal items or supply counters from other models. Roll one black. On a Shield, take an item or counter of your choice from the pack of any other model in its Kill Zone. On a blank, the target model may immediately move into contact with the Pickpocket, unless they are already engaged. They may do this even if already activated."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb22-b0cd-d575-1302" name="Quick" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="bd4c-1c7f-dfb3-fdb4" name="Quick" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model may perform two Move Actions in the same turn (if it has the Actions to spend) although it may not Run twice."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cb08-3a58-6817-ab6c" name="Safety in Numbers" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2804-7258-3814-ee5f" name="Safety In Numbers" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model treats its Nerve as one level higher than it actually is while its group contains more members than the opposing group. "/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f63f-cf23-0ba4-3fbd" name="Scavenger" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f99d-2c06-447a-5beb" name="Scavenger" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="When performing a Search Action, this Survivor may draw two supply cards and pick which one to keep/resolve."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f683-e7c2-783c-2bb3" name="Scrapper" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="df51-7046-b576-2597" name="Scrapper" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="This model always pushes back its opponents in a drawn combat, even when it is fighting other Survivors and its side doesn&apos;t have the Initiative."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1457-84ea-b94f-7c11" name="Shove!" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4677-8b9f-024c-2543" name="Shove!" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="At the start of a combat involving this model, before any attack dice are rolled, this model may roll one black for one enemy in base contact.   On a Shield, the enemy model is moved 1&quot; away, as exactly as if it had been pushed back, and may take no part in the melee."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e8a6-3c13-d751-6a6a" name="Survival Instinct" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4fbd-882e-3728-19f8" name="Survival Instinct" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="When this model is panicking, roll two yellow and choose your preferred result."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a52f-85b7-c11e-524d" name="The Muscle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1817-101a-244b-cd5e" name="The Muscle" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="If this model is on the winning side in a melee and chose to attack, its side inflicts 1 extra point of damage against the enemy."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="636c-64a2-75d9-8afa" name="Turncoat" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e7ae-8609-0074-2071" name="Turncoat" hidden="false" profileTypeId="341d-4324-0759-f9cd" profileTypeName="Veteran Skill">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Special Rules" characteristicTypeId="7627-4381-92b7-f032" value="A Survivor with this rule replaces their faction with a different one of your choosing, for all purposes. They can be chosen as part of a group containing their new faction. The chosen faction cannot be changed during a game."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
