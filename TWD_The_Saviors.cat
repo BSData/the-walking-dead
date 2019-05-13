@@ -1,754 +1,1506 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6abf-73bd-b580-dc69" name="The Saviors" revision="3" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries>
-    <selectionEntry id="b96a-7ae6-4639-4885" name="Negan, Savior Leader" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="7cfb-c51f-5f5b-e61e" name="Negan, Savior Leader" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Blue 1 Red"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 White"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="8"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Saviors"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="6341-97b6-833d-369e" name="Die Hard" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Negan deducts 1 point of damage inflicted against him in each melee combat.</description>
-        </rule>
-        <rule id="4207-9dd8-c3aa-6157" name="Leader Ability: Rule Through Fear" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>As an Action, Negan may execute a friendly model in his Kill Zone and replace it with a prone Walker. Then distribute1 Blue die extra Actions amongst the Survivors in his group yet to act (including Negan, max 1 per model).</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adf-b1e2-5e05-df29" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="b96a-7ae6-4639-4885-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3e81-112e-4c75-dfce" name="Lucille" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="4440-b68b-70d0-1063" name="Lucille" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="2 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="If the attack rolls any !, immediately add 1 White to the roll."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c506-570b-261f-c6d5" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
-          </costs>
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.02" id="6abf-73bd-b580-dc69" name="The Saviors" revision="3" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="1">
+    <publications/>
+      
+    <profiles/>
+      
+    <rules/>
+      
+    <infoLinks/>
+      
+    <costTypes/>
+      
+    <profileTypes/>
+      
+    <categoryEntries/>
+      
+    <forceEntries/>
+      
+    <selectionEntries>
+            
+        <selectionEntry id="b96a-7ae6-4639-4885" name="Negan, Savior Leader" hidden="false" collective="false" type="model">
+                  
+            <profiles>
+                        
+                <profile typeId="576a-0cd5-7049-1929" typeName="Named Character" id="7cfb-c51f-5f5b-e61e" name="Negan, Savior Leader" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <characteristics>
+                                    
+                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 Blue 1 Red</characteristic>
+                                    
+                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 White</characteristic>
+                                    
+                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">2 White</characteristic>
+                                    
+                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">High</characteristic>
+                                    
+                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">8</characteristic>
+                                    
+                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">3</characteristic>
+                                    
+                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Tactician</characteristic>
+                                    
+                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">Saviors</characteristic>
+                                  
+                    </characteristics>
+                            
+                </profile>
+                      
+            </profiles>
+                  
+            <rules>
+                        
+                <rule id="6341-97b6-833d-369e" name="Die Hard" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Negan deducts 1 point of damage inflicted against him in each melee combat.</description>
+                            
+                </rule>
+                        
+                <rule id="4207-9dd8-c3aa-6157" name="Leader Ability: Rule Through Fear" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>As an Action, Negan may execute a friendly model in his Kill Zone and replace it with a prone Walker. Then distribute1 Blue die extra Actions amongst the Survivors in his group yet to act (including Negan, max 1 per model).</description>
+                            
+                </rule>
+                      
+            </rules>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adf-b1e2-5e05-df29" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="b96a-7ae6-4639-4885-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries>
+                        
+                <selectionEntry id="3e81-112e-4c75-dfce" name="Lucille" hidden="false" collective="false" type="upgrade">
+                              
+                    <profiles>
+                                    
+                        <profile typeId="ceb7-6d13-cb78-ec08" typeName="Melee Weapon" id="4440-b68b-70d0-1063" name="Lucille" hidden="false">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                          
+                            <characteristics>
+                                                
+                                <characteristic typeId="4bdc-0a61-b4e8-3f99" name="Melee">2 White</characteristic>
+                                                
+                                <characteristic typeId="b943-0b7f-c651-1b2b" name="Special Rules">If the attack rolls any !, immediately add 1 White to the roll.</characteristic>
+                                              
+                            </characteristics>
+                                        
+                        </profile>
+                                  
+                    </profiles>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints>
+                                    
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c506-570b-261f-c6d5" type="max"/>
+                                  
+                    </constraints>
+                              
+                    <categoryLinks/>
+                              
+                    <selectionEntries/>
+                              
+                    <selectionEntryGroups/>
+                              
+                    <entryLinks/>
+                              
+                    <costs>
+                                    
+                        <cost typeId="12b3-6d46-0f10-4927" name="Points" value="25.0"/>
+                                  
+                    </costs>
+                            
+                </selectionEntry>
+                      
+            </selectionEntries>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="41ef-be57-8a3d-54a2" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="77ae-4e35-67b1-11d5" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="1110-55ef-1955-beaa" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="bf68-1ce2-2b76-1bf8" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="9a08-a4d5-626d-2dad" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="9626-bbd7-db4f-72de" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="70.0"/>
+                      
+            </costs>
+                
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="41ef-be57-8a3d-54a2" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="77ae-4e35-67b1-11d5" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1110-55ef-1955-beaa" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="bf68-1ce2-2b76-1bf8" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9a08-a4d5-626d-2dad" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9626-bbd7-db4f-72de" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="70.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c72f-b865-9056-6976" name="Negan, Bad Mother******" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5a4b-3de5-c844-85d8" name="Negan, Bad Mother******" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Blue"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Blue"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Saviors"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="3caf-4cf7-e8a2-0d43" name="Here&apos;s Negan" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If Negan removes one or more enemy Survivors from play in melee, all friendly Saviors treat their Nerve as High in the following Action Phase.</description>
-        </rule>
-        <rule id="d7d6-8d14-adce-399c" name="Leader Ability: Impress Me!" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each time a Budding Lieutenant model Impresses Negan (see other Survivor Cards) that model receives one red die, forming a special pool of dice on its card to use with any roll.</description>
-        </rule>
-        <rule id="5021-3a1c-53a8-0e4e" name="You Scared?" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each time a friendly Savior within 6&quot; of Negan rolls a Yellow die, that model loses 1 Health, and Negan adds a Red die to his Melee value for the rest of the turn.	</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1455-e81f-cf05-5166" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="91e2-fcab-fbf5-c3bb" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="25ea-9bbe-5e71-840b" name="Lucille" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="a461-f6b0-137d-bd40" name="Lucille" hidden="false" profileTypeId="ceb7-6d13-cb78-ec08" profileTypeName="Melee Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Melee" characteristicTypeId="4bdc-0a61-b4e8-3f99" value="2 White"/>
-                <characteristic name="Special Rules" characteristicTypeId="b943-0b7f-c651-1b2b" value="If the attack rolls any !, immediately add 1 White to the roll."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3f-5115-be2f-2d13" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="25.0"/>
-          </costs>
+            
+        <selectionEntry id="c72f-b865-9056-6976" name="Negan, Bad Mother******" hidden="false" collective="false" type="model">
+                  
+            <profiles>
+                        
+                <profile typeId="576a-0cd5-7049-1929" typeName="Named Character" id="5a4b-3de5-c844-85d8" name="Negan, Bad Mother******" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <characteristics>
+                                    
+                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 Blue</characteristic>
+                                    
+                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 Red</characteristic>
+                                    
+                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">1 Blue</characteristic>
+                                    
+                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">High</characteristic>
+                                    
+                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">6</characteristic>
+                                    
+                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">3</characteristic>
+                                    
+                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Bruiser</characteristic>
+                                    
+                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">Saviors</characteristic>
+                                  
+                    </characteristics>
+                            
+                </profile>
+                      
+            </profiles>
+                  
+            <rules>
+                        
+                <rule id="3caf-4cf7-e8a2-0d43" name="Here's Negan" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>If Negan removes one or more enemy Survivors from play in melee, all friendly Saviors treat their Nerve as High in the following Action Phase.</description>
+                            
+                </rule>
+                        
+                <rule id="d7d6-8d14-adce-399c" name="Leader Ability: Impress Me!" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Each time a Budding Lieutenant model Impresses Negan (see other Survivor Cards) that model receives one red die, forming a special pool of dice on its card to use with any roll.</description>
+                            
+                </rule>
+                        
+                <rule id="5021-3a1c-53a8-0e4e" name="You Scared?" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Each time a friendly Savior within 6" of Negan rolls a Yellow die, that model loses 1 Health, and Negan adds a Red die to his Melee value for the rest of the turn.	</description>
+                            
+                </rule>
+                      
+            </rules>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1455-e81f-cf05-5166" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="91e2-fcab-fbf5-c3bb" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries>
+                        
+                <selectionEntry id="25ea-9bbe-5e71-840b" name="Lucille" hidden="false" collective="false" type="upgrade">
+                              
+                    <profiles>
+                                    
+                        <profile typeId="ceb7-6d13-cb78-ec08" typeName="Melee Weapon" id="a461-f6b0-137d-bd40" name="Lucille" hidden="false">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                          
+                            <characteristics>
+                                                
+                                <characteristic typeId="4bdc-0a61-b4e8-3f99" name="Melee">2 White</characteristic>
+                                                
+                                <characteristic typeId="b943-0b7f-c651-1b2b" name="Special Rules">If the attack rolls any !, immediately add 1 White to the roll.</characteristic>
+                                              
+                            </characteristics>
+                                        
+                        </profile>
+                                  
+                    </profiles>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints>
+                                    
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3f-5115-be2f-2d13" type="max"/>
+                                  
+                    </constraints>
+                              
+                    <categoryLinks/>
+                              
+                    <selectionEntries/>
+                              
+                    <selectionEntryGroups/>
+                              
+                    <entryLinks/>
+                              
+                    <costs>
+                                    
+                        <cost typeId="12b3-6d46-0f10-4927" name="Points" value="25.0"/>
+                                  
+                    </costs>
+                            
+                </selectionEntry>
+                      
+            </selectionEntries>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="61ad-106f-bcdb-9fbc" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="d9b6-c70a-d87f-2be6" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="91eb-107b-ccec-a91a" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="b0c7-252b-2265-ae93" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="6c03-b93f-3a5e-9f9d" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="8ada-b636-09d6-7484" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="56.0"/>
+                      
+            </costs>
+                
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="61ad-106f-bcdb-9fbc" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="d9b6-c70a-d87f-2be6" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="91eb-107b-ccec-a91a" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b0c7-252b-2265-ae93" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6c03-b93f-3a5e-9f9d" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="8ada-b636-09d6-7484" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="56.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ed10-2e8d-92f5-2fc5" name="Tara, Budding Lieutenant" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="9d4e-84c1-af0e-b362" name="Tara, Budding Lieutenant" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Blue"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Saviors"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="7d6f-b6ab-6903-9310" name="Clear the Way" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Tara adds one Red die to her melee attack rolls vs Walkers. Each time she removes a Walker from play, she Impresses Negan.</description>
-        </rule>
-        <rule id="9a46-cbe0-087d-d5b9" name="Stab!" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Tara may reroll any of her melee attack dice when using a weapon with the Sharp keyword.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff38-1be7-b23c-d2b2" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="46ae-4d2c-7178-9f8f" name="Runner" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="d4c3-ce6f-a2ee-9cf3" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="f4b7-1374-af18-43ca" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="ce3f-43be-d8ef-a76f" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e6da-8c81-7aaf-bb12" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="33c6-ea27-e869-a0bb" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="32.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c8d8-e240-a87b-3758" name="Dwight, Budding Lieutenant" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="944d-3dcd-b6d0-2d6f" name="Dwight, Budding Lieutenant" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Saviors"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="4aab-dc51-8fa0-7c46" name="Tread Lightly" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each time Dwight Runs, roll one Black die. On a Shield, he does not cause NOISE.</description>
-        </rule>
-        <rule id="84dc-69f9-caa5-950a" name="Scavenger" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If Dwight makes a Swap Items Action to give an item or supply counter to Negan, this Impresses him.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6100-79df-19ce-9ec9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="cba2-f885-96ef-1fa7" name="Marksman" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="bbc2-3f70-998d-ec42" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1871-2f50-ab3e-cf46" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e9f3-027f-1cae-d143" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="a0b1-181f-4123-0105" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="95bd-4dd4-b349-fe8b" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="28.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3af8-e305-b234-d835" name="Sherry, Budding Lieutenant" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="ea7e-7470-5902-384e" name="Sherry, Budding Lieutenant" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="3"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Saviors"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="6e4c-beff-73e5-34e1" name="Insightful" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Sherry may give up all of her Actions for the turn. If she does, immediately perform one free action with a friendly model within 6&quot;. The target model may still activate normally later if it has not already done so. If the target of this ability is Negan it Impresses him.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a934-bd41-eb20-d7fd" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="2a2a-40ad-a445-d405" name="Support" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="1ffc-d901-f842-a817" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="edc0-ebe5-07aa-ae47" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="dbbf-3416-cbef-4c70" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2f99-5b37-de60-e40f" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6569-d073-94fb-0c65" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="62ea-c307-5e88-53b9" name="John, Budding Lieutenant" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="b04d-96ea-c3ca-2f67" name="John, Budding Lieutenant" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White, 1 Red"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="4"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Saviors"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="72c2-cd32-37f0-e47a" name="Tank" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If John&apos;s side is outnumbered in combat by 2:1 or more, add 1 White die to his melee attack roll. If John&apos;s side wins the combat, this Impresses Negan.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5606-8593-ba15-e4fe" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="c622-99fe-4fad-5366" name="Bruiser" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="c369-1dda-a03d-6ee2" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0dc9-1505-80fe-b7a5" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7da9-25bc-20b8-a393" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="fe6a-209c-75c1-ca90" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1f42-c4ef-7972-7b91" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="36.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5d1a-c2fd-114f-afb5" name="Laura, Budding Lieutenant" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5146-db06-bf33-02db" name="Laura, Budding Lieutenant" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Blue"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="3"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Saviors"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="a7d6-1b6f-0b13-600a" name="Resourceful" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Once per activation, Laura may discard one Special Item or supply counter to gain +1 Action, or grant +1 Action to a friendly model in her Kill Zone yet to activate. If Negan is the recipient, this Impresses him.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db08-c493-52c6-472d" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="2729-6a1e-503d-77c4" name="Tactician" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="1877-0780-06d8-89b8" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7134-887a-24e9-e1e1" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2d9e-87d4-85ee-6625" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b920-b4e3-68b5-ecab" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="dc13-f79e-6009-3422" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="30.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
-  <entryLinks/>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
+            
+        <selectionEntry id="ed10-2e8d-92f5-2fc5" name="Tara, Budding Lieutenant" hidden="false" collective="false" type="model">
+                  
+            <profiles>
+                        
+                <profile typeId="576a-0cd5-7049-1929" typeName="Named Character" id="9d4e-84c1-af0e-b362" name="Tara, Budding Lieutenant" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <characteristics>
+                                    
+                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 White</characteristic>
+                                    
+                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 Red</characteristic>
+                                    
+                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">1 Blue</characteristic>
+                                    
+                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">Medium</characteristic>
+                                    
+                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">4</characteristic>
+                                    
+                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">2</characteristic>
+                                    
+                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Runner</characteristic>
+                                    
+                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">Saviors</characteristic>
+                                  
+                    </characteristics>
+                            
+                </profile>
+                      
+            </profiles>
+                  
+            <rules>
+                        
+                <rule id="7d6f-b6ab-6903-9310" name="Clear the Way" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Tara adds one Red die to her melee attack rolls vs Walkers. Each time she removes a Walker from play, she Impresses Negan.</description>
+                            
+                </rule>
+                        
+                <rule id="9a46-cbe0-087d-d5b9" name="Stab!" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Tara may reroll any of her melee attack dice when using a weapon with the Sharp keyword.</description>
+                            
+                </rule>
+                      
+            </rules>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff38-1be7-b23c-d2b2" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="46ae-4d2c-7178-9f8f" name="Runner" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries/>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="d4c3-ce6f-a2ee-9cf3" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="f4b7-1374-af18-43ca" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="ce3f-43be-d8ef-a76f" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="e6da-8c81-7aaf-bb12" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="33c6-ea27-e869-a0bb" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="32.0"/>
+                      
+            </costs>
+                
+        </selectionEntry>
+            
+        <selectionEntry id="c8d8-e240-a87b-3758" name="Dwight, Budding Lieutenant" hidden="false" collective="false" type="model">
+                  
+            <profiles>
+                        
+                <profile typeId="576a-0cd5-7049-1929" typeName="Named Character" id="944d-3dcd-b6d0-2d6f" name="Dwight, Budding Lieutenant" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <characteristics>
+                                    
+                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 Red</characteristic>
+                                    
+                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 White</characteristic>
+                                    
+                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">1 White</characteristic>
+                                    
+                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">Medium</characteristic>
+                                    
+                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">4</characteristic>
+                                    
+                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">3</characteristic>
+                                    
+                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Marksman</characteristic>
+                                    
+                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">Saviors</characteristic>
+                                  
+                    </characteristics>
+                            
+                </profile>
+                      
+            </profiles>
+                  
+            <rules>
+                        
+                <rule id="4aab-dc51-8fa0-7c46" name="Tread Lightly" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Each time Dwight Runs, roll one Black die. On a Shield, he does not cause NOISE.</description>
+                            
+                </rule>
+                        
+                <rule id="84dc-69f9-caa5-950a" name="Scavenger" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>If Dwight makes a Swap Items Action to give an item or supply counter to Negan, this Impresses him.</description>
+                            
+                </rule>
+                      
+            </rules>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6100-79df-19ce-9ec9" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="cba2-f885-96ef-1fa7" name="Marksman" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries/>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="bbc2-3f70-998d-ec42" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="1871-2f50-ab3e-cf46" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="e9f3-027f-1cae-d143" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="a0b1-181f-4123-0105" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="95bd-4dd4-b349-fe8b" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="28.0"/>
+                      
+            </costs>
+                
+        </selectionEntry>
+            
+        <selectionEntry id="3af8-e305-b234-d835" name="Sherry, Budding Lieutenant" hidden="false" collective="false" type="model">
+                  
+            <profiles>
+                        
+                <profile typeId="576a-0cd5-7049-1929" typeName="Named Character" id="ea7e-7470-5902-384e" name="Sherry, Budding Lieutenant" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <characteristics>
+                                    
+                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 Red</characteristic>
+                                    
+                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 White</characteristic>
+                                    
+                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">1 Red</characteristic>
+                                    
+                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">Low</characteristic>
+                                    
+                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">3</characteristic>
+                                    
+                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">2</characteristic>
+                                    
+                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Support</characteristic>
+                                    
+                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">Saviors</characteristic>
+                                  
+                    </characteristics>
+                            
+                </profile>
+                      
+            </profiles>
+                  
+            <rules>
+                        
+                <rule id="6e4c-beff-73e5-34e1" name="Insightful" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Sherry may give up all of her Actions for the turn. If she does, immediately perform one free action with a friendly model within 6". The target model may still activate normally later if it has not already done so. If the target of this ability is Negan it Impresses him.</description>
+                            
+                </rule>
+                      
+            </rules>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a934-bd41-eb20-d7fd" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="2a2a-40ad-a445-d405" name="Support" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries/>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="1ffc-d901-f842-a817" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="edc0-ebe5-07aa-ae47" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="dbbf-3416-cbef-4c70" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="2f99-5b37-de60-e40f" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="6569-d073-94fb-0c65" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="20.0"/>
+                      
+            </costs>
+                
+        </selectionEntry>
+            
+        <selectionEntry id="62ea-c307-5e88-53b9" name="John, Budding Lieutenant" hidden="false" collective="false" type="model">
+                  
+            <profiles>
+                        
+                <profile typeId="576a-0cd5-7049-1929" typeName="Named Character" id="b04d-96ea-c3ca-2f67" name="John, Budding Lieutenant" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <characteristics>
+                                    
+                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 White</characteristic>
+                                    
+                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 Red</characteristic>
+                                    
+                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">1 White, 1 Red</characteristic>
+                                    
+                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">High</characteristic>
+                                    
+                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">5</characteristic>
+                                    
+                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">4</characteristic>
+                                    
+                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Bruiser</characteristic>
+                                    
+                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">Saviors</characteristic>
+                                  
+                    </characteristics>
+                            
+                </profile>
+                      
+            </profiles>
+                  
+            <rules>
+                        
+                <rule id="72c2-cd32-37f0-e47a" name="Tank" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>If John's side is outnumbered in combat by 2:1 or more, add 1 White die to his melee attack roll. If John's side wins the combat, this Impresses Negan.</description>
+                            
+                </rule>
+                      
+            </rules>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5606-8593-ba15-e4fe" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="c622-99fe-4fad-5366" name="Bruiser" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries/>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="c369-1dda-a03d-6ee2" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="0dc9-1505-80fe-b7a5" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="7da9-25bc-20b8-a393" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="fe6a-209c-75c1-ca90" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="1f42-c4ef-7972-7b91" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="36.0"/>
+                      
+            </costs>
+                
+        </selectionEntry>
+            
+        <selectionEntry id="5d1a-c2fd-114f-afb5" name="Laura, Budding Lieutenant" hidden="false" collective="false" type="model">
+                  
+            <profiles>
+                        
+                <profile typeId="576a-0cd5-7049-1929" typeName="Named Character" id="5146-db06-bf33-02db" name="Laura, Budding Lieutenant" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <characteristics>
+                                    
+                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 Red</characteristic>
+                                    
+                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 Blue</characteristic>
+                                    
+                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">1 White</characteristic>
+                                    
+                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">Medium</characteristic>
+                                    
+                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">3</characteristic>
+                                    
+                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">3</characteristic>
+                                    
+                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Tactician</characteristic>
+                                    
+                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">Saviors</characteristic>
+                                  
+                    </characteristics>
+                            
+                </profile>
+                      
+            </profiles>
+                  
+            <rules>
+                        
+                <rule id="a7d6-1b6f-0b13-600a" name="Resourceful" hidden="false">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <description>Once per activation, Laura may discard one Special Item or supply counter to gain +1 Action, or grant +1 Action to a friendly model in her Kill Zone yet to activate. If Negan is the recipient, this Impresses him.</description>
+                            
+                </rule>
+                      
+            </rules>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db08-c493-52c6-472d" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="2729-6a1e-503d-77c4" name="Tactician" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries/>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="1877-0780-06d8-89b8" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="7134-887a-24e9-e1e1" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="2d9e-87d4-85ee-6625" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="b920-b4e3-68b5-ecab" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="dc13-f79e-6009-3422" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="30.0"/>
+                      
+            </costs>
+                
+        </selectionEntry>
+          
+    </selectionEntries>
+      
+    <entryLinks/>
+      
+    <sharedSelectionEntries/>
+      
+    <sharedSelectionEntryGroups/>
+      
+    <sharedRules/>
+      
+    <sharedProfiles/>
+    
 </catalogue>

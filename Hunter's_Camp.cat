@@ -1,552 +1,280 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f33d-7905-830e-96ea" name="Hunter&apos;s Camp" revision="6" battleScribeVersion="2.01" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
+<catalogue id="f33d-7905-830e-96ea" name="Hunter&apos;s Camp" revision="6" battleScribeVersion="2.02" library="false" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e4f0-b616-3e1a-ee88" name="Albert" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05c-4b67-2877-d957" type="max"/>
+      </constraints>
       <profiles>
-        <profile id="3c5f-5def-b1c4-6089" name="Albert" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="3c5f-5def-b1c4-6089" name="Albert" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Named Character">
           <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Low"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="3"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Runner"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Hunter&apos;s Camp"/>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Low</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Runner</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Hunter&apos;s Camp</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="0411-ab5a-7c2d-45ed" name="Keep Them Alive" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>Any model wounded but not removed from play by Albert&apos;s attacks loses an Action in their next activation.</description>
         </rule>
         <rule id="d489-ac7c-0dbf-6305" name="Tread Lightly" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>Each time Albert Runs, roll one black die. On a Shield symbol, he does not cause NOISE.</description>
         </rule>
       </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05c-4b67-2877-d957" type="max"/>
-      </constraints>
       <categoryLinks>
-        <categoryLink id="f9ee-3af0-ec87-e1af" name="New CategoryLink" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="f9ee-3af0-ec87-e1af" name="New CategoryLink" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="0d18-9501-a70d-3cd6" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2e1e-047e-e814-a382" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5c4f-103c-f5ad-3703" name="Melee Weapons" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5607-9f3b-6ef0-e032" name="Armor" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="404b-e538-d1fb-fcaf" name="Leader" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="0d18-9501-a70d-3cd6" name="New EntryLink" hidden="false" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="2e1e-047e-e814-a382" name="New EntryLink" hidden="false" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="5c4f-103c-f5ad-3703" name="Melee Weapons" hidden="false" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="5607-9f3b-6ef0-e032" name="Armor" hidden="false" collective="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="404b-e538-d1fb-fcaf" name="Leader" hidden="false" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cce-2b50-18d0-ff25" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="c873-7734-e60c-a82e" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="c873-7734-e60c-a82e" name="Veteran Skills" hidden="false" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="18.0"/>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14ab-cbbf-fe76-df7c" name="Charlie" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee21-9056-2a2d-18d7" type="max"/>
+      </constraints>
       <profiles>
-        <profile id="59c1-2490-fc17-14ac" name="Charlie" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="59c1-2490-fc17-14ac" name="Charlie" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Named Character">
           <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Blue"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 Red"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="2"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Marksman"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Hunter&apos;s Camp"/>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Blue</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Marksman</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Hunter&apos;s Camp</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="778c-c38d-80b2-2de2" name="Hunter" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>Charlie does not halve his movement when moving through Area Terrain.</description>
         </rule>
         <rule id="3cdd-c69c-242e-7746" name="Pick Them Off - Charlie" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>Charlie adds one blue to his attack rolls against enemy Survivors who have no friendly models within 8&quot;.</description>
         </rule>
       </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee21-9056-2a2d-18d7" type="max"/>
-      </constraints>
       <categoryLinks>
-        <categoryLink id="149e-16a2-afb2-b3d1" name="Marksman" hidden="false" targetId="48a7-24df-def3-914a" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="149e-16a2-afb2-b3d1" name="Marksman" hidden="false" targetId="48a7-24df-def3-914a" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="f246-06c2-bb17-b9f3" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="db25-3410-c87b-528e" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="de10-de07-c2ff-df31" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0fb1-9fbf-c33b-c260" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9355-0f5c-0053-33dc" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="f246-06c2-bb17-b9f3" name="New EntryLink" hidden="false" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="db25-3410-c87b-528e" name="New EntryLink" hidden="false" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="de10-de07-c2ff-df31" name="New EntryLink" hidden="false" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="0fb1-9fbf-c33b-c260" name="New EntryLink" hidden="false" collective="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="9355-0f5c-0053-33dc" name="New EntryLink" hidden="false" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4ca-70a2-7e43-68b2" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="64eb-b11c-bb9e-399a" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="64eb-b11c-bb9e-399a" name="Veteran Skills" hidden="false" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="35.0"/>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aca2-b938-b343-f9a3" name="David" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad43-f0c5-2112-7c1d" type="max"/>
+      </constraints>
       <profiles>
-        <profile id="817f-6b12-a1f3-8c91" name="David" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="817f-6b12-a1f3-8c91" name="David" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Named Character">
           <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 Red"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="2 Red"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="5"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Support"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Hunter&apos;s Camp"/>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">2 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Support</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Hunter&apos;s Camp</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="6317-521b-56d4-02bd" name="Retreat to the Shadows" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>When David wins a melee within 8&quot; of Area Terrain, he may immediately make a free Sneak or Run Action into the terrain piece.</description>
         </rule>
         <rule id="6697-c817-37f1-d2b6" name="Pick Them Off - David" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>David adds one red to his attack rolls against enemy Survivors who have no friendly models within 8&quot;.</description>
         </rule>
       </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad43-f0c5-2112-7c1d" type="max"/>
-      </constraints>
       <categoryLinks>
-        <categoryLink id="2de2-1ca1-521b-e312" name="New CategoryLink" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="2de2-1ca1-521b-e312" name="New CategoryLink" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="214d-e67f-0d86-bb94" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="58f7-609d-248f-af77" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b566-a9a9-811d-17a6" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b1c8-d547-dbea-8710" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="af07-98dc-2915-b755" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="214d-e67f-0d86-bb94" name="New EntryLink" hidden="false" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="58f7-609d-248f-af77" name="New EntryLink" hidden="false" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="b566-a9a9-811d-17a6" name="New EntryLink" hidden="false" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="b1c8-d547-dbea-8710" name="New EntryLink" hidden="false" collective="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="af07-98dc-2915-b755" name="New EntryLink" hidden="false" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6319-7eac-b105-a416" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="2ebf-ceb4-76a8-82d4" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="2ebf-ceb4-76a8-82d4" name="Veteran Skills" hidden="false" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="28.0"/>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a04b-2b78-1dc6-47b8" name="Greg" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="149b-2d0e-cce1-59b5" type="max"/>
+      </constraints>
       <profiles>
-        <profile id="e811-69af-6b01-aa64" name="Greg" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="e811-69af-6b01-aa64" name="Greg" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Named Character">
           <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 White"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="1 White"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="High"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="6"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Bruiser"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Hunter&apos;s Camp"/>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 White</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">6</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Hunter&apos;s Camp</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="5889-79d2-2744-36c2" name="Prey on the Weak - Greg" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>Greg ignores the Just a Kid special rule.</description>
         </rule>
         <rule id="ff7f-aaf3-a2ca-d8f7" name="Forest Fighter" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>When Greg wins a melee against an enemy in Area Terrain, he knocks them prone.</description>
         </rule>
       </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="149b-2d0e-cce1-59b5" type="max"/>
-      </constraints>
       <categoryLinks>
-        <categoryLink id="d10b-327a-6ee4-d433" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="d10b-327a-6ee4-d433" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2b78-0157-3eb7-9b92" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0cb7-508e-cb32-f9ac" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9604-a8aa-aca6-d353" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="24cd-d731-d420-d9bf" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="78da-edb4-979c-5733" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="2b78-0157-3eb7-9b92" name="New EntryLink" hidden="false" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="0cb7-508e-cb32-f9ac" name="New EntryLink" hidden="false" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="9604-a8aa-aca6-d353" name="New EntryLink" hidden="false" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="24cd-d731-d420-d9bf" name="New EntryLink" hidden="false" collective="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="78da-edb4-979c-5733" name="New EntryLink" hidden="false" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb61-223f-4270-2980" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="05e6-2156-58fc-4f58" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="05e6-2156-58fc-4f58" name="Veteran Skills" hidden="false" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="45.0"/>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02cf-319a-46bc-4fab" name="Theresa" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f623-6fc2-8764-bc32" type="max"/>
+      </constraints>
       <profiles>
-        <profile id="8f21-a1df-eb94-2787" name="Theresa" hidden="false" profileTypeId="576a-0cd5-7049-1929" profileTypeName="Named Character">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <profile id="8f21-a1df-eb94-2787" name="Theresa" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Named Character">
           <characteristics>
-            <characteristic name="Melee" characteristicTypeId="196c-33c8-fa61-e487" value="1 Red"/>
-            <characteristic name="Shoot" characteristicTypeId="b194-007f-e62d-dc66" value="2 Red"/>
-            <characteristic name="Defense" characteristicTypeId="d237-9148-7cf3-c9da" value="1 White"/>
-            <characteristic name="Nerve" characteristicTypeId="4fa6-07d4-6f84-b43c" value="Medium"/>
-            <characteristic name="Health" characteristicTypeId="4213-f86f-906e-7aaa" value="4"/>
-            <characteristic name="Pack" characteristicTypeId="b15d-caad-9f43-74cb" value="3"/>
-            <characteristic name="Character Type" characteristicTypeId="f6f9-dbce-b2a7-8af0" value="Tactician"/>
-            <characteristic name="Faction" characteristicTypeId="7f76-cafe-10e5-f259" value="Hunter&apos;s Camp"/>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">2 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Tactician</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Hunter&apos;s Camp</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="9f46-04fd-ba05-401a" name="Prey on the Weak - Theresa" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>Theresa ignores the Just a Kid special rule.</description>
         </rule>
         <rule id="d1e3-7454-0c62-42cb" name="Scare Tactics" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <description>When an enemy model within 6&quot; rolls a panic die, treat Terrified! results as Flee! results, and Theresa chooses the direction that the model flees instead of them moving away from the nearest enemy.</description>
         </rule>
       </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f623-6fc2-8764-bc32" type="max"/>
-      </constraints>
       <categoryLinks>
-        <categoryLink id="e388-4515-6215-a305" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="e388-4515-6215-a305" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="568c-0b46-e7a1-fe18" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="fafc-f11a-b03a-1f51" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1f68-065f-2491-b2b6" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="128e-0091-0a93-e159" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6915-2592-a682-dddc" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="568c-0b46-e7a1-fe18" name="New EntryLink" hidden="false" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="fafc-f11a-b03a-1f51" name="New EntryLink" hidden="false" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="1f68-065f-2491-b2b6" name="New EntryLink" hidden="false" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="128e-0091-0a93-e159" name="New EntryLink" hidden="false" collective="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="6915-2592-a682-dddc" name="New EntryLink" hidden="false" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08bf-b87e-6ef5-b122" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="2a5b-70c5-5017-cfd8" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="2a5b-70c5-5017-cfd8" name="Veteran Skills" hidden="false" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="12b3-6d46-0f10-4927" value="32.0"/>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="061f-870e-af55-0b1a" name="Chris" hidden="false" collective="false" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a9f-7c65-f3fc-9acf" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c14c-95b2-8fb1-6dfe" name="Chris" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Named Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">2 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 White</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White,1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Tactician</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Hunter&apos;s Camp</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b13b-b319-0cf8-e197" name="A Man&apos;s Gotta Eat" hidden="false">
+          <description>Chris adds 1Red to all attack rolls against enemy Survivors with 2 or fewer Heatlh points remaining.</description>
+        </rule>
+        <rule id="0d82-4fab-4e83-4840" name="It&apos;s Me or You" hidden="false">
+          <description>If Chris is in contact with a Survivor at the start of the Melee phase, and there are any Walkers within his Kill Zone, he may roll 1Black. On a Shield, move one enemy Survivor in contact with Chris into contact with a Walker in his Kill Zone (by the shortest possible route).</description>
+        </rule>
+        <rule id="3541-9077-bfe1-0394" name="Leader Ability: Ugly Business" hidden="false">
+          <description>Each time Chris or a friendly Hunter&apos;s Camp model within 10&quot; attacks a Prone Survivor, add 1Red to a special dice pool on this card.
+
+Chris and any friendly Hunter&apos;s Camp models within 6&quot; may add one of these dice to any attack roll vs Survivors. Only one bonus die may be used per model per roll.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f70e-be5c-7cbf-ce58" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f700-5ba9-eee3-08b4" name="New EntryLink" hidden="false" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="8b86-646d-a498-dc75" name="New EntryLink" hidden="false" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="747d-64ef-df8b-cf20" name="Melee Weapons" hidden="false" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="2a03-b521-9319-4211" name="Armor" hidden="false" collective="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="4d4a-83e9-f8ed-91a4" name="Leader" hidden="false" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e172-9c96-8478-9a1f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="66ab-ab15-d310-53e0" name="Veteran Skills" hidden="false" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="50.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks/>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </catalogue>
