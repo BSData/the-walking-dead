@@ -1,416 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.02" id="bc61-6532-3cb1-52d4" name="The Kingdom" revision="2" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="2">
-    <publications/>
-      
-    <profiles/>
-      
-    <rules/>
-      
-    <infoLinks/>
-      
-    <costTypes/>
-      
-    <profileTypes/>
-      
-    <categoryEntries/>
-      
-    <forceEntries/>
-      
-    <selectionEntries>
-            
-        <selectionEntry id="47bc-4025-914a-36a6" name="Ezekiel" hidden="false" collective="false" type="model">
-                  
-            <profiles>
-                        
-                <profile typeId="576a-0cd5-7049-1929" typeName="Character" id="43c2-f2a2-fdfb-c8b4" name="Ezekiel" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <characteristics>
-                                    
-                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 White</characteristic>
-                                    
-                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">1 White</characteristic>
-                                    
-                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">3 Red</characteristic>
-                                    
-                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">High</characteristic>
-                                    
-                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">5</characteristic>
-                                    
-                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">3</characteristic>
-                                    
-                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Tatician</characteristic>
-                                    
-                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">The Kingdom</characteristic>
-                                  
-                    </characteristics>
-                            
-                </profile>
-                      
-            </profiles>
-                  
-            <rules>
-                        
-                <rule id="709d-dcd7-1926-bc7b" name="Commanding Presence" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <description>When making a Hold Your Nerve Action, Ezekial does not roll the Black die. Instead, he immediately reduces the Threat Level by 1 White.</description>
-                            
-                </rule>
-                        
-                <rule id="71c6-4b80-094a-a496" name="Shiva" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <description>If Shiva is engaged in the same combat as Ezekiel, both Ezekiel and Shiva add 1 Red to their melee attack rolls.</description>
-                            
-                </rule>
-                        
-                <rule id="3707-51fd-c106-1b4d" name="Leader Ability: The King" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <description>Once per game, Ezekiel and every Survivor in his group from the Kingdom Faction may perform one extra Action during their activation. This bonus lasts for only a single Action phase - if the extra Action is not used, it is wasted.</description>
-                            
-                </rule>
-                      
-            </rules>
-                  
-            <infoLinks/>
-                  
-            <modifiers/>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a46-da80-8b91-efee" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks>
-                        
-                <categoryLink id="47bc-4025-914a-36a6-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                            
-                </categoryLink>
-                      
-            </categoryLinks>
-                  
-            <selectionEntries/>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks>
-                        
-                <entryLink id="edf7-4e40-e479-6509" name="New EntryLink" hidden="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="1739-df5f-c830-7a9e" name="New EntryLink" hidden="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="5119-378e-fd34-9689" name="New EntryLink" hidden="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="43cd-32a1-e72d-3914" name="New EntryLink" hidden="false" targetId="2001-f500-8791-03fc" type="selectionEntryGroup">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="36eb-10c9-abef-645d" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="a67b-5d34-4cd3-7705" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                      
-            </entryLinks>
-                  
-            <costs>
-                        
-                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="56.0"/>
-                      
-            </costs>
-                
-        </selectionEntry>
-            
-        <selectionEntry id="e656-6fdf-fb0c-c5b7" name="Shiva" hidden="false" collective="false" type="model">
-                  
-            <profiles>
-                        
-                <profile typeId="576a-0cd5-7049-1929" typeName="Character" id="ccef-47da-8478-06cc" name="Shiva" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <characteristics>
-                                    
-                        <characteristic typeId="196c-33c8-fa61-e487" name="Melee">1 Blue 1 Red</characteristic>
-                                    
-                        <characteristic typeId="b194-007f-e62d-dc66" name="Shoot">-</characteristic>
-                                    
-                        <characteristic typeId="d237-9148-7cf3-c9da" name="Defense">1 White 1 Red</characteristic>
-                                    
-                        <characteristic typeId="4fa6-07d4-6f84-b43c" name="Nerve">High</characteristic>
-                                    
-                        <characteristic typeId="4213-f86f-906e-7aaa" name="Health">6</characteristic>
-                                    
-                        <characteristic typeId="b15d-caad-9f43-74cb" name="Pack">0</characteristic>
-                                    
-                        <characteristic typeId="f6f9-dbce-b2a7-8af0" name="Character Type">Bruiser</characteristic>
-                                    
-                        <characteristic typeId="7f76-cafe-10e5-f259" name="Faction">The Kingdom</characteristic>
-                                  
-                    </characteristics>
-                            
-                </profile>
-                      
-            </profiles>
-                  
-            <rules>
-                        
-                <rule id="2914-b818-cd68-3208" name="Beast" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <description>Shiva may Run 10" and may never Defend in combat. In addition, all of her melee attacks have the Sharp keyword.</description>
-                            
-                </rule>
-                        
-                <rule id="5eb0-fc8f-67b9-51c9" name="Tiger!" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <description>Enemy Survivors within Shiva's Kill Zone treat their Nerve as one level lower than usual.</description>
-                            
-                </rule>
-                        
-                <rule id="3a25-619f-2605-45ec" name="Furious Assault" hidden="false">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <description>Once per turn, if Shiva wins a melee, she may immediately move into base contact with a new, standing enemy within 6". Resolve this new combat immediately, even if one or more combatants has already fought.</description>
-                            
-                </rule>
-                      
-            </rules>
-                  
-            <infoLinks/>
-                  
-            <modifiers/>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c522-10a3-8f2a-e1b1" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks>
-                        
-                <categoryLink id="e656-6fdf-fb0c-c5b7-1c6d-9084-4b8d-4340" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                            
-                </categoryLink>
-                      
-            </categoryLinks>
-                  
-            <selectionEntries/>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks>
-                        
-                <entryLink id="e9fa-5936-0db4-9c68" name="New EntryLink" hidden="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="bef8-5d08-eb0b-bbc5" name="Veteran Skills" hidden="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                      
-            </entryLinks>
-                  
-            <costs>
-                        
-                <cost typeId="12b3-6d46-0f10-4927" name="Points" value="44.0"/>
-                      
-            </costs>
-                
-        </selectionEntry>
-          
-    </selectionEntries>
-      
-    <entryLinks/>
-      
-    <sharedSelectionEntries/>
-      
-    <sharedSelectionEntryGroups/>
-      
-    <sharedRules/>
-      
-    <sharedProfiles/>
-    
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bc61-6532-3cb1-52d4" name="The Kingdom" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="47bc-4025-914a-36a6" name="Ezekiel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a46-da80-8b91-efee" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="43c2-f2a2-fdfb-c8b4" name="Ezekiel" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 White</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">3 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Tactician</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="709d-dcd7-1926-bc7b" name="Commanding Presence" hidden="false">
+          <description>When making a Hold Your Nerve Action, Ezekial does not roll the Black die. Instead, he immediately reduces the Threat Level by 1 White.</description>
+        </rule>
+        <rule id="71c6-4b80-094a-a496" name="Shiva" hidden="false">
+          <description>If Shiva is engaged in the same combat as Ezekiel, both Ezekiel and Shiva add 1 Red to their melee attack rolls.</description>
+        </rule>
+        <rule id="3707-51fd-c106-1b4d" name="Leader Ability: The King" hidden="false">
+          <description>Once per game, Ezekiel and every Survivor in his group from the Kingdom Faction may perform one extra Action during their activation. This bonus lasts for only a single Action phase - if the extra Action is not used, it is wasted.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="47bc-4025-914a-36a6-b936-ac92-62ac-545e" hidden="false" targetId="b936-ac92-62ac-545e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="edf7-4e40-e479-6509" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="1739-df5f-c830-7a9e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="5119-378e-fd34-9689" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="43cd-32a1-e72d-3914" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="36eb-10c9-abef-645d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry"/>
+        <entryLink id="a67b-5d34-4cd3-7705" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="56.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e656-6fdf-fb0c-c5b7" name="Shiva" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c522-10a3-8f2a-e1b1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ccef-47da-8478-06cc" name="Shiva" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Blue 1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">-</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White 1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">6</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">0</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2914-b818-cd68-3208" name="Beast" hidden="false">
+          <description>Shiva may Run 10&quot; and may never Defend in combat. In addition, all of her melee attacks have the Sharp keyword.</description>
+        </rule>
+        <rule id="5eb0-fc8f-67b9-51c9" name="Tiger!" hidden="false">
+          <description>Enemy Survivors within Shiva&apos;s Kill Zone treat their Nerve as one level lower than usual.</description>
+        </rule>
+        <rule id="3a25-619f-2605-45ec" name="Furious Assault" hidden="false">
+          <description>Once per turn, if Shiva wins a melee, she may immediately move into base contact with a new, standing enemy within 6&quot;. Resolve this new combat immediately, even if one or more combatants has already fought.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e656-6fdf-fb0c-c5b7-1c6d-9084-4b8d-4340" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e9fa-5936-0db4-9c68" name="New EntryLink" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry"/>
+        <entryLink id="bef8-5d08-eb0b-bbc5" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15e0-9b1d-2672-3191" name="King Ezekiel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a9-a81b-d767-0353" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fda8-5676-b297-69e9" name="King Ezekiel" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">2 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Blue</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Support</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d921-3776-f6da-791a" name="Kingly" hidden="false">
+          <description>When making a Hold Your Nerve action, Ezekiel does not roll 1Black. Instead, he immediately reduces the Threat Level by 1Blue. </description>
+        </rule>
+        <rule id="e468-80cb-1214-c78e" name="Protector of the Realm" hidden="false">
+          <description>Friendly Kingdom models within Ezekiel&apos;s Kill Zone may replace one die from their defense rolls with 1Blue.</description>
+        </rule>
+        <rule id="7e73-d7be-0ab9-2f03" name="Leader Ability: Royal Decree" hidden="false">
+          <description>Once per game, as a Special Action, Ezekiel may award +1 action to all friendly Kingdom models within 6&quot;.	</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a046-cf7f-3b25-4318" name="New CategoryLink" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23ff-c55b-4cce-96c5" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="4e09-f53f-2de5-cfcb" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="52a0-497f-69ed-5364" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="e03c-9291-c513-35a1" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="f443-1b1c-8e85-6b26" name="New EntryLink" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry"/>
+        <entryLink id="c463-8262-9f47-00d6" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="56.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
