@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="12" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="13" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="12b3-6d46-0f10-4927" name="Points" defaultCostLimit="0.0"/>
   </costTypes>
@@ -4595,6 +4595,27 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="cb5e-b3c4-3e19-cfa2" name="Throwing Knife" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffb2-0681-632f-d639" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="61b7-c7bc-6ffa-6afc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c119-6424-a5ae-0548" name="Throwing Knife" hidden="false" typeId="d475-dc3d-7c58-0271" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Shoot" typeId="54fa-2064-3537-e530">1 Red</characteristic>
+                <characteristic name="Special Rules" typeId="fd83-b520-2ee9-67db">One Use Only.</characteristic>
+                <characteristic name="Range" typeId="8905-772a-854d-0335">6&quot;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dab3-bf32-5795-fd31" name="One Use" hidden="false" targetId="1ab8-7380-5439-63fa" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="2001-f500-8791-03fc" name="Armor" hidden="false" collective="false" import="true">
@@ -5057,6 +5078,25 @@
           </infoLinks>
           <costs>
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="17.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e32-b8c5-27d5-5c83" name="Leather Coat" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="597f-ec69-69a1-4fe5" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6985-3dc0-7c52-a57b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5a3c-3902-eda4-af95" name="Leather Jacket" hidden="false" typeId="e17d-78e1-43dc-90b2" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="0c0a-f2f6-ed9f-b2f3">This model may reroll blanks when making Melee Defense rolls.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0187-8148-9e97-ed0b" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5913,6 +5953,22 @@
           </profiles>
           <costs>
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4243-2b4e-b678-904b" name="Binoculars" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2295-0800-af0d-ada6" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce6-633c-05b2-f2f7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5196-28d4-1154-b4e5" name="Binoculars" hidden="false" typeId="e17d-78e1-43dc-90b2" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="0c0a-f2f6-ed9f-b2f3">As an Action, nominate one enemy model in line of sight. Any friendly model within the user&apos;s Kill Zone adds 1Red to ranged attack rolls this turn when targeting the nominated model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
