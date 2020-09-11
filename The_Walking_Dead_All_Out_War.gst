@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="14" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="15" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="12b3-6d46-0f10-4927" name="Points" defaultCostLimit="0.0"/>
   </costTypes>
@@ -4616,6 +4616,51 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="2858-9239-f999-f5c9" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="606a-f9c3-f171-70da" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c87-294d-92de-3eb2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b015-f78b-42e7-82f9" name="Bow" hidden="false" typeId="d475-dc3d-7c58-0271" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Shoot" typeId="54fa-2064-3537-e530">1 Red</characteristic>
+                <characteristic name="Special Rules" typeId="fd83-b520-2ee9-67db">Reliable.</characteristic>
+                <characteristic name="Range" typeId="8905-772a-854d-0335">12&quot;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5fa2-bc82-f4b5-6613" name="New InfoLink" hidden="false" targetId="76e0-3f95-f279-3343" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c7b7-c9d1-65c9-83c6" name="Rusty Old Sawed-Off" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ca-a8ce-9439-53f1" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d053-4636-ce3b-e80e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4af5-d27e-c6ef-955d" name="Rusty Old Sawed-Off" hidden="false" typeId="d475-dc3d-7c58-0271" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Shoot" typeId="54fa-2064-3537-e530">1 Red</characteristic>
+                <characteristic name="Special Rules" typeId="fd83-b520-2ee9-67db">Handgun, Shotgun, Unreliable.</characteristic>
+                <characteristic name="Range" typeId="8905-772a-854d-0335">12&quot;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="918f-1171-1290-4044" name="Shotgun" hidden="false" targetId="bd63-ea4d-7556-4703" type="rule"/>
+            <infoLink id="bd50-e5d6-0238-49ee" name="Handgun" hidden="false" targetId="880c-8e66-cdfb-9b29" type="rule"/>
+            <infoLink id="d0dc-e2c9-4294-190e" name="Unreliable" hidden="false" targetId="48e8-333a-ffa0-1377" type="rule"/>
+            <infoLink id="35aa-24d9-1952-31a6" name="MAYHEM" hidden="false" targetId="0b2f-4082-ec6a-0343" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="15.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="2001-f500-8791-03fc" name="Armor" hidden="false" collective="false" import="true">
@@ -5971,6 +6016,25 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5e5b-60a9-9788-443e" name="Flaming Arrow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13dd-89ca-305a-f152" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="177f-e9b4-8704-0eb2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1856-bc23-6444-102b" name="Adrenaline Shot" hidden="false" typeId="e17d-78e1-43dc-90b2" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="0c0a-f2f6-ed9f-b2f3">Attachment (Bow or Compound Bow), One Use. The attached weapon may target Flammable scenery - any roll of ! assigns a Burning Token to the scenery. In addition, after resolving a successful attack vs Walkers or Survivors with the attached weapon, the target model causes NOISE (even if it is Prone).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="10b3-eabe-1f58-bf0d" name="One Use" hidden="false" targetId="1ab8-7380-5439-63fa" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="d14e-53e7-4acf-c317" name="Faction" hidden="false" collective="false" import="true">
@@ -6940,6 +7004,30 @@ In Melee, Handguns with Multiple Shots may be fired several times as normal, but
     </rule>
     <rule id="8141-ef4d-3c92-f42a" name="Attachment Knapsack" hidden="false">
       <description>An item with this keyword can be attached to an item of the type Knapsack, and will no longer take up an item slot of its own. It can be attached when equipped or with a Swap Items Action, and removed again with a further Swap Items Action. Tuck it slightly under the attached card to show it is attached. </description>
+    </rule>
+    <rule id="5004-8d6c-5cc9-ab3c" name="One of the Herd" hidden="false">
+      <description>This model always benefits from the Masked Scent keyword, even when the Threat Level is High (for the purposes of the Masked Scent rule only, treat High Threat as Medium). In addition, this model will not Panic while there is at least one standing Walker in its Kill Zone.
+
+If this model is targeted by a ranged attack, it may choose one Walker in its Kill Zone that was also within rnage and line of sight of the attacker to take the hit instead. The Walker becomes the new target of the attack.
+
+Models with this keyword performing any action that causes NOISE or MAYHEM while there is a Walker within 10&quot; must first roll 1Black. On a Shield, they may perform the action as normal. On a Blank, they must choose a different action.
+
+Models with this keyword may not equip items of the Armor type (Body or Head). 
+
+Finally, if your group&apos;s leader has the One of the Herd keyword, increase the number of Walkers to place during game setup by 1Blue.</description>
+    </rule>
+    <rule id="fe75-7c24-7110-86f5" name="Whisperer" hidden="false">
+      <description>As an action, a model with this keyword may Move a Walker in its Kill Zone (at a Shamble). The same Walker may not be moved more than once per turn by means of the Whisperer rule.
+
+In a multiple melee, Walkers always side with models with this keyword, and this model adds to the dice pool for the Walkers Outnumbering rule. If both sides of a multiple melee include models with the Whisperer keyword, Walkers will side with the group that has Initiative.</description>
+    </rule>
+    <rule id="7f1c-a5b9-57b2-4dce" name="Minion" hidden="false">
+      <description>You may recruit as many Survivors with this special rule into your group as you like, even if they have the same Name. 
+
+In addition, a Minion cannot:
+Be the group Leader
+Purchase Veteran Skills
+Purchase any piece of Equipment costing greater than 15 points</description>
     </rule>
   </sharedRules>
 </gameSystem>
