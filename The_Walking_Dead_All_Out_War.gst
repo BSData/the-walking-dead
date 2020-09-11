@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="13" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="14" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="12b3-6d46-0f10-4927" name="Points" defaultCostLimit="0.0"/>
   </costTypes>
@@ -2028,17 +2028,17 @@
               <selectionEntries>
                 <selectionEntry id="f5de-5ee2-d261-8334" name="Red" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="2.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="2.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="5">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atLeast"/>
                       </conditions>
@@ -2053,17 +2053,17 @@
                 </selectionEntry>
                 <selectionEntry id="8c18-a3b1-7fba-0a03" name="White" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="5">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="6">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="4.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="7">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="5.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atLeast"/>
                       </conditions>
@@ -2078,17 +2078,17 @@
                 </selectionEntry>
                 <selectionEntry id="a6fc-dc84-7440-ac27" name="Blue" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="16">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="12.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atLeast"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="10">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="7.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="12">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="10.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
                       </conditions>
@@ -2126,7 +2126,7 @@
                         <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atLeast"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="10">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="10.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                       </conditions>
@@ -2146,17 +2146,17 @@
                 </selectionEntry>
                 <selectionEntry id="19a0-0284-3d30-aafd" name="White" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="5.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="4">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="6.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="5">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="7.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atLeast"/>
                       </conditions>
@@ -2171,17 +2171,17 @@
                 </selectionEntry>
                 <selectionEntry id="0816-3b6d-345b-36da" name="Red" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="2">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="2">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="3">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="5.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atLeast"/>
                       </conditions>
@@ -2274,7 +2274,7 @@
                         <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="12b3-6d46-0f10-4927" value="6">
+                    <modifier type="set" field="12b3-6d46-0f10-4927" value="6.0">
                       <conditions>
                         <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atLeast"/>
                       </conditions>
