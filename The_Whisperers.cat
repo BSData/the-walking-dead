@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b576-a461-bcc0-873d" name="The Whisperers" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2bf2-3105-ef44-1705" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="54c8-caa0-256d-a6cb" name="Alpha, Leader of the Whisperers" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed5b-5362-d763-2cef" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fe78-9459-8a97-f8e8" name="Alpha, Leader of the Whisperers" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Blue</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Tactician</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Whisperers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="be38-7920-a2ef-26ab" name="Leader Ability: Unchallenged" hidden="false">
+          <description>For the purposes of the Whisperer and One of the Herd rules, Alpha treats all friendly Whisperer models as Walkers.</description>
+        </rule>
+        <rule id="169f-0a37-1b62-03bc" name="Animals Need a Leader" hidden="false">
+          <description>If Alpha is included in the group, she must be the Leader.</description>
+        </rule>
+        <rule id="d9fd-e37c-91a7-8018" name="The Alpha" hidden="false">
+          <description>When using the Whisperer rule, Alpha may move all Walkers in her Kill Zone as a single action, instead of just one.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6827-12d4-f24d-9d63" name="One of the Herd" hidden="false" targetId="5004-8d6c-5cc9-ab3c" type="rule"/>
+        <infoLink id="9178-d250-90e1-caa9" name="Whisperer" hidden="false" targetId="fe75-7c24-7110-86f5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6bd4-e739-6d1b-b77f" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0e05-6251-9d6e-a307" name="Leader" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d881-8ccf-3663-8b4c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f341-b643-a7af-72a6" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8645-314f-9e11-e946" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="1601-bc30-c0f1-43dc" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="7490-1045-2d39-710b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="f03f-33cc-5a11-8977" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="55.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

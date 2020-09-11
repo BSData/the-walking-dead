@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2bf2-3105-ef44-1705" name="The Walking Dead: All Out War" revision="15" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="125b-b4ca-b2a2-2c84" name="The Walking Dead: All Out War" revision="16" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="12b3-6d46-0f10-4927" name="Points" defaultCostLimit="0.0"/>
   </costTypes>
