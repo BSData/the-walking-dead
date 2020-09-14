@@ -3,7 +3,7 @@
   <selectionEntries>
     <selectionEntry id="54c8-caa0-256d-a6cb" name="Alpha, Leader of the Whisperers" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed5b-5362-d763-2cef" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed5b-5362-d763-2cef" type="max"/>
       </constraints>
       <profiles>
         <profile id="fe78-9459-8a97-f8e8" name="Alpha, Leader of the Whisperers" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
@@ -51,6 +51,222 @@
       </entryLinks>
       <costs>
         <cost name="Points" typeId="12b3-6d46-0f10-4927" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e71-5df0-3012-9ccd" name="Beta, Devoted Bodyguard" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef4b-8dd4-0d2a-76ed" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bf00-66b7-5353-9a52" name="Beta, Devoted Bodyguard" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">3 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">-</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">8</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Whisperers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5f37-904f-d3ef-f3e4" name="Jolly Green Gi-" hidden="false">
+          <description>Beta ignores the Bulky keyword. In addition, enemy Survivors in Beta&apos;s Kill Zone treat their Nerve as one level lower than usual.</description>
+        </rule>
+        <rule id="f696-18c2-3b85-20b3" name="Bodyguard" hidden="false">
+          <description>If Alpha is in the same group and is targeted by a ranged attack while within Beta&apos;s Kill Zone, Beta may take the attack on Alpha&apos;s behalf. Beta becomes the new target, even if he was not initially within range or line of sight.</description>
+        </rule>
+        <rule id="622d-4b96-5a21-73b9" name="Survival of the Strongest" hidden="false">
+          <description>In the Melee phase, when engaged with an enemy Survivor that has more remaining Health points than Beta, Beta adds 1White to Melee and Defense for the duration of that Melee phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="10b8-4612-1487-ab70" name="One of the Herd" hidden="false" targetId="5004-8d6c-5cc9-ab3c" type="rule"/>
+        <infoLink id="5f17-65c8-79ab-52c0" name="Whisperer" hidden="false" targetId="fe75-7c24-7110-86f5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cc1d-9bd5-4dac-b542" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="46a5-01d4-f58f-44f0" name="Leader" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f6-22a3-df54-a751" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c0d-e62b-ac78-dba9" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="3089-998a-9ecf-a111" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="feb1-2694-adca-907c" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="3863-efb9-28ab-3162" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="72.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4165-de81-e690-829f" name="Lydia" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="775a-a4bc-2a0e-92c6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9b29-8f0b-cf8b-e15f" name="Lydia" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Runner</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Whisperers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b2f4-43cf-69e6-35a4" name="Quick" hidden="false">
+          <description>Lydia may perform two Move Actions in the same turn (if she has the actions to spend), although she may not Run twice.</description>
+        </rule>
+        <rule id="62a0-3096-ade2-91f6" name="Divided Loyalties" hidden="false">
+          <description>If Lydia wishes to target an enemy Alpha or Carl Grimes with an attack, or if Alpha or Carl Grimes wish to target Lydia, the attacking model must first roll a Shield on the action die. On a blank, the attacker must choose a different target, or a different action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="816a-0772-477e-664b" name="Whisperer" hidden="false" targetId="fe75-7c24-7110-86f5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="761c-66f8-6a55-2985" name="New CategoryLink" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bf82-f912-a506-2c3d" name="Leader" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a155-c489-0cbd-b16e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="79af-6085-7cae-8dd2" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="451b-eaad-f580-555d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="7546-4745-4fe1-ad16" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="6649-5c48-7c06-b59f" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+        <entryLink id="8f6c-407e-c5cf-c0fe" name="Armor" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e96-d70a-a149-1b53" name="Whisperer 1" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ee74-e270-d3e3-7abc" name="Whisperer 1" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Low</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Support</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Whisperers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e3f6-9f6f-96d5-5013" name="One of the Herd" hidden="false" targetId="5004-8d6c-5cc9-ab3c" type="rule"/>
+        <infoLink id="f754-1c04-5e69-b0a7" name="Whisperer" hidden="false" targetId="fe75-7c24-7110-86f5" type="rule"/>
+        <infoLink id="b5f9-90e5-026d-7e1e" name="Minion" hidden="false" targetId="7f1c-a5b9-57b2-4dce" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="caa5-1c64-99bb-3bae" name="New CategoryLink" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b3e0-cc34-5d05-530e" name="Equipment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="12b3-6d46-0f10-4927" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec20-4b10-fdcc-0027" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b164-33ee-5bb7-5689" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+            <entryLink id="77a3-d110-344f-1be2" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+            <entryLink id="bb10-ec43-90bb-3666" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ee2-31bc-c739-360a" name="Whisperer 2" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1c3e-1c8c-2ceb-2554" name="Whisperer 2" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Low</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Whisperers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8104-ec4e-5cd1-a3c8" name="One of the Herd" hidden="false" targetId="5004-8d6c-5cc9-ab3c" type="rule"/>
+        <infoLink id="5934-82ee-7007-12e1" name="Whisperer" hidden="false" targetId="fe75-7c24-7110-86f5" type="rule"/>
+        <infoLink id="05c5-2ee2-5ce8-ffec" name="Minion" hidden="false" targetId="7f1c-a5b9-57b2-4dce" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b797-fc8c-6c76-99de" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b61e-f1e5-3e38-b93e" name="Equipment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="12b3-6d46-0f10-4927" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a837-8fac-ed8b-affb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="56e3-4a2e-b90a-a89c" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+            <entryLink id="98c4-1d55-5588-3a71" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+            <entryLink id="1f16-0917-c5fe-9ce1" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc6d-c560-a9e1-7471" name="Whisperer 3" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5d53-5371-092f-ddb8" name="Whisperer 3" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 White</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Low</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Marksman</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">Whisperers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d115-45e1-d5a0-a9dd" name="One of the Herd" hidden="false" targetId="5004-8d6c-5cc9-ab3c" type="rule"/>
+        <infoLink id="1c7b-6a00-d42c-dac8" name="Whisperer" hidden="false" targetId="fe75-7c24-7110-86f5" type="rule"/>
+        <infoLink id="a552-2da8-f771-ba5e" name="Minion" hidden="false" targetId="7f1c-a5b9-57b2-4dce" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bdc0-9a65-8366-388e" name="New CategoryLink" hidden="false" targetId="48a7-24df-def3-914a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="40cc-6950-55b5-075a" name="Equipment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="12b3-6d46-0f10-4927" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8814-b073-e1e1-b5a1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a0b3-45a2-6f2a-165a" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+            <entryLink id="e7a8-f097-0d59-6500" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+            <entryLink id="08fd-47ce-e759-5d04" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="24.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
