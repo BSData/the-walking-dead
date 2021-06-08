@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b576-a461-bcc0-873d" name="The Whisperers" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b576-a461-bcc0-873d" name="The Whisperers" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="54c8-caa0-256d-a6cb" name="Alpha, Leader of the Whisperers" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -62,7 +62,7 @@
           <characteristics>
             <characteristic name="Melee" typeId="196c-33c8-fa61-e487">3 Red</characteristic>
             <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">-</characteristic>
-            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">3 Red</characteristic>
             <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
             <characteristic name="Health" typeId="4213-f86f-906e-7aaa">8</characteristic>
             <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>

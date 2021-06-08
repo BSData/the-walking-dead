@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1431-59aa-f711-e03d" name="Rick&apos;s Group" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="380e-9ae5-b88b-af8b" name="Abraham" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -1839,7 +1839,7 @@ Other Survivors with the Prison Advisor subtitle may use their leader abilities 
       </profiles>
       <rules>
         <rule id="af04-974d-f579-a568" name="Steadying Influence" hidden="false">
-          <description>When making a Hold Your Nerve Action, Maggie does not roll one Black die. Instead, she immediately reduces the Threate Level by one White die.</description>
+          <description>When making a Hold Your Nerve Action, Maggie does not roll one Black die. Instead, she immediately reduces the Threat Level by one White die.</description>
         </rule>
         <rule id="1624-559c-97a2-b5ad" name="Faithful Unto Death" hidden="false">
           <description>As long as Glenn is in the group and still alive, Maggie and Glenn will never Panic.</description>

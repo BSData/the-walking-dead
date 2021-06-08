@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="125b-b4ca-b2a2-2c84" name="The Walking Dead: All Out War" revision="16" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="12b3-6d46-0f10-4927" name="Points" defaultCostLimit="0.0"/>
+    <costType id="12b3-6d46-0f10-4927" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="576a-0cd5-7049-1929" name="Character">
@@ -2821,7 +2821,7 @@
             <infoLink id="9501-a7d0-2f02-1ac0" name="Stun" hidden="false" targetId="88ba-a431-6ae0-5407" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="8.0"/>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a30e-106c-58be-effe" name="Shiv" hidden="false" collective="false" import="true" type="upgrade">
@@ -4739,7 +4739,7 @@
             <infoLink id="621b-85dd-0048-80a7" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="12.0"/>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ae44-d839-150f-c2b6" name="Makeshift Body Armor" hidden="false" collective="false" import="true" type="upgrade">
