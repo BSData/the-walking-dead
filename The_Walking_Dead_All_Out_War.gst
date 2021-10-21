@@ -3460,6 +3460,26 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="8.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="99ee-b00e-ce6f-b513" name="Cavalry Sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db26-11a3-fe44-fb88" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c196-be5f-3e09-e6eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="34d5-ea76-0360-6d99" name="Cavalry Sword" hidden="false" typeId="ceb7-6d13-cb78-ec08" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Melee" typeId="4bdc-0a61-b4e8-3f99">1 Red</characteristic>
+                <characteristic name="Special Rules" typeId="b943-0b7f-c651-1b2b">Adds 1Red to melee attack. If model has an equipped Horse, adds 1White to melee attack instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="070c-ac97-d424-01f4" name="Sharp" hidden="false" targetId="f31f-4ecc-3046-7326" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="13.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="6b77-41b1-2644-d329" name="Ranged Weapons" hidden="false" collective="false" import="true">
@@ -5144,6 +5164,25 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="7.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9761-895d-258c-49e3" name="Saddlebags" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd8-12e5-aada-e34b" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="badf-044d-58cc-8dcf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1e32-a6c0-2788-7378" name="Saddlebags" hidden="false" typeId="e17d-78e1-43dc-90b2" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="0c0a-f2f6-ed9f-b2f3">Models with Born in the Saddle only. This item grants any two other items the Attachment (Saddlebags) keyword. A Survivor may only equip one Saddlebags card.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a244-e17f-96f7-135e" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="b34b-448f-7dbf-e35a" name="Special Item" hidden="false" collective="false" import="true">
@@ -6810,6 +6849,595 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="32d5-b651-5f66-fccd" name="Knight of the Realm" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="475e-b641-61ce-8358" name="Knight of the Realm" hidden="false" typeId="341d-4324-0759-f9cd" typeName="Veteran Skill">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="7627-4381-92b7-f032">When this model has an equipped Horse, it adds 1Red to its melee attack.
+
+Kingdom only.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3b87-44fb-f17c-2982" name="Hit And Run" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="0b12-d0b1-9f9b-0ab0" name="Hit And Run" hidden="false" typeId="341d-4324-0759-f9cd" typeName="Veteran Skill">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="7627-4381-92b7-f032">Models with an equipped Horse only. If, after this model completes a Melee Attack, there are no standing enemies in contact, it may immediately perofrm an out-of-sequence Move Action of up to 6&quot;. This Move may not be used to contact an enemy.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c9f5-39a2-8e8d-a73c" name="Teamwork Cards" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9586-a3ea-b86e-4025" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dbc5-05c8-d0e6-fae9" name="Task Force" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3b4e-8703-0071-e538" name="Task Force" hidden="false">
+              <description>Required Models:
+
+* Abraham
+* Rosita
+* Eugene
+
+Bonus:
+During their activation, Abraham, Rosita, or Eugene may spend an Action to immediately perform a free, out-of-sequence Hide, Move, or Search Action with another model from the list within 6&quot; (even if that model has already activated this turn). When this Action is complete, play continues as normal.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="99c1-b98c-419f-d813" name="You&apos;re Crazy, Not Evil" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f8fa-f4a3-42a8-f11d" name="You&apos;re Crazy, Not Evil" hidden="false">
+              <description>Required Models:
+
+*Patricia
+*Thomas
+
+Bonus:
+While the listed models are within each other&apos;s Kill Zone, Patricia adds 1Red to her attack rolls, and Thomas adds 1Red to his Defense.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="47fe-d0d2-c2c3-959a" name="New Beginnings" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c211-8ecd-d1c0-39ec" name="New Beginnings" hidden="false">
+              <description>Required Models:
+
+* Glenn (Faithful Provider)
+* Maggie Greene (Sick of it All)
+* Sophia (Orphan in Denial)
+
+Bonus:
+Once per turn, each listed model may discard a single Equipment or Supply card to add one 1Red to a special pool on this card. Each of these dice may be used once by any of hte listed models to add to one of their rolls (any type). No more than one of these dice may be added per roll.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fd1c-4065-1ad9-55f3" name="Hippocratic Oath" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4577-07ef-7bc9-5148" name="Hippocratic Oath" hidden="false">
+              <description>Required Models:
+
+* Doc Stevens
+* Alice
+
+Bonus:
+Prone Survivors (friendly and enemy) within the Kill Zone of the listed models treat Stand Up as a free action. Friendly models that use this rule and were also wounded may roll 1Black. On a Shield, they restore 1 point of Health.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a14a-d4c7-af11-8a26" name="Dysfunctional Family" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e725-e8a6-b7db-aa55" name="Dysfunctional Family" hidden="false">
+              <description>Required Models:
+
+* Andrea
+* Dale
+* Billy &amp; Ben
+
+Bonus:
+Once per turn, if any listed model is the target of a ranged attack, then after resolving the attack that model and any other listed models in its Kill Zone may perform a free, out-of-sequence Sneak action (even if they have already activated this turn).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5564-c327-a56c-a227" name="I Go Where You Go" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="dba0-012d-9e0c-a4b6" name="I Go Where You Go" hidden="false">
+              <description>Required Models:
+
+* Dale (Atlanta Lookout)
+* Andrea (Skilled Sharpshooter)
+
+Bonus:
+Once per game, while in each other&apos;s Kill Zone, the listed models treat their ranged weapons as having the Reliable keyword. If the weapon already was Reliable, failed Ammo rolls are ignored. You must declare the use of this card before any attack dice are rolled. This rule lasts for one whole turn, after which this card is discarded.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e87f-5a12-4c9d-eab9" name="Buddy Cops" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6fd0-c5cd-9abc-64ac" name="Buddy Cops" hidden="false">
+              <description>Required Models:
+
+* Rick Grimes (Police Officer)
+* Shane (Jealous Cop)
+
+Bonus:
+While the listed models are within each other&apos;s Kill Zone, if either is wounded by an enemy ranged attack, the other may immediately perform a free, out-of-sequence Shoot action against the attacker (even if they&apos;ve already activated this turn). The model that does this may not Shoot again for the remainder of the turn. Each time this ability is used, roll 1Black. On a blank, discard this card.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b38f-4197-8afe-4497" name="Rebels Without a Cause" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="8d7e-e637-f0a2-f1ee" name="Rebels Without a Cause" hidden="false">
+              <description>Required Models:
+
+* Patricia
+* Dexter
+* Andrew
+
+Bonus:
+While Patricia is within their Kill Zone, the other listed models may reroll blanks for their Defense rolls. In addition, no Rick&apos;s Group model may attack Patricia (by performing a Shoot action, or attacking her in melee) until Patricia inflicts a wound on a Rick&apos;s Group model. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cba3-43c9-3853-d928" name="Family Values" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9a20-2ccf-75cc-9609" name="Family Values" hidden="false">
+              <description>Required Models:
+
+* Allen
+* Donna
+* Billy &amp; Ben
+
+Bonus:
+At the end of each Event phase, if one or more of the listed models is engaged by Walker, and another listed model is in their Kill Zone, pick one of the engaged Walkers and immediately resolve a Push Back against it. If the chosen Walker was engaged with Billy &amp; Ben, roll1 Black. On a Shield, the Walker is also made prone.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="13f1-c122-9f5e-2e25" name="Alexandria Foragers" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="d6a3-032e-b58b-e994" name="Alexandria Foragers" hidden="false">
+              <description>Required Models:
+
+* Eric
+* Aaron
+* Spencer
+* Heath
+
+Bonus:
+If any of the listed models end a Move action unengaged and in contact with a Supply counter, they may automatically search the supply as a free action.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="edf9-a6d6-78f4-b719" name="Comforting Arms" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6595-ab38-12c8-fa78" name="Comforting Arms" hidden="false">
+              <description>Required Models:
+
+* Tyreese (Pro Football Player)
+* Carol (Recent Widow)
+
+Bonus:
+Whilst Tyreese is in play, Carol ignores the Unstable special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ff20-6214-030e-9f58" name="Farmhands" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4d4a-5f2d-f7e1-ec03" name="Farmhands" hidden="false">
+              <description>Required Models:
+
+* Billy Greene
+* Arnold Greene
+
+Bonus:
+While the listed moels are in each other&apos;s Kill Zone, they may add their Defense dice together into a single pool when defending against ranged attacks.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f278-5ad9-f359-905b" name="Overseers" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c4d3-32e0-3d50-d74d" name="Overseers" hidden="false">
+              <description>Required Models:
+
+* Martinez
+* Gabe Harris
+* Bruce Cooper
+
+Bonus:
+Any friendly Woodbury Army faction model in a listed model&apos;s Kill Zone gains Gabe&apos;s Bodyguard rule, replacing the Governor stipulation with any of hte listed models in its Kill Zone.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7673-2b98-9d6a-732a" name="On the Run" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="5d7d-e21b-fdd5-768c" name="On the Run" hidden="false">
+              <description>Required Models:
+
+* Glenn (Supply Run Master)
+* Heath
+
+Bonus:
+Once per game, when performing a Search Action, Glenn and Heath may draw one extra Supply card, choose the one they want, and shuffle the other card back into the deck. When both models have used this ability once, discard this card.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6402-14a4-4125-267a" name="First Born" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="47bb-c264-e569-0135" name="First Born" hidden="false">
+              <description>Required Models:
+
+* Morgan (Cynthiana Survivor)
+* Duane
+
+Bonus:
+If Duane is engaged in melee but Morgan is not, Morgan may immediately perform a free, out-of-sequence Move action directly towards one of Duane&apos;s opponents (even if he has already activated this turn). He must move into base contact with the attacker if possible.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3e3e-8fdf-0d70-06e5" name="Overprotective Dad" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="15c5-6149-1475-3b4a" name="Overprotective Dad" hidden="false">
+              <description>Required Models:
+
+* Tyreese
+* Julie
+* Chris
+
+Bonus:
+The following rules apply depending on which models within each other&apos;s Kill Zone at the start of the turn (if several apply, you must pick only one). The rule applies for the duration of the turn.
+
+* Chris and Julie: Both models treat Hide as a Free Action.
+* Julie and Tyreese: Julie gains 1Red Defense.
+* Chris and Tyreese: Chris cannot panic.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c4e1-a875-d90f-b130" name="Grimes Family Values" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="7ef8-8979-37e9-b6a9" name="Grimes Family Values" hidden="false">
+              <description>Required Models:
+
+* Rick Grimes
+* Lori Grimes
+* Carl
+
+Bonus:
+While Rick, Lori, or Carl is in the Kill Zone of at least one other friendly model on the list, they may spend an Action to add 1Red to the Defense of one of those models for the remainder of the turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3858-2ebd-9675-eb6d" name="What Might Have Been" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a578-04cf-0eb0-ee2e" name="What Might Have Been" hidden="false">
+              <description>Required Models:
+
+* Shane (Atlanta Camp Leader)
+* Lori Grimes
+* Carl (Cynthiana Survivor)
+
+Bonus:
+While Shane, Lori, or Carl is in the Kill Zone of at least one other friendly model on the list, they may spend an Action to add 1Red to the Shoot value of one of those models (but not themselves) for the remainder of the turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d6e-1e64-88b7-aa12" name="Brief Encounter" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="62a2-53a7-6a4b-2ef2" name="Brief Encounter" hidden="false">
+              <description>Required Models:
+
+* Michonne
+* Morgan
+
+Bonus:
+If one of the listed models is engaged in melee but the other is not, then the other may immediately perform a free, out-of-sequence Move action directly towards one of the opponents (even if they have already activated this turn). They must move into base contact with an attacker if possible.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="45eb-537c-28dc-f65d" name="Star-Crossed Lovers" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="4a53-7c31-f571-d80c" name="Star-Crossed Lovers" hidden="false">
+              <description>Required Models:
+
+* Carl
+* Lydia
+
+Bonus:
+If one of the listed models takes damage in a turn, the other adds 1White to its melee attack pool that turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="02a4-f922-7c46-137f" name="King and Queen" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6811-0693-b108-558d" name="King and Queen" hidden="false">
+              <description>Required Models:
+
+* Michonne
+* Ezekiel
+
+Bonus:
+While all listed models are in play, Michonne is treated as a member of the Kingdom faction for all rules purposes. Additionally, listed models may reroll blankso n their melee attack rolls while at least one other friendly listed model is in their Kill Zone.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aac6-f2c7-55f9-a080" name="Scavengers" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="34a3-34ff-24e2-5fa4" name="Scavengers" hidden="false">
+              <description>Required Models:
+
+At least three of the following:
+* Derek
+* Liam
+* Sandra
+* Carlos
+* Patrick
+
+Bonus:
+If a listed model performs a Search action while within the Kill Zone of another listed model, they draw two supply cards - choose which one to keep, and discard the other. This rule may only be used once per turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d372-df54-9dd9-9cd4" name="Unsteady Romantics" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e59a-892e-b6fd-731e" name="Unsteady Romantics" hidden="false">
+              <description>Required Models:
+
+* Patricia
+* Otis
+
+Bonus:
+While in each other&apos;s Kill Zone, the listed models treat their Nerve as one level higher than usual. In addition, the listed models add 1Red to their Defense if there are any friendly Greene family models within their Kill Zone. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="29e4-3bba-424c-2602" name="Farm Gals" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="03e0-b2cd-793f-2cb4" name="Farm Gals" hidden="false">
+              <description>Required Models:
+
+* Maggie Greene (Rebellious Daughter)
+* Lacey
+* Susie &amp; Rachel
+
+Bonus:
+Listed models treat Stand Up as a free action while another listed model is in their Kill Zone. In addition, Susie &amp; Rachel add 1Red to their Defense while in the Kill Zone of any of the other listed models.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a1ba-9899-e9bf-7ce6" name="Bonfire Buddies" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="2948-14c9-02ea-2cdd" name="Bonfire Buddies" hidden="false">
+              <description>Required Models:
+
+* Tyreese (Prison Advisor)
+* Axel
+
+Bonus:
+While they are in each other&apos;s Kill Zone, Axel adds 1Red to his melee attack pool versus Walkers.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9024-cd1a-d306-616b" name="Jailbirds" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e0bd-29a1-983e-6e0a" name="Jailbirds" hidden="false">
+              <description>Required Models:
+
+At least three of the following:
+* Dexter
+* Axel
+* Andrew
+* Thomas
+
+Bonus:
+In the Melee phase, a listed model may discard a single Supply card to add 1Red to their melee attack pool.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bc02-8f2a-9491-1bbf" name="I Said Hold Hands!" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e783-310d-f806-838e" name="I Said Hold Hands!" hidden="false">
+              <description>Required Models:
+
+* Carl (Trainee Sharpshooter)
+* Sophia (Innocent Child)
+
+Bonus:
+When the listed modles are in each other&apos;s Kill Zone, any damage suffered (after deducting Defense) may be allocated between the two models as you wish (you may not allocate more points to a model than it has Health remaining).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a23b-dfa6-93ed-9a62" name="Resilient Survivors" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="79aa-bbb8-a40a-0b9b" name="Resilient Survivors" hidden="false">
+              <description>Required Models:
+
+* Rick (Slowly Unravelling)
+* Michonne
+* Carl
+
+Bonus:
+When forming the group, choose one Veteran Skill card worth up to 5 points, and assign it for free to one of the listed models. The card is lost if this Teamwork card is discarded.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0cdf-472b-2019-e49c" name="Love Triangle" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="e6ad-dbd2-5ea1-bafe" name="Love Triangle" hidden="false">
+              <description>Required Models:
+
+* Rick Grimes (Atlanta Camp Leader)
+* Lori Grimes
+* Shane (Jealous Cop)
+
+Bonus:
+At the start of each Action phase, measure the distance between Rick, Lori, and Shane. If Shane is closer to Lori, all three models may reroll blanks on their Attack rolls this turn (any type). If Rick is closer to Lori, all three models may reroll blanks on their Defense rolls this turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a2d3-f69b-128c-c129" name="A Mother&apos;s Love" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="66cd-fbb3-e4d5-cda2" name="A Mother&apos;s Love" hidden="false">
+              <description>Required Models:
+
+* Carol
+* Sophia
+
+Bonus:
+If Sophia takes damage in a turn, Carol adds 1White to her melee attack pool that turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4514-7c92-bc10-d933" name="Desperate Housewives" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="0cb5-9de2-a1e1-52f7" name="Desperate Housewives" hidden="false">
+              <description>Required Models:
+
+At least three of the following:
+* Lori
+* Donna
+* Carol
+* Patricia
+
+Bonus:
+When choosing the Survivor group, if this card is selected, any model with the Just a Kid special rule may be included for half the usual points cost (rounding up). Listed models treat their Nerve as one level higher than usual while any model with the Just a Kid rule is in their Kill Zone.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e5e4-e74c-abba-cfe8" name="Training Day" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="ba6b-942b-35f7-c1bb" name="Training Day" hidden="false">
+              <description>Required Models:
+
+* Dwight
+* Gabriel
+
+Bonus:
+If Dwight causes damage with a ranged attack during the turn, Gabriel adds 1White to his next ranged attack roll.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="055c-d8c0-8fae-bf3d" name="It&apos;s Complicated" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="339d-8d9c-2f8e-7acd" name="It&apos;s Complicated" hidden="false">
+              <description>Required Models:
+
+* Dwight
+* Sherry
+
+Bonus:
+If Sherry is the target of a ranged attack and Dwight is in her Kill Zone, any damage suffered (after deducting Defense) may be allocated between the two models as you wish (you may not allocate more points to a model than it has Health remaining). </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -7028,6 +7656,14 @@ In addition, a Minion cannot:
 Be the group Leader
 Purchase Veteran Skills
 Purchase any piece of Equipment costing greater than 15 points</description>
+    </rule>
+    <rule id="2373-d4d5-296d-436c" name="Born in the Saddle" hidden="false">
+      <description>A model with this special rule counts as having an equipped Horse for all rules purposes. However, no Horse Equipment card is required; the model instead uses the following rules:
+	* The Horse cannot be unequipped by any means during play, and any advantages granted by the Horse are displayed on the Character card.
+	* The model may move up to 12&quot;, but always causes NOISE. It may cross Traversable scenery as normal, but may not Climb for any other purpose, nor may it enter buildings. </description>
+    </rule>
+    <rule id="e018-09e2-38ab-2059" name="Here Comes the Cavalry" hidden="false">
+      <description>A model with this keyword adds 1Red to its Melee attack rolls if there is at least one other friendly model with an equipped Horse in its Kill Zone.</description>
     </rule>
   </sharedRules>
 </gameSystem>

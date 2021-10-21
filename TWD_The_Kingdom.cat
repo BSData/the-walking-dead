@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bc61-6532-3cb1-52d4" name="The Kingdom" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bc61-6532-3cb1-52d4" name="The Kingdom" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="47bc-4025-914a-36a6" name="Ezekiel" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -127,6 +127,234 @@
       </entryLinks>
       <costs>
         <cost name="Points" typeId="12b3-6d46-0f10-4927" value="56.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2cb-35a0-43ad-670a" name="Kingdom Guard 1" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="69ef-8078-a6f5-a85a" name="Kingdom Guard 1" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">2 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="62d0-9800-e375-c86f" name="Minion" hidden="false" targetId="7f1c-a5b9-57b2-4dce" type="rule"/>
+        <infoLink id="73e6-0282-f006-ce17" name="Born in the Saddle" hidden="false" targetId="2373-d4d5-296d-436c" type="rule"/>
+        <infoLink id="8373-9a3e-6789-a762" name="Here Comes the Cavalry" hidden="false" targetId="e018-09e2-38ab-2059" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d9ee-2f9d-46b3-90bb" name="Bruiser" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c4d5-c4bd-0dbb-262f" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="a44b-3b9e-287e-fb6d" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="6782-fba9-3529-af02" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="243a-3a66-3291-5779" name="Armor" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="80cf-2f28-ff5f-2d9b" name="Kingdom Guard 2" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e78d-be66-6789-c7c5" name="Kingdom Guard 2" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">2 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Runner</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8e09-5ac7-ef54-2bea" name="Minion" hidden="false" targetId="7f1c-a5b9-57b2-4dce" type="rule"/>
+        <infoLink id="26f5-0141-cb0f-88b1" name="Born in the Saddle" hidden="false" targetId="2373-d4d5-296d-436c" type="rule"/>
+        <infoLink id="6b73-4b70-e0ce-c820" name="Here Comes the Cavalry" hidden="false" targetId="e018-09e2-38ab-2059" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a44a-0765-f8a6-c23c" name="New CategoryLink" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9c1a-97a5-6003-ab2d" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="9899-fe6f-3460-f702" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="ba27-42ed-9503-3857" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="75c2-1ede-bd91-e26c" name="Armor" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="697c-5cc8-a9f9-7804" name="Gus" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3967-9262-289b-af2a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="979e-bb53-9ffc-05d9" name="Gus" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Support</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a314-88db-45b2-a3d2" name="Trustworthy" hidden="false">
+          <description>Once per activation, Gus may choose a friendly model in his Kill Zone yet to activate and either: take one Action from that model to use in his own activation, or: give one of his Actions to that model to use in its next activation. Both Gus and the target model add 1Red to their Defense for the rest of the turn. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="164f-71ee-566d-bf50" name="Born in the Saddle" hidden="false" targetId="2373-d4d5-296d-436c" type="rule"/>
+        <infoLink id="5f6d-5197-3919-abf4" name="Here Comes the Cavalry" hidden="false" targetId="e018-09e2-38ab-2059" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="31ff-db50-6707-f000" name="Support" hidden="false" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="92b8-46d3-7117-9eec" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="71e2-f0a3-fd0e-f1d2" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="95f3-32a8-d99f-84c4" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="ab60-ebcb-2118-3824" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="5051-0a52-4dbe-33e8" name="Leader" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry"/>
+        <entryLink id="11f7-8ede-51c0-be92" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="47.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a549-a8d8-ed70-9a24" name="Taylor" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f67-95e2-42df-bed6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7ddd-f08e-7bb9-6cd1" name="Taylor" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Blue</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f53b-1fea-ba94-57b7" name="Born in the Saddle" hidden="false" targetId="2373-d4d5-296d-436c" type="rule"/>
+        <infoLink id="55d1-f9af-3fad-e18c" name="Here Comes the Cavalry" hidden="false" targetId="e018-09e2-38ab-2059" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f479-2c50-44f0-ae86" name="New CategoryLink" hidden="false" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7d38-f316-520c-bc05" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="3ab0-1bca-c446-fa42" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="03e6-693f-6524-89a0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="e2fa-b3ac-c00b-5c1b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="df3d-899c-3fd4-fdd8" name="Leader" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry"/>
+        <entryLink id="d1d4-a04d-5a57-9546" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="47.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86c0-221c-2f44-eb89" name="Benjamin" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a367-68a9-688a-027e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d3d7-bce1-f097-b62d" name="Benjamin" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Runner</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9e42-0c9f-0fe1-ae2a" name="Probation" hidden="false">
+          <description>If Benjamin begins his activation more than 8&quot; from the group&apos;s Leader, roll 1Black. On a blank, his Nerve is LOW this turn, but all friendly models in his Kill Zone add 1Red to their Defense. On a Shield, he treats his Nerve as HIGH for the rest of the turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8154-1922-11f0-d2a7" name="Born in the Saddle" hidden="false" targetId="2373-d4d5-296d-436c" type="rule"/>
+        <infoLink id="52e5-4309-6f78-6619" name="Here Comes the Cavalry" hidden="false" targetId="e018-09e2-38ab-2059" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0461-6ead-aaa1-b6df" name="New CategoryLink" hidden="false" targetId="e123-2d67-1fcc-51f5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0127-9d8c-7130-05e3" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="8c9d-dfd0-4a94-ad11" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="a65e-c500-b4d8-8677" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="8f23-8fd8-83d9-c499" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="42f9-9b4a-d495-cbdf" name="Leader" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry"/>
+        <entryLink id="48f6-390c-4375-a550" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19f7-252d-4fc6-a0ce" name="Richard" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2e-cc17-724e-e606" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5dd3-6dc3-1a77-838e" name="Richard" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 White</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Blue</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">6</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Tactician</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e671-0b7b-4198-b812" name="Eyes and Ears..." hidden="false">
+          <description>When both a friendly King Ezekiel model and an enemy Survivor are within 6&quot; and Line of Sight of Richard, roll 1Black as a Special Action. On a Shield, the enemy model loses 1 Action in its next activation, while Ezekiel gains +1 Action in his.</description>
+        </rule>
+        <rule id="746c-847a-1a2d-b489" name="Leader Ability: Right Hand Man" hidden="false">
+          <description>If Ezekiel is in the same group and is removed as a casualty, Richard immediately gains Ezekiel&apos;s Leader ability, and counts as the group Leader from that point on.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2704-13db-b74d-93c0" name="New CategoryLink" hidden="false" targetId="b936-ac92-62ac-545e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="14b4-a43a-4a0d-e3a8" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink id="0f2b-0aca-590d-bec5" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="b08d-8be2-8007-105e" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink id="6342-ca6c-4bbd-67ed" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
+        <entryLink id="d8f4-975d-530b-1ee8" name="Leader" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry"/>
+        <entryLink id="decb-a875-bac1-9be9" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="47.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
