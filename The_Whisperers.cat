@@ -269,5 +269,17 @@
         <cost name="Points" typeId="12b3-6d46-0f10-4927" value="24.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ecde-c0dd-2a55-f251" name="Teamwork Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="bba3-e234-3a28-77f1" name="Teamwork Cards" hidden="false" collective="false" import="true" targetId="c9f5-39a2-8e8d-a73c" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink id="499a-8001-b71a-0a74" name="Teamwork Cards" hidden="false" targetId="38ef-10da-ce53-bd44" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
 </catalogue>

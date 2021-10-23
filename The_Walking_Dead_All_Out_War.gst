@@ -47,13 +47,14 @@
     <categoryEntry id="48a7-24df-def3-914a" name="Marksman" hidden="false"/>
     <categoryEntry id="1c6d-9084-4b8d-4340" name="Bruiser" hidden="false"/>
     <categoryEntry id="0f77-93df-063a-d82e" name="Special" hidden="false"/>
+    <categoryEntry id="38ef-10da-ce53-bd44" name="Teamwork Cards" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4043-0b9d-11fe-cdd4" name="Survivors" hidden="false">
       <categoryLinks>
         <categoryLink id="4043-0b9d-11fe-cdd4-b936-ac92-62ac-545e" name="Tactician" hidden="false" targetId="b936-ac92-62ac-545e" primary="false">
           <modifiers>
-            <modifier type="set" field="5e9e-3bd3-ac9e-ecd6" value="100">
+            <modifier type="set" field="5e9e-3bd3-ac9e-ecd6" value="100.0">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8ee4-4d86-a728-cc18" type="equalTo"/>
               </conditions>
@@ -5164,25 +5165,6 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9761-895d-258c-49e3" name="Saddlebags" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd8-12e5-aada-e34b" type="max"/>
-            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="badf-044d-58cc-8dcf" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1e32-a6c0-2788-7378" name="Saddlebags" hidden="false" typeId="e17d-78e1-43dc-90b2" typeName="Equipment">
-              <characteristics>
-                <characteristic name="Special Rules" typeId="0c0a-f2f6-ed9f-b2f3">Models with Born in the Saddle only. This item grants any two other items the Attachment (Saddlebags) keyword. A Survivor may only equip one Saddlebags card.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="a244-e17f-96f7-135e" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="3.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="b34b-448f-7dbf-e35a" name="Special Item" hidden="false" collective="false" import="true">
@@ -6074,6 +6056,25 @@
             <cost name="Points" typeId="12b3-6d46-0f10-4927" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f3fe-4ac4-401d-207d" name="Saddlebags" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c3a-dd35-1467-495d" type="max"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2746-888e-24e5-08fc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8fd7-e28c-b626-23dc" name="Saddlebags" hidden="false" typeId="e17d-78e1-43dc-90b2" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="0c0a-f2f6-ed9f-b2f3">Models with Born in the Saddle only. This item grants any two other items the Attachment (Saddlebags) keyword. A Survivor may only equip one Saddlebags card.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f0e7-c465-c245-c642" name="Attachment (Armor: Body)" hidden="false" targetId="887b-ccb6-fab1-9ff1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="d14e-53e7-4acf-c317" name="Faction" hidden="false" collective="false" import="true">
@@ -6860,7 +6861,7 @@ Kingdom only.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3b87-44fb-f17c-2982" name="Hit And Run" hidden="false" collective="false" import="true" type="upgrade">
@@ -6872,7 +6873,7 @@ Kingdom only.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
+            <cost name="Points" typeId="12b3-6d46-0f10-4927" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6881,6 +6882,9 @@ Kingdom only.</characteristic>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9586-a3ea-b86e-4025" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="6baf-5fda-8345-7b5c" name="New CategoryLink" hidden="false" targetId="38ef-10da-ce53-bd44" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dbc5-05c8-d0e6-fae9" name="Task Force" hidden="false" collective="false" import="true" type="upgrade">
           <rules>

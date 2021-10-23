@@ -207,7 +207,7 @@
             <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
             <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
             <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
-            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">4</characteristic>
             <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Support</characteristic>
             <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
           </characteristics>
@@ -249,7 +249,7 @@
             <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Blue</characteristic>
             <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
             <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
-            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">4</characteristic>
             <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
             <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Kingdom</characteristic>
           </characteristics>
@@ -355,6 +355,18 @@
       </entryLinks>
       <costs>
         <cost name="Points" typeId="12b3-6d46-0f10-4927" value="47.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="becf-c103-0a62-4da2" name="Teamwork Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="14e0-e721-b701-4abf" name="Teamwork Cards" hidden="false" collective="false" import="true" targetId="c9f5-39a2-8e8d-a73c" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink id="e321-326e-d488-d391" name="Teamwork Cards" hidden="false" targetId="38ef-10da-ce53-bd44" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c8cb-5491-a74e-335b" name="Hilltop" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c8cb-5491-a74e-335b" name="Hilltop" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="374b-7e3a-479e-174e" name="Maggie Greene, Leader of Hilltop" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -137,6 +137,18 @@
       </entryLinks>
       <costs>
         <cost name="Points" typeId="12b3-6d46-0f10-4927" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a749-5432-c87e-2116" name="Teamwork Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="c8e4-de1b-6be3-b477" name="Teamwork Cards" hidden="false" collective="false" import="true" targetId="c9f5-39a2-8e8d-a73c" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink id="60b7-367c-d9c6-a761" name="Teamwork Cards" hidden="false" targetId="38ef-10da-ce53-bd44" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

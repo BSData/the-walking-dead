@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15a7-8621-f005-00ba" name="Neutral" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c286-2a6e-d2ec-c6da" name="Brian Blake, Before Woodbury" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -1400,6 +1400,18 @@ This can be done even if the other model is already activated, and will not mark
       </entryLinks>
       <costs>
         <cost name="Points" typeId="12b3-6d46-0f10-4927" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c84-a864-c506-a4f1" name="Teamwork Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="d78d-b4d8-67b7-75d8" name="Teamwork Cards" hidden="false" collective="false" import="true" targetId="c9f5-39a2-8e8d-a73c" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink id="da60-7044-05c6-a8b2" name="Teamwork Cards" hidden="false" targetId="38ef-10da-ce53-bd44" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
