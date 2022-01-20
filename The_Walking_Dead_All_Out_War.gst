@@ -7582,7 +7582,7 @@ In Melee, Handguns with Multiple Shots may be fired several times as normal, but
       <description>This Survivor may reroll any or all of its melee attack dice when using a weapon with the Sharp keyword.</description>
     </rule>
     <rule id="4e05-88de-108a-2678" name="Strong" hidden="false">
-      <description>If this model carries a Bulky eapon, it only take up one hand slot instead of two.</description>
+      <description>If this model carries a Bulky weapon, it only take up one hand slot instead of two.</description>
     </rule>
     <rule id="9844-cbe0-bbc6-6e3f" name="The Muscle" hidden="false">
       <description>If this model is on the winning side in melee and chose to attack, its side inflicts 1 extra point of damage against the enemy.</description>

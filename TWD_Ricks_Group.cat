@@ -2587,7 +2587,7 @@ All survivors with the Prison Advisor subtitle may use their leader abilities ev
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50de-4bd5-29f3-f6a3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e2bc-218e-12a6-e20e" name="Aaron, Safe-Zone Recruiter" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
+        <profile id="e2bc-218e-12a6-e20e" name="Eric" hidden="false" typeId="576a-0cd5-7049-1929" typeName="Character">
           <characteristics>
             <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
             <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
@@ -2610,7 +2610,7 @@ All survivors with the Prison Advisor subtitle may use their leader abilities ev
       </categoryLinks>
       <entryLinks>
         <entryLink id="f190-c3b3-cb09-5dcf" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
-        <entryLink id="f3b5-2da5-1fa2-8077" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink id="f3b5-2da5-1fa2-8077" name="Special Item" hidden="false" collective="false" import="true" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
         <entryLink id="b2fe-8e4c-98f8-df2d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
         <entryLink id="a1b3-5b80-7278-50ef" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2001-f500-8791-03fc" type="selectionEntryGroup"/>
         <entryLink id="dffd-0dc5-0135-c47d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
