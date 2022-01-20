@@ -7588,25 +7588,32 @@ In Melee, Handguns with Multiple Shots may be fired several times as normal, but
       <description>If this model is on the winning side in melee and chose to attack, its side inflicts 1 extra point of damage against the enemy.</description>
     </rule>
     <rule id="1079-6073-8f80-ce76" name="Leader Ability: Blaze of Glory" hidden="false">
-      <description>(Marksmen Only)</description>
+      <description>(Marksmen Only) Once per game, this model and every Marksman in their group may perform a free Shoot Action during their activation. Models still may not use the same Action twice in an activation, however.
+This bonus Action applies for only a single Action phase – if the extra Action is not used, it is wasted.</description>
     </rule>
     <rule id="52c7-6b86-c3b8-fc9a" name="Leader Ability: Called Shot" hidden="false">
-      <description>(Marksmen Only)</description>
+      <description>(Marksmen Only) If the Leader spends one extra Action when making a ranged attack, all models in its group that shoot at the same target this turn add 1Red to their ranged attack rolls.</description>
     </rule>
     <rule id="aa2b-4140-a04b-f939" name="Leader Ability: Confidence Booster" hidden="false">
-      <description>(Support Only)</description>
+      <description>(Support Only) This Leader can allow a friendly Survivor within its Kill Zone to act immediately. Roll 1Black. On a Shield, the target model activates as soon as the Leader’s activation is complete, bypassing the usual turn sequence.</description>
     </rule>
     <rule id="cc4a-fb6d-c918-a131" name="Leader Ability: Gung-Ho" hidden="false">
-      <description>(Bruiser Only)	</description>
+      <description>(Bruiser Only) This ability may be declared once per game when the Leader is engaged in Melee. The Leader and every Bruiser in their group gain 1Red to their melee attack rolls until the end of the turn.</description>
     </rule>
-    <rule id="b8db-0046-94ec-cba8" name="Leader Ability: Master Strategist" hidden="false"/>
-    <rule id="8eaf-2e10-d088-cbfd" name="Leader Ability: Mind Games" hidden="false"/>
-    <rule id="a950-45d7-2aec-8d1f" name="Leader Ability: Respected" hidden="false"/>
+    <rule id="b8db-0046-94ec-cba8" name="Leader Ability: Master Strategist" hidden="false">
+      <description>Once per game, roll at the start of this model’s activation. Distribute that many extra Actions amongst the Survivors in the group yet to act (including the Leader). No model may receive more than one bonus Action.</description>
+    </rule>
+    <rule id="8eaf-2e10-d088-cbfd" name="Leader Ability: Mind Games" hidden="false">
+      <description>Once per game, the Leader may use this ability to steal the Initiative from their opponent. If both groups contain a Leader with this ability, the Initiative may be stolen back again!</description>
+    </rule>
+    <rule id="a950-45d7-2aec-8d1f" name="Leader Ability: Respected" hidden="false">
+      <description>Once per game, roll 1Red at the start of the Leader’s activation. Distribute that many extra Actions amongst the Survivors in the group yet to act (including the Leader). No model may receive more than one bonus Action. These Actions are used as part of the models’ activation as usual.</description>
+    </rule>
     <rule id="3d05-e4cc-e7ab-5334" name="Leader Ability: Smash &apos;n&apos; Grab" hidden="false">
-      <description>(Runner Only)</description>
+      <description>(Runner Only) Once per game, the Leader and every Runner in their group may perform one extra Action during their activation. This bonus lasts for only a single Action phase – if the extra Action is not used, it is wasted.</description>
     </rule>
     <rule id="8431-a64b-382a-aeae" name="Leader Ability: Tactical Ops" hidden="false">
-      <description>(Tactician Only)</description>
+      <description>(Tactician Only) Once per game, the Leader and every Tactician in their group may perform one extra Action during their activation. This bonus lasts for only a single Action phase – if the extra Action is not used, it is wasted.</description>
     </rule>
     <rule id="85b3-ebe0-c85a-cd76" name="Tenacious" hidden="false">
       <description>When this model loses its last wound, roll the Black die. On a Shield result, it remains in play, standing, with 1 wound.</description>
