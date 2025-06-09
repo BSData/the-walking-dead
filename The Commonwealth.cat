@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="c1f3-d2d7-5249-d4c7" name="The Commonwealth" gameSystemId="125b-b4ca-b2a2-2c84" gameSystemRevision="16" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Mercer, Commonwealth General" hidden="false" id="a05e-9c7a-1d1d-f297">
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="62"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1c6d-9084-4b8d-4340" id="ad07-ced3-affa-f7a1" primary="true" name="Bruiser"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3966-28e9-4564-a878" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b9ca-e46d-c9d7-d93b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b427-56de-93e8-6dea" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Leader" hidden="false" id="f346-e20b-0aef-c953" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d2b-a241-a9c1-c0b4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ed0-e996-33fc-5e1b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee Weapons" hidden="false" id="59dd-96f8-8950-2955" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="32f9-dab2-cbbd-43d6" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Special Item" hidden="false" id="1946-2d5f-9b09-24dc" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Veteran Skills" hidden="false" id="4869-f2ac-42fc-75ef" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Armor" hidden="false" id="e0bb-06c0-ca3a-d9a3" type="selectionEntryGroup" targetId="2001-f500-8791-03fc"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Mercer, Commonwealth General" typeId="576a-0cd5-7049-1929" typeName="Character" hidden="false" id="e684-393b-62f0-9909">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White, 1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">2 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">7</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Commonwealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Rebellious Streak" id="a957-160e-af8e-df77" hidden="false">
+          <description>Mercer cannot be the Leader if Pamela Milton is in the same group.</description>
+        </rule>
+        <rule name="Show Them How It&apos;s Done" id="39ad-3fb3-4d24-ff85" hidden="false">
+          <description>At the end of a turn in which Mercer removes at least 2 Walkers from play, reduce the Threat Level by 1.</description>
+        </rule>
+        <rule name="Leader Ability: General" id="4367-1006-62d1-ba4e" hidden="false">
+          <description>When Mercer is the Leader, you may include any number of Commonwealth Troopers in your group, regardless of Type. Models with the Commonwealth Trooper name or subtitle within 6&quot; of Mercer treat their Nerve as High.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pamela Milton, Commonwealth Governor" hidden="false" id="f8c4-eaff-abd6-1899">
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="34"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="b936-ac92-62ac-545e" id="76b2-c6ef-3f84-97ee" primary="true" name="Tactician"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b67b-5cd5-310d-f680" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a37a-88e7-9ebd-39d2" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1271-d636-da93-9107" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Leader" hidden="false" id="9592-c8fe-e630-32e4" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3cc-ac7e-f1c2-99bd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94b9-2b7b-21c3-b29b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee Weapons" hidden="false" id="cea9-33e1-6a0f-16b3" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="8fa5-edab-7733-d695" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Special Item" hidden="false" id="6fc3-e4b4-f97c-0982" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Veteran Skills" hidden="false" id="5af6-26ec-bfad-4dc9" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Armor" hidden="false" id="6290-81b0-c82d-dec4" type="selectionEntryGroup" targetId="2001-f500-8791-03fc"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Pamela Milton, Commonwealth Governor" typeId="576a-0cd5-7049-1929" typeName="Character" hidden="false" id="8377-0b78-092a-f7b9">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 White</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">2 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Tactician</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Commonwealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Hierarchical" id="50f0-20a6-6c66-6fe2" hidden="false">
+          <description>When Pamela is targeted by a ranged attack you may choose one friendly Minion in her Kill Zone and roll 1Black. On a Shield, that model takes the attack instead of er, even if it was not in range or line of sight.</description>
+        </rule>
+        <rule name="Leader Ability: New World Order" id="505e-b001-34b0-02f4" hidden="false">
+          <description>Once per game, as a special action, Pamela awards 1Red to every friendly Commonwealth model within 8&quot;. This turn, each model may add this bonus die to a single attack or defense roll. Unused dice are lost at the end of the turn. </description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Jerome, Commonwealth Trooper" hidden="false" id="d48d-eca1-32e0-ee06">
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="26"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="fbb7-4f0b-b3a0-4027" id="d82e-889f-a365-cd4b" primary="true" name="Support"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5750-7d90-ba1d-8277" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ad01-58b9-427e-f717" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b8ac-474a-ed7f-cd51" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Leader" hidden="false" id="d7a4-dab8-4865-3ead" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="581d-7aa8-9597-7849" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d04-81b2-f466-6c59" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee Weapons" hidden="false" id="2e0d-a16c-856c-12eb" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="40db-f40c-cd15-1da8" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Special Item" hidden="false" id="36d5-25bb-0f38-4f26" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Veteran Skills" hidden="false" id="b19e-8154-1249-271e" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Armor" hidden="false" id="d125-3301-7967-446a" type="selectionEntryGroup" targetId="2001-f500-8791-03fc"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Jerome, Commonwealth Trooper" typeId="576a-0cd5-7049-1929" typeName="Character" hidden="false" id="8bd9-7daa-9386-8e4e">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">2 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Support</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Commonwealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Sense of Duty" id="346a-4116-ff7f-35aa" hidden="false">
+          <description>Once per activation, Jerome may sacrifice one of his Actions to add 1Red to the Defense of all friendly models in his Kill Zone.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lance Hornsby, Commonwealth Administrator" hidden="false" id="b6ed-9a13-db13-26ff">
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="32"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Support" hidden="false" id="4aeb-02c4-73b6-5a0d" targetId="fbb7-4f0b-b3a0-4027" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c64-2950-a4b5-c697" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e4a1-7746-4069-5870" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="06c7-e9af-5c57-1518" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Leader" hidden="false" id="3051-218e-4adf-c36d" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2132-4260-2ca5-f50a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b0f-0485-0cff-5633" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee Weapons" hidden="false" id="15f1-ff38-8293-5aaf" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="fa4a-40ce-6358-a388" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Special Item" hidden="false" id="e5de-5146-e548-3696" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Veteran Skills" hidden="false" id="858c-3b8b-719f-d092" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Armor" hidden="false" id="1b1e-413f-479f-e2d7" type="selectionEntryGroup" targetId="2001-f500-8791-03fc"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Lance Hornsby, Commonwealth Administrator" typeId="576a-0cd5-7049-1929" typeName="Character" hidden="false" id="dfc7-7be8-5fa7-bc95">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">2 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Low</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">4</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Support</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Commonwealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Bean Counter" id="7e49-c1f5-8c47-920e" hidden="false">
+          <description>The first friendly model each turn to fail an out of Ammo! roll while in line of sight of Lance ignores the failed roll.</description>
+        </rule>
+        <rule name="Call the Shots" id="8c50-81ba-82ef-1ae5" hidden="false">
+          <description>While there are at least two models with the Commonwealth Trooper name or subtitle in Lance&apos;s Kill Zone, Lance cannot Panic, and those troopers add 1Red to their ranged attack rolls.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Commonwealth Trooper 1" hidden="false" id="4183-5e17-069f-c2ed">
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="60"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="48a7-24df-def3-914a" id="63b2-41a7-a578-c0aa" primary="true" name="Marksman"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Melee Weapons" hidden="false" id="2624-e007-21f2-64de" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="d031-2b21-d2e8-11cf" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Special Item" hidden="false" id="bad7-7798-4e99-b0ab" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Armor" hidden="false" id="3170-5832-aaf2-2452" type="selectionEntryGroup" targetId="2001-f500-8791-03fc"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Commonwealth Trooper 1" typeId="576a-0cd5-7049-1929" typeName="Character" hidden="false" id="c41c-eed5-769e-6ec9">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Marksman</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Commonwealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Standard Issue" id="53fa-559d-7725-4889" hidden="false">
+          <description>This model must begin play with 1x Commonwealth Assault Rifle, 1x Commonwealth Armor, and 1x Commonwealth Helmet, marked Commonwealth. These cards are included in the model&apos;s points value.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Minion" id="10a3-9b32-692d-e926" hidden="false" type="rule" targetId="7f1c-a5b9-57b2-4dce"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="George, Commonwealth Trooper" hidden="false" id="2e52-50b2-9202-9a34">
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="36"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Bruiser" hidden="false" id="9dec-204a-36e4-fa7e" targetId="1c6d-9084-4b8d-4340" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55ac-f176-ea5b-6e25" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9bd2-7654-d7c0-af9c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bdde-9314-b15d-cdce" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Leader" hidden="false" id="819b-a113-6ce8-d97b" collective="false" targetId="98ad-7da5-3e64-b49c" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ace7-488d-407c-0b03" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f5b-b02e-d506-c5ed" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee Weapons" hidden="false" id="6f89-0443-7a94-4080" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="6861-b1c1-f3e7-c6d1" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Special Item" hidden="false" id="3bee-7314-377d-4120" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Veteran Skills" hidden="false" id="7e3a-0713-e535-eacc" collective="false" targetId="7860-8e62-efb4-029c" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Armor" hidden="false" id="05b8-77a2-28b6-7953" type="selectionEntryGroup" targetId="2001-f500-8791-03fc"/>
+      </entryLinks>
+      <profiles>
+        <profile name="George, Commonwealth Trooper" typeId="576a-0cd5-7049-1929" typeName="Character" hidden="false" id="9f26-5e20-60a4-9982">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 White</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 White</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 White</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">High</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">5</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">3</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Bruiser</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Commonwealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Mercer&apos;s Lieutenant" id="5c75-e1a1-a89e-12f6" hidden="false">
+          <description>In any turn in which a friendly Mercer model is wounded, George gains one bonus Action.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Commonwealth Trooper 2" hidden="false" id="8a4f-b2b2-e6fa-e5f6">
+      <costs>
+        <cost name="Points" typeId="12b3-6d46-0f10-4927" value="60"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="b936-ac92-62ac-545e" id="fd72-cbde-a22c-49b4" primary="true" name="Tactician"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Melee Weapons" hidden="false" id="8be0-60ba-e3ea-73be" collective="false" targetId="f0c2-0e7e-e14b-7efc" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="fe4a-d78b-c6e0-b1ce" collective="false" targetId="6b77-41b1-2644-d329" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Special Item" hidden="false" id="209e-ead7-61f8-7d9f" collective="false" targetId="b34b-448f-7dbf-e35a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Armor" hidden="false" id="3e1c-afbc-f92a-49c5" type="selectionEntryGroup" targetId="2001-f500-8791-03fc"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Commonwealth Trooper 1" typeId="576a-0cd5-7049-1929" typeName="Character" hidden="false" id="6812-759a-2ad4-4549">
+          <characteristics>
+            <characteristic name="Melee" typeId="196c-33c8-fa61-e487">1 Red</characteristic>
+            <characteristic name="Shoot" typeId="b194-007f-e62d-dc66">1 Red</characteristic>
+            <characteristic name="Defense" typeId="d237-9148-7cf3-c9da">1 Red</characteristic>
+            <characteristic name="Nerve" typeId="4fa6-07d4-6f84-b43c">Medium</characteristic>
+            <characteristic name="Health" typeId="4213-f86f-906e-7aaa">3</characteristic>
+            <characteristic name="Pack" typeId="b15d-caad-9f43-74cb">2</characteristic>
+            <characteristic name="Character Type" typeId="f6f9-dbce-b2a7-8af0">Tactician</characteristic>
+            <characteristic name="Faction" typeId="7f76-cafe-10e5-f259">The Commonwealth</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Standard Issue" id="ad5e-6c90-e236-d6d7" hidden="false">
+          <description>This model must begin play with 1x Commonwealth Assault Rifle, 1x Commonwealth Armor, and 1x Commonwealth Helmet, marked Commonwealth. These cards are included in the model&apos;s points value.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Minion" id="902e-bab8-c611-b034" hidden="false" type="rule" targetId="7f1c-a5b9-57b2-4dce"/>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
