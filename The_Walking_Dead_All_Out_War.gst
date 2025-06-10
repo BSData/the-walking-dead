@@ -50,72 +50,7 @@
     <categoryEntry id="38ef-10da-ce53-bd44" name="Teamwork Cards" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry name="2. Allies" id="f1d8-d9b1-11cc-8297" hidden="false">
-      <categoryLinks>
-        <categoryLink name="Tactician" hidden="false" id="47ef-6e54-67e3-1aa7" targetId="b936-ac92-62ac-545e" primary="false">
-          <modifiers>
-            <modifier type="set" value="100" field="c9f2-d5ba-5703-7085">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="roster" childId="8ee4-4d86-a728-cc18" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="c9f2-d5ba-5703-7085" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Support" hidden="false" id="8d36-4a2e-72a2-059d" targetId="fbb7-4f0b-b3a0-4027" primary="false">
-          <modifiers>
-            <modifier type="set" value="100" field="7e85-2418-d19e-3fbf">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="roster" childId="8e01-cb99-5f5f-a27e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="7e85-2418-d19e-3fbf" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Runner" hidden="false" id="26dc-a39c-b45c-158c" targetId="e123-2d67-1fcc-51f5" primary="false">
-          <modifiers>
-            <modifier type="set" value="100" field="82a3-38c9-73f0-591d">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6859-375f-abac-815b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="82a3-38c9-73f0-591d" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Marksman" hidden="false" id="3414-87f6-d4ce-f80d" targetId="48a7-24df-def3-914a" primary="false">
-          <modifiers>
-            <modifier type="set" value="100" field="8194-7fa0-8762-d790">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="roster" childId="184a-7ba6-1c82-b001" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="8194-7fa0-8762-d790" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Bruiser" hidden="false" id="2621-7ec5-635b-5477" targetId="1c6d-9084-4b8d-4340" primary="false">
-          <modifiers>
-            <modifier type="set" value="100" field="1a27-e672-9e89-847c">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="roster" childId="d352-1645-5bdb-ef88" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="1a27-e672-9e89-847c" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Special" hidden="false" id="466c-5b81-5f06-b6c1" targetId="0f77-93df-063a-d82e" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry name="1. Survivors (Main Group)" id="20b5-acba-d079-5064" hidden="false">
+    <forceEntry name="1. Survivors (Main Group)" id="20b5-acba-d079-5064" hidden="false" childForcesLabel="">
       <categoryLinks>
         <categoryLink name="Tactician" hidden="false" id="a763-c1b5-f156-df77" targetId="b936-ac92-62ac-545e" primary="false">
           <modifiers>
@@ -179,6 +114,73 @@
         </categoryLink>
         <categoryLink name="Special" hidden="false" id="8a60-9295-9c40-1473" targetId="0f77-93df-063a-d82e" primary="false"/>
       </categoryLinks>
+      <forceEntries>
+        <forceEntry name="2. Allies" id="f1d8-d9b1-11cc-8297" hidden="false">
+          <categoryLinks>
+            <categoryLink name="Tactician" hidden="false" id="47ef-6e54-67e3-1aa7" targetId="b936-ac92-62ac-545e" primary="false">
+              <modifiers>
+                <modifier type="set" value="100" field="c9f2-d5ba-5703-7085">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="roster" childId="8ee4-4d86-a728-cc18" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="c9f2-d5ba-5703-7085" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Support" hidden="false" id="8d36-4a2e-72a2-059d" targetId="fbb7-4f0b-b3a0-4027" primary="false">
+              <modifiers>
+                <modifier type="set" value="100" field="7e85-2418-d19e-3fbf">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="roster" childId="8e01-cb99-5f5f-a27e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="7e85-2418-d19e-3fbf" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Runner" hidden="false" id="26dc-a39c-b45c-158c" targetId="e123-2d67-1fcc-51f5" primary="false">
+              <modifiers>
+                <modifier type="set" value="100" field="82a3-38c9-73f0-591d">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="roster" childId="6859-375f-abac-815b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="82a3-38c9-73f0-591d" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Marksman" hidden="false" id="3414-87f6-d4ce-f80d" targetId="48a7-24df-def3-914a" primary="false">
+              <modifiers>
+                <modifier type="set" value="100" field="8194-7fa0-8762-d790">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="roster" childId="184a-7ba6-1c82-b001" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="8194-7fa0-8762-d790" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Bruiser" hidden="false" id="2621-7ec5-635b-5477" targetId="1c6d-9084-4b8d-4340" primary="false">
+              <modifiers>
+                <modifier type="set" value="100" field="1a27-e672-9e89-847c">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="roster" childId="d352-1645-5bdb-ef88" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="50" field="selections" scope="roster" shared="false" id="1a27-e672-9e89-847c" percentValue="true" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Special" hidden="false" id="466c-5b81-5f06-b6c1" targetId="0f77-93df-063a-d82e" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
